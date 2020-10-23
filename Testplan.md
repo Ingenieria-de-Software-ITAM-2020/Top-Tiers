@@ -4,8 +4,19 @@
 ## 3 INTRODUCTION
 ## 4 TEST ITEMS
 ## 5 SOFTWARE RISK ISSUES
+
 ## 6 FEATURES TO BE TESTED
+
+Los features que se van a probar para el sistema de inscripciones serán los siguientes:
+
+- Dar de alta una materia.
+- Dar de baja una materia.
+- Dar de alta lista de espera.
+- Solicitar prerrequisitos.
+- Consultar horarios.
+
 ## 7 FEATURES NOT TO BE TESTED
+
 ## 8 APPROACH
 ## 9 ITEM PASS/FAIL CRITERIA
 ## 10 SUSPENSION CRITERIA AND RESUMPTION REQUIREMENTS
