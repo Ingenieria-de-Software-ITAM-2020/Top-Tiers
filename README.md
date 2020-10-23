@@ -1,3 +1,3 @@
 # Top Tiers - Ejercicio 23 de Octubre
 
-READ ME
+Checa el [Testplan.md](Tesplan.md)
