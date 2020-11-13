@@ -1,3 +1,29 @@
-# Top Tiers - Ejercicio 23 de Octubre
+# SAMPLE MASTER TEST PLAN
+## 1 TEST PLAN IDENTIFIER
+## 2 REFERENCES
+## 3 INTRODUCTION
+## 4 TEST ITEMS
+## 5 SOFTWARE RISK ISSUES
 
-Checa el [Testplan.md](Testplan.md)
+## 6 FEATURES TO BE TESTED
+
+Los features que se van a probar para el sistema de inscripciones serán los siguientes:
+
+- Dar de alta una materia.
+- Dar de baja una materia.
+- Dar de alta lista de espera.
+- Solicitar prerrequisitos.
+- Consultar horarios.
+
+## 7 FEATURES NOT TO BE TESTED
+
+## 8 APPROACH
+## 9 ITEM PASS/FAIL CRITERIA
+## 10 SUSPENSION CRITERIA AND RESUMPTION REQUIREMENTS
+## 11 TEST DELIVERABLES
+## 12 REMAINING TEST TASKS
+## 13 ENVIRONMENTAL NEEDS
+## 14 STAFFING AND TRAINING NEEDS
+## 15 RESPONSIBILITIES
+## 16 SCHEDULE
+## 17 PLANNING RISKS AND CONTINGE
