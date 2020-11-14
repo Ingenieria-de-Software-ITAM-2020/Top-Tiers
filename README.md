@@ -73,45 +73,44 @@ Integrantes:
 4. Metodología
 5. Documentación para replicar
 
-# System Requirements
-## 1. Introduction 
-### 1.1 Purpose 
+# Documento de Requerimientos
+## 1. Introducción
+### 1.1 Objetivo
 
-### 1.2 Document Conventions
+### 1.2 Convenciones del documento
 
-### 1.3 Intended Audience and Reading Suggestions
+### 1.3 Audiencia prevista y sugerencia de lectura
 
-### 1.4 Product Scope 
+### 1.4 Alcance del producto
 
-### 1.5 References
-
-
-## 2. Overall Description 
-### 2.1 Product Perspective
-
-### 2.2 Product Functions 
-
-### 2.3 User Classes and Characteristics
-
-### 2.4 Operating Environment 
-
-### 2.5 Design and Implementation Constraints
-
-### 2.6 User Documentation 
-
-### 2.7 Assumptions and Dependencies
+### 1.5 Referencias
 
 
-## 3. External Interface Requirements
-### 3.1 User Interfaces
+## 2. Descripción General
+### 2.1 Perspectivas del producto
 
-### 3.2 Hardware Interfaces
+### 2.2 Funciones del producto
 
-### 3.3 Software Interfaces
+### 2.3 Clases de usuarios y características
 
-### 3.4 Communication Interfaces
+### 2.4 Entorno operativo
 
-## 4. System Features
+### 2.5 Limitaciones de diseño e implementación
+
+### 2.6 Documentación de usuario
+
+### 2.7 Supuestos y dependencias
+
+
+## 3. Requerimientos de la interfaz externa
+### 3.1 Interfaz de usuario
+### 3.2 Interfaz de Hardware
+
+### 3.3 Interfaz de software
+
+### 3.4 Interfaz de comunicación
+
+## 4. Funcionalidades del sistea
 
 ### 4.1 Iniciar sesión
 #### 4.1.1 Descripción y prioridad
@@ -167,21 +166,21 @@ Integrantes:
 #### 4.9.3 Requerimientos Funcionales
 - REQ-1:
 
-## 5. Other Nonfunctional Requirements
-### 5.1 Performance Requirements
+## 5. Otros requerimientos no funcionales
+### 5.1 Requerimientos de rendimiento
 
 ### 5.2 Safety Requirements
 
 ### 5.3 Security Requirements
  
-### 5.4 Software Quality Attributes
+### 5.4 Atributos de calidad de software
   - **Portabilidad:** 
   - **Confiabilidad:**  
   - **Mantenibilidad:** 
   - **Facilidad de testeo:**  
   - **Reusabilidad:**
   
-### 5.5 Business Rules
+### 5.5 Reglas de negocio
 
 
 # Plan de calidad
