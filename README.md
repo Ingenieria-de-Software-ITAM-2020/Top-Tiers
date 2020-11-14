@@ -1,4 +1,9 @@
 # TITULO
+
+Instituto Tecnológico Autónomo de México
+
+Ingeniería de Software
+
 Proyecto final equipo Top Tiers
 
 Integrantes:
@@ -113,14 +118,59 @@ Integrantes:
 
 ## 4. System Features
 
-**Features comunes a todos los usuarios**
-### 4.1 [Feature1]
-### 4.2 [Feature2]
-**Features del modo alumno**
+### 4.1 Iniciar sesión
+#### 4.1.1 Descripción y prioridad
+#### 4.1.2 Secuencias de estímulo / respuesta
+#### 4.1.3 Requerimientos Funcionales
+- REQ-1:
 
+### 4.2 Crear Grupos
+#### 4.2.1 Descripción y prioridad
+#### 4.2.2 Secuencias de estímulo / respuesta
+#### 4.2.3 Requerimientos Funcionales
+- REQ-1:
 
-**Features del modo profesor**
+### 4.3 Buscar contactos
+#### 4.3.1 Descripción y prioridad
+#### 4.3.2 Secuencias de estímulo / respuesta
+#### 4.3.3 Requerimientos Funcionales
+- REQ-1:
 
+### 4.4 Comunicarte con el chatbot de servicios escolares
+#### 4.4.1 Descripción y prioridad
+#### 4.4.2 Secuencias de estímulo / respuesta
+#### 4.4.3 Requerimientos Funcionales
+- REQ-1:
+
+### 4.5 Mandar mensajes directos
+#### 4.5.1 Descripción y prioridad
+#### 4.5.2 Secuencias de estímulo / respuesta
+#### 4.5.3 Requerimientos Funcionales
+- REQ-1:
+
+### 4.6 Mandar mensajes a grupos
+#### 4.6.1 Descripción y prioridad
+#### 4.6.2 Secuencias de estímulo / respuesta
+#### 4.6.3 Requerimientos Funcionales
+- REQ-1:
+
+### 4.7 Acceder a notificaciones
+#### 4.7.1 Descripción y prioridad
+#### 4.7.2 Secuencias de estímulo / respuesta
+#### 4.7.3 Requerimientos Funcionales
+- REQ-1:
+
+### 4.8 Configurar mi perfil
+#### 4.8.1 Descripción y prioridad
+#### 4.8.2 Secuencias de estímulo / respuesta
+#### 4.8.3 Requerimientos Funcionales
+- REQ-1:
+
+### 4.9 Cerrar sesión
+#### 4.9.1 Descripción y prioridad
+#### 4.9.2 Secuencias de estímulo / respuesta
+#### 4.9.3 Requerimientos Funcionales
+- REQ-1:
 
 ## 5. Other Nonfunctional Requirements
 ### 5.1 Performance Requirements
