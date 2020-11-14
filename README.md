@@ -1,29 +1,188 @@
-# SAMPLE MASTER TEST PLAN
-## 1 TEST PLAN IDENTIFIER
-## 2 REFERENCES
-## 3 INTRODUCTION
-## 4 TEST ITEMS
-## 5 SOFTWARE RISK ISSUES
+# TITULO
+Proyecto final equipo Top Tiers
 
-## 6 FEATURES TO BE TESTED
+Integrantes:
+- Manuel Fernández Verda           166496
+- Ruben Romero Ortega              174178
+- Andrea Padilla Rodriguez         166605
+- Juan Carlos Sigler Pliego        174215
 
-Los features que se van a probar para el sistema de inscripciones serán los siguientes:
+# Tabla de contenido
+1. Software Requirements
+    1. Introduction
+        1. Purpose
+        2. Document conventions
+        3. Intended Audience and Reading Suggestions
+        4. Product Scope
+        5. References
+    2. Overall Description
+        1. Product perspective
+        2. Product Functions
+        3. User Classes and Characteristics
+        4. Operating Environment
+        5. Design and Implementation Constraints
+        6. User Documentation
+        7. Assumptions and Dependencies
+    3. External Interface Requirements
+        1. User Interfaces
+        2. Hardware Interfaces
+        3. Software Interfaces
+        4. Communication Interfaces
+    4. System Features
+        1. Entrada al sistema con credenciales de usuario
+        2. Registro de nuevo usuario
+        3. Configuraciones de la cuenta del usuario
+        4. Visualización del menú Comensal
+        5. Métodos de pago del Comensal
+        6. Petición de pedido
+        7. Notificación de pedido entregado
+        8. Pantalla de perfil del Comensal
+        9. Menú para navegar por las funcionalidades del Repartidor
+        10. Perfil del usuario y activación del modo Repartidor
+        11. Información del pedido en curso que el usuario Repartidor está completando
+        12. Modificación de métodos en que el usuario Repartidor recibe sus pagos
+        13. FAQs y contacto a soporte para el usuario Repartidor
+        14. Notificaciones de pedidos entrantes
+    5. Other Nonfunctional Requirements
+        1. Performance Requirements
+        2. Safety Requirements
+        3. Security Requirements
+        4. Software Quality Attributes
+        5. Business Rules
+2. Plan de calidad
+    1. Test Plan Identifier
+    2. References
+    3. Introduction
+    4. Test Items
+    5. Software Risk Issues
+    6. Features to be Tested
+    7. Features not to be Tested
+    8. Approach
+    9. Item Pass/Fail Criteria
+    10. Suspension Criteria and Resumption Requirements
+    11. Test Deliverables
+    12. Remaining Test Tasks
+    13. Environmental Needs
+    14. Staffing and Training Needs
+    15. Responsibilities
+    16. Schedule
+    17. Planning Risks and Contingencies
+    18. Approvals
+    19. Glossary
+3. Arquitectura
+4. Metodología
+5. Documentación para replicar
 
-- Dar de alta una materia.
-- Dar de baja una materia.
-- Dar de alta lista de espera.
-- Solicitar prerrequisitos.
-- Consultar horarios.
+# System Requirements
+## 1. Introduction 
+### 1.1 Purpose 
 
-## 7 FEATURES NOT TO BE TESTED
+### 1.2 Document Conventions
 
-## 8 APPROACH
-## 9 ITEM PASS/FAIL CRITERIA
-## 10 SUSPENSION CRITERIA AND RESUMPTION REQUIREMENTS
-## 11 TEST DELIVERABLES
-## 12 REMAINING TEST TASKS
-## 13 ENVIRONMENTAL NEEDS
-## 14 STAFFING AND TRAINING NEEDS
-## 15 RESPONSIBILITIES
-## 16 SCHEDULE
-## 17 PLANNING RISKS AND CONTINGE
+### 1.3 Intended Audience and Reading Suggestions
+
+### 1.4 Product Scope 
+
+### 1.5 References
+
+
+## 2. Overall Description 
+### 2.1 Product Perspective
+
+### 2.2 Product Functions 
+
+### 2.3 User Classes and Characteristics
+
+### 2.4 Operating Environment 
+
+### 2.5 Design and Implementation Constraints
+
+### 2.6 User Documentation 
+
+### 2.7 Assumptions and Dependencies
+
+
+## 3. External Interface Requirements
+### 3.1 User Interfaces
+
+### 3.2 Hardware Interfaces
+
+### 3.3 Software Interfaces
+
+### 3.4 Communication Interfaces
+
+## 4. System Features
+
+**Features comunes a todos los usuarios**
+### 4.1 [Feature1]
+### 4.2 [Feature2]
+**Features del modo alumno**
+
+
+**Features del modo profesor**
+
+
+## 5. Other Nonfunctional Requirements
+### 5.1 Performance Requirements
+
+### 5.2 Safety Requirements
+
+### 5.3 Security Requirements
+ 
+### 5.4 Software Quality Attributes
+  - **Portabilidad:** 
+  - **Confiabilidad:**  
+  - **Mantenibilidad:** 
+  - **Facilidad de testeo:**  
+  - **Reusabilidad:**
+  
+### 5.5 Business Rules
+
+
+# Plan de calidad
+## 1. Test Plan Identifier
+
+## 2. References
+
+## 3. Introduction
+
+## 4. Test Items
+
+## 5. Software Risk Issues
+
+## 6. Features to be Tested
+
+## 7. Features not to be Tested
+
+## 8. Approach
+
+## 9. Item Pass/Fail Criteria
+
+## 10. Suspension Criteria and Resumption Requirements
+
+## 11. Test Deliverables
+
+## 12. Remaining Test Tasks
+
+## 13. Environmental Needs
+
+## 14. Staffing and Training Needs
+
+## 15. Responsibilities
+
+## 16. Schedule
+
+## 17. Planning Risks and Contingencies
+
+## 18. Approvals
+
+
+## 19. Glossary
+
+# Arquitectura
+
+
+# Metodología
+
+
+# Documentación para replicar
