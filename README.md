@@ -34,20 +34,15 @@ Integrantes:
         3. Software Interfaces
         4. Communication Interfaces
     4. System Features
-        1. Entrada al sistema con credenciales de usuario
-        2. Registro de nuevo usuario
-        3. Configuraciones de la cuenta del usuario
-        4. Visualización del menú Comensal
-        5. Métodos de pago del Comensal
-        6. Petición de pedido
-        7. Notificación de pedido entregado
-        8. Pantalla de perfil del Comensal
-        9. Menú para navegar por las funcionalidades del Repartidor
-        10. Perfil del usuario y activación del modo Repartidor
-        11. Información del pedido en curso que el usuario Repartidor está completando
-        12. Modificación de métodos en que el usuario Repartidor recibe sus pagos
-        13. FAQs y contacto a soporte para el usuario Repartidor
-        14. Notificaciones de pedidos entrantes
+        1. Iniciar Sesión
+        2. Crear grupos
+        3. Buscar contactos
+        4. Comunicarte con el chatbot de servicios escolares
+        5. Mandar mensajes directos
+        6. Mandar mensajes a grupos
+        7. Acceder a notificaciones
+        8. Configurar mi perfil
+        9. Cerrar sesión
     5. Other Nonfunctional Requirements
         1. Performance Requirements
         2. Safety Requirements
