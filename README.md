@@ -15,12 +15,12 @@ Integrantes:
 # Tabla de contenido
 ---- 
 1. **[Documento de Requerimientos](#documento-de-requerimientos)**
-    1. [Introducción](#introduccion)
-        1. Purpose
-        2. Document conventions
-        3. Intended Audience and Reading Suggestions
-        4. Product Scope
-        5. References
+    1. [Introducción](#1-introducción)
+        1. [Objetivo](#11-objetivo)
+        2. [Convenciones del documento](#12-convenciones-del-documento)
+        3. [Audiencia prevista y sugerencia de lectura](#13-audiencia-prevista-y-sugerencia-de-lectura)
+        4. [Alcance del producto](#14-alcance-del-producto)
+        5. [Referencias](#15-referencias)
     2. Overall Description
         1. Product perspective
         2. Product Functions
