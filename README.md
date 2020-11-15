@@ -13,8 +13,9 @@ Integrantes:
 - Juan Carlos Sigler Pliego        174215
 
 # Tabla de contenido
-1. Software Requirements
-    1. Introduction
+---- 
+1. **[Documento de Requerimientos](#documento-de-requerimientos)**
+    1. [Introducción](#introduccion)
         1. Purpose
         2. Document conventions
         3. Intended Audience and Reading Suggestions
@@ -72,6 +73,7 @@ Integrantes:
 3. Arquitectura
 4. Metodología
 5. Documentación para replicar
+----
 
 # Documento de Requerimientos
 ## 1. Introducción
