@@ -76,40 +76,27 @@
 ----
 
 # Documento de Requerimientos
+
 ## 1. Introducción
 ### 1.1 Objetivo
-
 ### 1.2 Convenciones del documento
-
 ### 1.3 Audiencia prevista y sugerencia de lectura
-
 ### 1.4 Alcance del producto
-
 ### 1.5 Referencias
-
 
 ## 2. Descripción General
 ### 2.1 Perspectiva del producto
-
 ### 2.2 Funciones del producto
-
 ### 2.3 Clases y características de usuario
-
 ### 2.4 Entorno operativo
-
 ### 2.5 Restricciones de diseño e implementación
-
 ### 2.6 Documentación del usuario
-
 ### 2.7 Supuestos y dependencias
-
 
 ## 3. Requerimientos de la interfaz externa
 ### 3.1 Interfaz de usuario
-### 3.2 Interfaz de Hardware
-
+### 3.2 Interfaz de hardware
 ### 3.3 Interfaz de software
-
 ### 3.4 Interfaz de comunicación
 
 ## 4. Funcionalidades del sistema
@@ -132,7 +119,7 @@
 #### 4.3.3 Requerimientos Funcionales
 - REQ-1:
 
-### 4.4 Comunicarte con el chatbot de servicios escolares
+### 4.4 Comunicarse con el chatbot de servicios escolares
 #### 4.4.1 Descripción y prioridad
 #### 4.4.2 Secuencias de estímulo / respuesta
 #### 4.4.3 Requerimientos Funcionales
@@ -156,7 +143,7 @@
 #### 4.7.3 Requerimientos Funcionales
 - REQ-1:
 
-### 4.8 Configurar mi perfil
+### 4.8 Configurar el perfil
 #### 4.8.1 Descripción y prioridad
 #### 4.8.2 Secuencias de estímulo / respuesta
 #### 4.8.3 Requerimientos Funcionales
@@ -170,65 +157,39 @@
 
 ## 5. Otros requerimientos no funcionales
 ### 5.1 Requerimientos de rendimiento
-
 ### 5.2 Safety Requirements
-
 ### 5.3 Security Requirements
- 
 ### 5.4 Atributos de calidad de software
-  - **Portabilidad:** 
-  - **Confiabilidad:**  
-  - **Mantenibilidad:** 
-  - **Facilidad de testeo:**  
-  - **Reusabilidad:**
-  
+- **Portabilidad:** 
+- **Confiabilidad:**  
+- **Mantenibilidad:** 
+- **Facilidad de testeo:**  
+- **Reusabilidad:**
 ### 5.5 Reglas de negocio
-
 
 # Plan de calidad
 ## 1. Test Plan Identifier
-
 ## 2. References
-
 ## 3. Introduction
-
 ## 4. Test Items
-
 ## 5. Software Risk Issues
-
 ## 6. Features to be Tested
-
 ## 7. Features not to be Tested
-
 ## 8. Approach
-
 ## 9. Item Pass/Fail Criteria
-
 ## 10. Suspension Criteria and Resumption Requirements
-
 ## 11. Test Deliverables
-
 ## 12. Remaining Test Tasks
-
 ## 13. Environmental Needs
-
 ## 14. Staffing and Training Needs
-
 ## 15. Responsibilities
-
 ## 16. Schedule
-
 ## 17. Planning Risks and Contingencies
-
 ## 18. Approvals
-
-
 ## 19. Glossary
 
 # Arquitectura
 
-
 # Metodología
-
 
 # Documentación para replicar
