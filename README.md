@@ -168,25 +168,25 @@
 ### 5.5 Reglas de negocio
 
 # Plan de calidad
-## 1. Test Plan Identifier
-## 2. References
-## 3. Introduction
-## 4. Test Items
-## 5. Software Risk Issues
-## 6. Features to be Tested
-## 7. Features not to be Tested
-## 8. Approach
-## 9. Item Pass/Fail Criteria
-## 10. Suspension Criteria and Resumption Requirements
-## 11. Test Deliverables
-## 12. Remaining Test Tasks
-## 13. Environmental Needs
-## 14. Staffing and Training Needs
-## 15. Responsibilities
-## 16. Schedule
-## 17. Planning Risks and Contingencies
-## 18. Approvals
-## 19. Glossary
+## 1. Identificador del plan de prueba
+## 2. Referencias
+## 3. Introducción
+## 4. Elementos de prueba
+## 5. Problemas de riesgo de software
+## 6. Funcionalidades a probar
+## 7. Funcionalidades que no se deben probar
+## 8. Enfoque
+## 9. Criterios de aprobación / falla del elemento
+## 10. Criterios de suspensión y requisitos de reanudación
+## 11. Entregables de prueba
+## 12. Tareas de prueba restantes
+## 13. Necesidades ambientales
+## 14. Necesidades de personal y capacitación
+## 15. Responsabilidades
+## 16. Horario
+## 17. Planificación de riesgos y contingencias
+## 18. Aprobaciones
+## 19. Glosario
 
 # Arquitectura
 
