@@ -30,26 +30,26 @@
         6. [Documentación del usuario](#26-documentación-del-usuario)
         7. [Supuestos y dependencias](#27-supuestos-y-dependencias)
     3. [Requerimientos de la interfaz externa](#3-requerimientos-de-la-interfaz-externa)
-        1. User Interfaces
-        2. Hardware Interfaces
-        3. Software Interfaces
-        4. Communication Interfaces
+        1. [Interfaz de usuario](#31-interfaz-de-usuario)
+        2. [Interfaz de hardware](#32-interfaz-de-hardware)
+        3. [Interfaz de software](#33-interfaz-de-software)
+        4. [Interfaz de comunicación](#34-interfaz-de-comunicación)
     4. [Funcionalidades del sistema](#4-funcionalidades-del-sistema)
-        1. Iniciar Sesión
-        2. Crear grupos
-        3. Buscar contactos
-        4. Comunicarte con el chatbot de servicios escolares
-        5. Mandar mensajes directos
-        6. Mandar mensajes a grupos
-        7. Acceder a notificaciones
-        8. Configurar mi perfil
-        9. Cerrar sesión
-    5. Other Nonfunctional Requirements
-        1. Performance Requirements
-        2. Safety Requirements
-        3. Security Requirements
-        4. Software Quality Attributes
-        5. Business Rules
+        1. [Iniciar Sesión](#41-iniciar-sesión)
+        2. [Crear grupos](#42-crear-grupos)
+        3. [Buscar contactos](#43-buscar-contactos)
+        4. [Comunicarte con el chatbot de servicios escolares](#44-comunicarse-con-el-chatbot-de-servicios-escolares)
+        5. [Mandar mensajes directos](#45-mandar-mensajes-directos)
+        6. [Mandar mensajes a grupos](#46-mandar-mensajes-a-grupos)
+        7. [Acceder a notificaciones](#47-acceder-a-notificaciones)
+        8. [Configurar mi perfil](#48-configurar-el-perfil)
+        9. [Cerrar sesión](#49-cerrar-sesión)
+    5. [Otros requerimientos no funcionales](#5-otros-requerimientos-no-funcionales)
+        1. [Requerimientos de rendimiento](#51-requerimientos-de-rendimiento)
+        2. [Safety Requirements](#52-safety-requirements)
+        3. [Security Requirements](#53-security-requirements)
+        4. [Atributos de calidad de software](#54-atributos-de-calidad-de-software)
+        5. [Reglas de negocio](#55-reglas-de-negocio)
 2. **[Plan de calidad](#plan-de-calidad)**
     1. Test Plan Identifier
     2. References
