@@ -51,25 +51,25 @@
         4. [Atributos de calidad de software](#54-atributos-de-calidad-de-software)
         5. [Reglas de negocio](#55-reglas-de-negocio)
 2. **[Plan de calidad](#plan-de-calidad)**
-    1. Test Plan Identifier
-    2. References
-    3. Introduction
-    4. Test Items
-    5. Software Risk Issues
-    6. Features to be Tested
-    7. Features not to be Tested
-    8. Approach
-    9. Item Pass/Fail Criteria
-    10. Suspension Criteria and Resumption Requirements
-    11. Test Deliverables
-    12. Remaining Test Tasks
-    13. Environmental Needs
-    14. Staffing and Training Needs
-    15. Responsibilities
-    16. Schedule
-    17. Planning Risks and Contingencies
-    18. Approvals
-    19. Glossary
+    1. [Identificador del plan de prueba](#1-identificador-del-plan-de-prueba)
+    2. [Referencias](#2-referencias)
+    3. [Introducción](#3-introducción)
+    4. [Elementos de prueba](#4-elementos-de-prueba)
+    5. [Problemas de riesgo de software](#5-problemas-de-riesgo-de-software)
+    6. [Funcionalidades a probar](#6-funcionalidades-a-probar)
+    7. [Funcionalidades que no se deben probar](#7-funcionalidades-que-no-se-deben-probar)
+    8. [Enfoque](#8-enfoque)
+    9. [Criterios de aprobación / falla del elemento](#9-criterios-de-aprobación--falla-del-elemento)
+    10. [Criterios de suspensión y requisitos de reanudación](#10-criterios-de-suspensión-y-requisitos-de-reanudación)
+    11. [Entregables de prueba](#11-entregables-de-prueba)
+    12. [Tareas de prueba restantes](#12-tareas-de-prueba-restantes)
+    13. [Necesidades ambientales](#13-necesidades-ambientales)
+    14. [Necesidades de personal y capacitación](#14-necesidades-de-personal-y-capacitación)
+    15. [Responsabilidades](#15-responsabilidades)
+    16. [Horario](#16-horario)
+    17. [Planificación de riesgos y contingencias](#17-planificación-de-riesgos-y-contingencias)
+    18. [Aprobaciones](#18-aprobaciones)
+    19. [Glosario](#19-glosario)
 3. **[Arquitectura](#arquitectura)**
 4. **[Metodología](#metodología)**
 5. **[Documentación para replicar](#documentación-para-replicar)**
