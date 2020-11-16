@@ -1,7 +1,5 @@
 # TITULO
 
-![Logo](https://github.com/padillandrea/desktop-tutorial/blob/master/itam.png)
-
 **Instituto Tecnológico Autónomo de México**
 
 **Ingeniería de Software**
