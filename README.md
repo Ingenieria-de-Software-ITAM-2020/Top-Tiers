@@ -22,13 +22,13 @@
         4. [Alcance del producto](#14-alcance-del-producto)
         5. [Referencias](#15-referencias)
     2. [Descripción General](#2-descripción-general)
-        1. Product perspective
-        2. Product Functions
-        3. User Classes and Characteristics
-        4. Operating Environment
-        5. Design and Implementation Constraints
-        6. User Documentation
-        7. Assumptions and Dependencies
+        1. [Perspectiva del producto](#21-perspectivas-del-producto)
+        2. [Funciones del producto](#22-funciones-del-producto)
+        3. [Clases y características de usuario](#23-clases-y-características-de-usuarios)
+        4. [Entorno operativo]()
+        5. [Restricciones de diseño e implementación]()
+        6. [Documentación del usuario]()
+        7. [Supuestos y dependencias]()
     3. [Requerimientos de la interfaz externa](#3-requerimientos-de-la-interfaz-externa)
         1. User Interfaces
         2. Hardware Interfaces
@@ -89,17 +89,17 @@
 
 
 ## 2. Descripción General
-### 2.1 Perspectivas del producto
+### 2.1 Perspectiva del producto
 
 ### 2.2 Funciones del producto
 
-### 2.3 Clases de usuarios y características
+### 2.3 Clases y características de usuario
 
 ### 2.4 Entorno operativo
 
-### 2.5 Limitaciones de diseño e implementación
+### 2.5 Restricciones de diseño e implementación
 
-### 2.6 Documentación de usuario
+### 2.6 Documentación del usuario
 
 ### 2.7 Supuestos y dependencias
 
@@ -112,7 +112,7 @@
 
 ### 3.4 Interfaz de comunicación
 
-## 4. Funcionalidades del sistea
+## 4. Funcionalidades del sistema
 
 ### 4.1 Iniciar sesión
 #### 4.1.1 Descripción y prioridad
