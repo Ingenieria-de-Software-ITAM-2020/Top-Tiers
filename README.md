@@ -1,16 +1,18 @@
 # TITULO
 
-Instituto Tecnológico Autónomo de México
+![Logo](https://github.com/padillandrea/desktop-tutorial/blob/master/itam.png)
 
-Ingeniería de Software
+**Instituto Tecnológico Autónomo de México**
 
-Proyecto final equipo Top Tiers
+**Ingeniería de Software**
 
-Integrantes:
-- Manuel Fernández Verda           166496
-- Ruben Romero Ortega              174178
-- Andrea Padilla Rodriguez         166605
-- Juan Carlos Sigler Pliego        174215
+**Proyecto final equipo Top Tiers**
+
+**Integrantes:**
+- Manuel Fernández Verda — 166496
+- Andrea Carolina Padilla Rodriguez — 166605
+- Ruben Romero Ortega — 174178
+- Juan Carlos Sigler Pliego — 174215
 
 # Tabla de contenido
 ---- 
