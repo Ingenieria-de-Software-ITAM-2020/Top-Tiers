@@ -12,8 +12,8 @@
 - Ruben Romero Ortega — 174178
 - Juan Carlos Sigler Pliego — 174215
 
-# Tabla de contenido
 ---- 
+# Tabla de contenido
 1. **[Documento de Requerimientos](#documento-de-requerimientos)**
     1. [Introducción](#1-introducción)
         1. [Objetivo](#11-objetivo)
@@ -21,7 +21,7 @@
         3. [Audiencia prevista y sugerencia de lectura](#13-audiencia-prevista-y-sugerencia-de-lectura)
         4. [Alcance del producto](#14-alcance-del-producto)
         5. [Referencias](#15-referencias)
-    2. Overall Description
+    2. [Descripción General](#2-descripción-general)
         1. Product perspective
         2. Product Functions
         3. User Classes and Characteristics
@@ -29,12 +29,12 @@
         5. Design and Implementation Constraints
         6. User Documentation
         7. Assumptions and Dependencies
-    3. External Interface Requirements
+    3. [Requerimientos de la interfaz externa](#3-requerimientos-de-la-interfaz-externa)
         1. User Interfaces
         2. Hardware Interfaces
         3. Software Interfaces
         4. Communication Interfaces
-    4. System Features
+    4. [Funcionalidades del sistema](#4-funcionalidades-del-sistema)
         1. Iniciar Sesión
         2. Crear grupos
         3. Buscar contactos
@@ -50,7 +50,7 @@
         3. Security Requirements
         4. Software Quality Attributes
         5. Business Rules
-2. Plan de calidad
+2. **[Plan de calidad](#plan-de-calidad)**
     1. Test Plan Identifier
     2. References
     3. Introduction
@@ -70,9 +70,9 @@
     17. Planning Risks and Contingencies
     18. Approvals
     19. Glossary
-3. Arquitectura
-4. Metodología
-5. Documentación para replicar
+3. **[Arquitectura](#arquitectura)**
+4. **[Metodología](#metodología)**
+5. **[Documentación para replicar](#documentación-para-replicar)**
 ----
 
 # Documento de Requerimientos
