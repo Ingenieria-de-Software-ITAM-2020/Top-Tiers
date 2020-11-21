@@ -16,7 +16,7 @@
 # Tabla de contenido
 1. **[Documento de Requerimientos](#documento-de-requerimientos)**
     1. [Introducción](#1-introducción)
-        1. [Objetivo](#11-objetivo)
+        1. [Propósito](#11-propósito)
         2. [Convenciones del documento](#12-convenciones-del-documento)
         3. [Audiencia prevista y sugerencia de lectura](#13-audiencia-prevista-y-sugerencia-de-lectura)
         4. [Alcance del producto](#14-alcance-del-producto)
@@ -78,7 +78,8 @@
 # Documento de Requerimientos
 
 ## 1. Introducción
-### 1.1 Objetivo
+### 1.1 Propósito
+A continuación, se presenta el documento de especificación de requerimientos para “inITAM” un sistema de inscripciones dedicado al Instituto Tecnológico Autónomo de México. El propósito de este software será permitirle a todos los alumnos inscritos al ITAM poder inscribir sus materias al comenzar cada ciclo escolar. El panorama que seguirá este SRS será dar perspectivas, definiciones y descripciones del software, además de especificar los tres features más importantes que tienen lugar durante la inscripción de materias en el ITAM por lo que no se describe todo el sistema completo.
 ### 1.2 Convenciones del documento
 ### 1.3 Audiencia prevista y sugerencia de lectura
 ### 1.4 Alcance del producto
