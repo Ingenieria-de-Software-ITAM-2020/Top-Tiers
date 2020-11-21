@@ -1,10 +1,10 @@
-# TITULO
-
 **Instituto Tecnológico Autónomo de México**
+# ![Logo](https://github.com/Ingenieria-de-Software-ITAM-2020/Top-Tiers/blob/main/LogoRedColmillo.png)
 
 **Ingeniería de Software**
+**Proyecto Final** 
 
-**Proyecto final equipo Top Tiers**
+**Equipo Top Tiers**
 
 **Integrantes:**
 - Manuel Fernández Verda — 166496
@@ -16,7 +16,7 @@
 # Tabla de contenido
 1. **[Documento de Requerimientos](#documento-de-requerimientos)**
     1. [Introducción](#1-introducción)
-        1. [Objetivo](#11-objetivo)
+        1. [Propósito](#11-propósito)
         2. [Convenciones del documento](#12-convenciones-del-documento)
         3. [Audiencia prevista y sugerencia de lectura](#13-audiencia-prevista-y-sugerencia-de-lectura)
         4. [Alcance del producto](#14-alcance-del-producto)
@@ -78,25 +78,41 @@
 # Documento de Requerimientos
 
 ## 1. Introducción
-### 1.1 Objetivo
+### 1.1 Propósito
+A continuación, se presenta el documento de especificación de requerimientos para la “Red Colmillo”, un sistema de comunicación interna dedicado al Instituto Tecnológico Autónomo de México. El propósito de este software será permitirle a todos los alumnos y profesores inscritos en el ITAM poder comunicarse con sus distintos compañeros, colegas o areas administrativas del ITAM a lo largo de todo el ciclo escolar. El panorama que seguirá este SRS será dar perspectivas, definiciones y descripciones del software, además de especificar los requerimientos de cada una de las funcionalidades que ofrecerá el software. La versión que se muestra en este documento es "Red Colmillo 1.0".
 ### 1.2 Convenciones del documento
-Para este documento de Especificación de Requerimientos de Software (SRS, por sus siglas en inglés), las prioridades para los requisitos se definieron de la siguiente manera: a los más esenciales, se les asignó la prioridad 1, mientras que a los menos esenciales se les otorgó la 5.
+Para este documento de Especificación de Requerimientos de Software (SRS, por sus siglas en inglés), las prioridades de los requisitos se definieron de la siguiente manera: a los más esenciales, se les asignó la prioridad 1, mientras que a los menos esenciales se les otorgó la 5.
 ### 1.3 Audiencia prevista y sugerencia de lectura
+Este documento va dirigido al personal encargado de darle mantenimiento a la página web Red Colmillo, así como al personal administrativo y de cómputo que utilizarán y explicarán su uso a nuevos usuarios. Para el personal técnico o de desarrollo, se recomienda leer todo el documento de manera secuencial. Para nuevos usuarios, se recomienda leer únicamente la sección 1  de Introducción y la sección 2 de Descripción General.
 ### 1.4 Alcance del producto
+La "Red Colmillo" es un software que le permite a los alumnos y profesores del Instituto Tecnológico Autónomo de México (ITAM) tener un medio rápido y eficiente de comunicación. La comunicación efectiva es una característica esencial para crear relaciones de trabajo positivas y productivas. Cuando la comunicación fluye a través de los integrantes de una institución educativa, se es posible difundir el conocimiento y volver más productivo el trabajo ayudando a alcanzar los objetivos, tanto profesionales, como personales, de cada miembro de la institución. Los beneficios que ofrece la Red Colmillo es brindar un sistema de comunicación que le permite a los alumnos y profesores tener un lugar de acceso fácil a la información que concierne las discusiones más relevantes que se llevan a cabo en los distintos cursos a los que estén inscritos durante el semestre. También, les facilita entablar conversaciones con culquier miembro del ITAM. Todo esto se lorga a través de una interfaz amigable para añadir para poder iniciar conversaciónes individuales o grupales con miembros de la institución. Además, es un sistema que incluye la conversación de los miembros de la institución con un chatbot.
 ### 1.5 Referencias
+
 
 ## 2. Descripción General
 ### 2.1 Perspectiva del producto
+El software que se presenta en este documento consiste de un sistema de mensajería instntánea para los miembros de la comunidad ITAM. Red Colmillo pertenecerá al conjunto de aplicaciones que ofrece el ITAM, por lo que requerirá compartir recursos con estos elementos, además de que podrá tomar o proveer información a estas aplicaciones. Este software específicamente podrá acceder a la base de datos del ITAM que contiene la información acerca de los maestros, alumnos y materias que se ofrecen, además de información útil acerca de fechas importantes y de los departamentos administrativos de la institución. Esto último es para que el alumnado pueda comunicarse con Colmillo, el chatbot del sistema, sin necesidad de contactar directamente al personal administrativo del ITAM.
 ### 2.2 Funciones del producto
+Las principales funciones de Red Colmillo:
++ Comunicarse con Colmillo: el alumno debe poder mandar mensajes al chatbot del sistema.
++ Mandar mensajes a grupos: el alumno debe poder comunicarse con sus compañeros y profesor (a) de sus materias a través del chat grupal del curso.
++ Crear grupos: el alumno debe poder crear grupos para comunicarse con sus compañeros de equipo.
++ Mandar mensajes directos: el alumno debe poder comunicarse con los miembros de la comunidad ITAM.
++ Buscar contactos: el alumno debe poder buscar a los miembros de la comunidad ITAM para comunicarse con ellos.
++ Ver notificaciones: el alumno debe poder acceder a un log que muestre los mensajes de sus profesores (as) y los archivos recibidos.
 ### 2.3 Clases y características de usuario
+Los usuarios que interactuarán con la aplicación son:
++ Estudiantes: todo individuo que esté tomando clases en la institución, ya sea licenciatura, maestría, doctorado, diplomado, etc.
++ Profesores: todos los catedráticos de la institución.
++ Personal administrativo: todos los miembros administrativos de las divisiones académicas y departamentos de servicios escolares (caja, becas, servicio social, etc.).
 ### 2.4 Entorno operativo
+El software estará diseñado para ser una aplicación web que opere con garantía en versiones más recientes de Google Chrome, Safari y Explorer, por lo que funciona sobre cualquier sistema operativo que soporte estos navegadores. Se tomará como base el funcionamiento de la aplicación sobre una computadora como dispositivo.
 ### 2.5 Restricciones de diseño e implementación
+
 ### 2.6 Documentación del usuario
-<<<<<<< Updated upstream
-=======
 List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.
->>>>>>> Stashed changes
 ### 2.7 Supuestos y dependencias
+El software tiene como dependencias el sistema de autenticación del ITAM y el sistema que administra su base de datos. También se supone que los servidores del ITAM estén activos y tengan capacidad suficiente de respuesta para manejar las solicitudes de los usuarios. Además, se asume que los usuarios tendrán acceso a una computadora con acceso a internet para poder utilizar la aplicación.
 
 ## 3. Requerimientos de la interfaz externa
 ### 3.1 Interfaz de usuario
@@ -104,6 +120,7 @@ List the user documentation components (such as user manuals, on-line help, and 
 ### 3.2 Interfaz de hardware
 ### 3.3 Interfaz de software
 ### 3.4 Interfaz de comunicación
+El sistema de mensajería utilizará el protocolo XMPP, que es un protocolo abierto y extensible, también utilizado por otras plataformas de mensajería instantánea como Google Talk, el chat de Facebook y Whatsapp. Además, se comunicará  con la base de datos que se encuentra en un servidor por medio de Internet con ayuda del protocolo HTTP. Los datos enviados y recibidos mediante los protocolos de Internet son encriptados para evitar robo de información.
 
 ## 4. Funcionalidades del sistema
 
@@ -163,14 +180,41 @@ List the user documentation components (such as user manuals, on-line help, and 
 
 ## 5. Otros requerimientos no funcionales
 ### 5.1 Requerimientos de rendimiento
+El sistema debe tener un tiempo de respuesta menor a 200ms. Además de esto, se requiere que los servidores y bases de datos del ITAM se encuentren activos para que la aplicación funcione correctamente.
+
 ### 5.2 Safety Requirements
+Dada la naturaleza personal de la mensajería privada y los riesgos que esta puede provocar, se protegerá la privacidad y seguridad de los usuarios incorporando cifrado de extremo a extremo en nuestra aplicación. Sabiendo que podrían existir usuariso que le den un mal uso a esta herramienta, los usuarios podrán evitar que alguien se comunique con ellos directamente desde un chat utilizando la función de bloqueo. Esto evitará permitir que esta plataforma se utilice con objetivos de bullying o acoso. 
+
+Es un hecho que las pantallas causan fatiga ocular (ojo seco, visión borrosa, dolor de cabeza...) por lo que se recomiensa a los usuarios tomarse un descanso de 5 minutos después de cada hora que pasen utilizando nuestra aplicación. 
+
 ### 5.3 Security Requirements
+* El software protegerá la confidencialidad de los usuarios resguardando los datos sensibles como nombres de usuarios y grupos a los que están inscritos los distintos alumnos. Las conversaciones privadas se mantendrán de esta forma y su contenido solo podr+a visualizarse por los miembros de la conversación. Toda conversación será protegida y encriptada al momento de ser enviada, procesada o almacenada la Red Colmillo para mantener la privacidad de los usuarios y sus conversaciones.
+
+* Todas los usarios que inicien sesión serán automáticamente veriicados utilizando un microservicio provisto por el Instituto Tecnológico Autónomo de México. La Red Colmillo proverá al sistema del ITAM el usuario y contraseña del individuo que esté solicitando tener acceso a la página de tal forma que la contraseña se provea ya hasheada para evitar un filtro de esta información sensible durante el proceso de comunicación con los servidores del ITAM.
+
+* Se protegerá la integridad de los datos para que no hayan modificaciones erróneas en las especificaciones de los alumnos y sus características, en el contenido de las conversaciones y en los archivos que se hayan subido al sistema.
+
+* Se harán backups cada minuto de la información del sistema, las conversaciones y los grupos existentes.
+
+* Ante una caída del sistema, existirá un tiempo máximo de tolerancia y espera de 30 minutos. Durante las dos semanas del curso y las últimas 3 semanas del curso (que incluyen los exámenes finales) el tiempo de máxima tolerancia y espera ante una caida debe reducirse a 15 minutos.
+
+* Service Level Agreements = 90%
+
+* El software utilizará autenticación dos pasos cada vez que un usuario ingrese al sistema de un dispositivo no marcado previamente como confiable. Este proceso le requerirá al alumno confirmar el inicio de sesión a traves de un correo institucionales que se le mandará.
+
+* Los permisos administrativos que permitan alterar la información de los cursos y sus gruposno deberán asignarse a los alumnos y/o profesores, solo al administrador del sistema. Los profesors y alumnos podrán modificar la información de los grupos que ellos creen de manera independiente.
+
+* Cada acción que se lleve a cabo en la Red Colmillo deberá de guardarse en el log del sistema. Las acciones correspondientes a mandar mensaje únicamente deberán de indicar las personas que están entablando una conversación, más nos e guardara el contenido de esta.
+
+* Cada que se altere la información de un curso, deberá de notificarse al profesor del mismo. El sistema deberá verificar diariamente que los miembros pertenecientes a cada grupo sigan inscritos al mismo, de lo contrario deberá eliminar al alumno. Si por alguna razón un profesor abandona la institución durante el semestre, deberá protegerse el grupo. El profesor será eliminado y los permisos que tenía pasarán al administrador del sistema.
+
 ### 5.4 Atributos de calidad de software
 - **Portabilidad:** 
 - **Confiabilidad:**  
 - **Mantenibilidad:** 
 - **Facilidad de testeo:**  
 - **Reusabilidad:**
+
 ### 5.5 Reglas de negocio
 
 # Plan de calidad
