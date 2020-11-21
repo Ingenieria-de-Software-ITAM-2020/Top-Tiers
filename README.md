@@ -92,10 +92,15 @@ Para este documento de Especificación de Requerimientos de Software (SRS, por s
 ### 2.4 Entorno operativo
 ### 2.5 Restricciones de diseño e implementación
 ### 2.6 Documentación del usuario
+<<<<<<< Updated upstream
+=======
+List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.
+>>>>>>> Stashed changes
 ### 2.7 Supuestos y dependencias
 
 ## 3. Requerimientos de la interfaz externa
 ### 3.1 Interfaz de usuario
+
 ### 3.2 Interfaz de hardware
 ### 3.3 Interfaz de software
 ### 3.4 Interfaz de comunicación
