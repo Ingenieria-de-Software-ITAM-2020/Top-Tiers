@@ -80,6 +80,7 @@
 ## 1. Introducción
 ### 1.1 Objetivo
 ### 1.2 Convenciones del documento
+Para este documento de Especificación de Requerimientos de Software (SRS, por sus siglas en inglés), las prioridades para los requisitos se definieron de la siguiente manera: a los más esenciales, se les asignó la prioridad 1, mientras que a los menos esenciales se les otorgó la 5.
 ### 1.3 Audiencia prevista y sugerencia de lectura
 ### 1.4 Alcance del producto
 ### 1.5 Referencias
