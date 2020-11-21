@@ -1,6 +1,4 @@
-# Red Colmillo
-![Image of Yaktocat](https://https://github.com/Ingenieria-de-Software-ITAM-2020/Top-Tiers/blob/main/LogoRedColmillo.png)
-**Instituto Tecnológico Autónomo de México**
+# ![Logo](https://github.com/Ingenieria-de-Software-ITAM-2020/Top-Tiers/blob/main/LogoRedColmillo.png)
 
 **Ingeniería de Software**
 
