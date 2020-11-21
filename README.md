@@ -1,8 +1,9 @@
 # ![Logo](https://github.com/Ingenieria-de-Software-ITAM-2020/Top-Tiers/blob/main/LogoRedColmillo.png)
 
 **Ingeniería de Software**
+**Proyecto Final** 
 
-**Proyecto final equipo Top Tiers**
+**Equipo Top Tiers**
 
 **Integrantes:**
 - Manuel Fernández Verda — 166496
@@ -83,8 +84,7 @@ Para este documento de Especificación de Requerimientos de Software (SRS, por s
 ### 1.3 Audiencia prevista y sugerencia de lectura
 Este documento va dirigido al personal encargado de darle mantenimiento a la página web Red Colmillo, así como al personal administrativo y de cómputo que utilizarán y explicarán su uso a nuevos usuarios. Para el personal técnico o de desarrollo, se recomienda leer todo el documento de manera secuencial. Para nuevos usuarios, se recomienda leer únicamente la sección 1  de Introducción y la sección 2 de Descripción General.
 ### 1.4 Alcance del producto
-La "Red Colmillo" es un software que permite a los alumnos del Instituto Tecnológico Autónomo de México comunicarse con los demás miembros y areas administrativas del ITAM. Los beneficios que ofrece este sistema es brindar un sistema eficienteacceso fácil a la información concerniente a los horarios del siguiente semestre a cursar y proveer de una interfaz amigable para añadir y modificar inscripciones, y checar el estado concerniente a las listas de espera. Además, será un sistema con la suficiente capacidad en recursos para brindar un óptimo funcionamiento durante los periodos de inscripción.
-### 1.5 Referencias
+La "Red Colmillo" es un software que le permite a los alumnos y profesores del Instituto Tecnológico Autónomo de México (ITAM) tener un medio rápido y eficiente de comunicación. La comunicación efectiva es una característica esencial para crear relaciones de trabajo positivas y productivas. Cuando la comunicación fluye a través de los integrantes de una institución educativa, se es posible difundir el conocimiento y volver más productivo el trabajo ayudando a alcanzar los objetivos, tanto profesionales, como personales, de cada miembro de la institución. Los beneficios que ofrece la Red Colmillo es brindar un sistema de comunicación que le permite a los alumnos y profesores tener un lugar de acceso fácil a la información que concierne las discusiones más relevantes que se llevan a cabo en los distintos cursos a los que estén inscritos durante el semestre. También, les facilita entablar conversaciones con culquier miembro del ITAM. Todo esto se lorga a través de una interfaz amigable para añadir para poder iniciar conversaciónes individuales o grupales con miembros de la institución. Además, es un sistema que incluye la conversación de los miembros de la institución con un ChatBot 
 
 ## 2. Descripción General
 ### 2.1 Perspectiva del producto
