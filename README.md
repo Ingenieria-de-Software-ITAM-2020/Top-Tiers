@@ -81,6 +81,7 @@
 ### 1.1 Propósito
 A continuación, se presenta el documento de especificación de requerimientos para “inITAM” un sistema de inscripciones dedicado al Instituto Tecnológico Autónomo de México. El propósito de este software será permitirle a todos los alumnos inscritos al ITAM poder inscribir sus materias al comenzar cada ciclo escolar. El panorama que seguirá este SRS será dar perspectivas, definiciones y descripciones del software, además de especificar los tres features más importantes que tienen lugar durante la inscripción de materias en el ITAM por lo que no se describe todo el sistema completo.
 ### 1.2 Convenciones del documento
+Para este documento de Especificación de Requerimientos de Software (SRS, por sus siglas en inglés), las prioridades para los requisitos se definieron de la siguiente manera: a los más esenciales, se les asignó la prioridad 1, mientras que a los menos esenciales se les otorgó la 5.
 ### 1.3 Audiencia prevista y sugerencia de lectura
 ### 1.4 Alcance del producto
 ### 1.5 Referencias
