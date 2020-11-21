@@ -1,4 +1,3 @@
-**Instituto Tecnológico Autónomo de México**
 # ![Logo](https://github.com/Ingenieria-de-Software-ITAM-2020/Top-Tiers/blob/main/LogoRedColmillo.png)
 
 **Ingeniería de Software**
@@ -239,7 +238,15 @@ Es un hecho que las pantallas causan fatiga ocular (ojo seco, visión borrosa, d
 ## 19. Glosario
 
 # Arquitectura
+Actualmente, la Red Colmillo trabaja con arquitecturas por eventos donde la aplicación utiliza la información en tiempo real proporcionada por los usuarios para orquestar decisiones. Aquí, los creadores de eventos o módulos, es decir los usuarios, transmiten la necesidad de entablar una conversación, en un tiempo dado, al gestor de eventos (la plataforma online), quien agregaría esta transmisión a su aplicación poder conectar a los usuarios que se quieren comunicar o iniciar un servicio de comunicación con el ChatBot Colmillo. Los módulos que el orquestador pudiera manejar se podría ver como los siguientes:
+-	Procesar usuario que quiere iniciar una conversación.
+-	Iniciar un canal de conversación.
+-	Subir un documento o archivo
+-	Finalizar una comunicación
+
+Las características que hacen que el uso de eventos sea apropiado para un equipo de desarrollo son las siguientes. Primero, el producto debe tender a reestructurarse y replantearse cotidianamente, ser dinámico y no estático. Segundo, debe ser un producto cuyo uso se espere que crezca y evolucione con el tiempo, lo cual causaría tener cada vez más solicitudes de parte de usuarios y requerirá poder escalar el producto lo cual es posible gracias a la atomicidad de los eventos. Tercero y último, las condiciones del equipo y la cantidad de miembros deben ser igualmente dinámicas y tender a crecer en el futuro debido a que se espera que crezca la demanda de la aplicación. 
 
 # Metodología
+Cascada
 
 # Documentación para replicar
