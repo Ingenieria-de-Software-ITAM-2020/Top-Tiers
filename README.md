@@ -1,4 +1,4 @@
-# TITULO
+# Red Colmillo
 
 **Instituto Tecnológico Autónomo de México**
 
@@ -79,11 +79,12 @@
 
 ## 1. Introducción
 ### 1.1 Propósito
-A continuación, se presenta el documento de especificación de requerimientos para “inITAM”, un sistema de comunicación interna dedicado al Instituto Tecnológico Autónomo de México. El propósito de este software será permitirle a todos los alumnos y profesores inscritos en el ITAM poder comunicarse con sus distintos compañeros, colegas o areas administrativas del ITAM a lo largo de cualquier ciclo escolar. El panorama que seguirá este SRS será dar perspectivas, definiciones y descripciones del software, además de especificar los requerimientos de cada una de las funcionalidades que ofrecerá el software.
+A continuación, se presenta el documento de especificación de requerimientos para la “Red Colmillo”, un sistema de comunicación interna dedicado al Instituto Tecnológico Autónomo de México. El propósito de este software será permitirle a todos los alumnos y profesores inscritos en el ITAM poder comunicarse con sus distintos compañeros, colegas o areas administrativas del ITAM a lo largo de todo el ciclo escolar. El panorama que seguirá este SRS será dar perspectivas, definiciones y descripciones del software, además de especificar los requerimientos de cada una de las funcionalidades que ofrecerá el software. La versión que se muestra en este documento es "Red Colmillo 1.0".
 ### 1.2 Convenciones del documento
 Para este documento de Especificación de Requerimientos de Software (SRS, por sus siglas en inglés), las prioridades para los requisitos se definieron de la siguiente manera: a los más esenciales, se les asignó la prioridad 1, mientras que a los menos esenciales se les otorgó la 5.
 ### 1.3 Audiencia prevista y sugerencia de lectura
 ### 1.4 Alcance del producto
+La "Red Colmillo" es un software que permite a los alumnos del Instituto Tecnológico Autónomo de México comunicarse con los demás miembros y areas administrativas del ITAM. Los beneficios que ofrece este sistema es brindar un sistema eficienteacceso fácil a la información concerniente a los horarios del siguiente semestre a cursar y proveer de una interfaz amigable para añadir y modificar inscripciones, y checar el estado concerniente a las listas de espera. Además, será un sistema con la suficiente capacidad en recursos para brindar un óptimo funcionamiento durante los periodos de inscripción.
 ### 1.5 Referencias
 
 ## 2. Descripción General
