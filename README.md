@@ -1,5 +1,3 @@
-# TITULO
-
 **Instituto Tecnológico Autónomo de México**
 
 **Ingeniería de Software**
@@ -79,28 +77,46 @@
 
 ## 1. Introducción
 ### 1.1 Propósito
-A continuación, se presenta el documento de especificación de requerimientos para “inITAM”, un sistema de comunicación interna dedicado al Instituto Tecnológico Autónomo de México. El propósito de este software será permitirle a todos los alumnos y profesores inscritos en el ITAM poder comunicarse con sus distintos compañeros, colegas o areas administrativas del ITAM a lo largo de cualquier ciclo escolar. El panorama que seguirá este SRS será dar perspectivas, definiciones y descripciones del software, además de especificar los requerimientos de cada una de las funcionalidades que ofrecerá el software.
+A continuación, se presenta el documento de especificación de requerimientos para la “Red Colmillo”, un sistema de comunicación interna dedicado al Instituto Tecnológico Autónomo de México. El propósito de este software será permitirle a todos los alumnos y profesores inscritos en el ITAM poder comunicarse con sus distintos compañeros, colegas o areas administrativas del ITAM a lo largo de todo el ciclo escolar. El panorama que seguirá este SRS será dar perspectivas, definiciones y descripciones del software, además de especificar los requerimientos de cada una de las funcionalidades que ofrecerá el software. La versión que se muestra en este documento es "Red Colmillo 1.0".
 ### 1.2 Convenciones del documento
 Para este documento de Especificación de Requerimientos de Software (SRS, por sus siglas en inglés), las prioridades de los requisitos se definieron de la siguiente manera: a los más esenciales, se les asignó la prioridad 1, mientras que a los menos esenciales se les otorgó la 5.
 ### 1.3 Audiencia prevista y sugerencia de lectura
 Este documento va dirigido al personal encargado de darle mantenimiento a la página web Red Colmillo, así como al personal administrativo y de cómputo que utilizarán y explicarán su uso a nuevos usuarios. Para el personal técnico o de desarrollo, se recomienda leer todo el documento de manera secuencial. Para nuevos usuarios, se recomienda leer únicamente la sección 1  de Introducción y la sección 2 de Descripción General.
 ### 1.4 Alcance del producto
+La "Red Colmillo" es un software que le permite a los alumnos y profesores del Instituto Tecnológico Autónomo de México (ITAM) tener un medio rápido y eficiente de comunicación. La comunicación efectiva es una característica esencial para crear relaciones de trabajo positivas y productivas. Cuando la comunicación fluye a través de los integrantes de una institución educativa, se es posible difundir el conocimiento y volver más productivo el trabajo ayudando a alcanzar los objetivos, tanto profesionales, como personales, de cada miembro de la institución. Los beneficios que ofrece la Red Colmillo es brindar un sistema de comunicación que le permite a los alumnos y profesores tener un lugar de acceso fácil a la información que concierne las discusiones más relevantes que se llevan a cabo en los distintos cursos a los que estén inscritos durante el semestre. También, les facilita entablar conversaciones con culquier miembro del ITAM. Todo esto se lorga a través de una interfaz amigable para añadir para poder iniciar conversaciónes individuales o grupales con miembros de la institución. Además, es un sistema que incluye la conversación de los miembros de la institución con un chatbot.
 ### 1.5 Referencias
 
 ## 2. Descripción General
 ### 2.1 Perspectiva del producto
+El software que se presenta en este documento consiste de un sistema de mensajería instntánea para los miembros de la comunidad ITAM. Red Colmillo pertenecerá al conjunto de aplicaciones que ofrece el ITAM, por lo que requerirá compartir recursos con estos elementos, además de que podrá tomar o proveer información a estas aplicaciones. Este software específicamente podrá acceder a la base de datos del ITAM que contiene la información acerca de los maestros, alumnos y materias que se ofrecen, además de información útil acerca de fechas importantes y de los departamentos administrativos de la institución. Esto último es para que el alumnado pueda comunicarse con Colmillo, el chatbot del sistema, sin necesidad de contactar directamente al personal administrativo del ITAM.
 ### 2.2 Funciones del producto
+Las principales funciones de Red Colmillo:
++ Comunicarse con Colmillo: el alumno debe poder mandar mensajes al chatbot del sistema.
++ Mandar mensajes a grupos: el alumno debe poder comunicarse con sus compañeros y profesor (a) de sus materias a través del chat grupal del curso.
++ Crear grupos: el alumno debe poder crear grupos para comunicarse con sus compañeros de equipo.
++ Mandar mensajes directos: el alumno debe poder comunicarse con los miembros de la comunidad ITAM.
++ Buscar contactos: el alumno debe poder buscar a los miembros de la comunidad ITAM para comunicarse con ellos.
++ Ver notificaciones: el alumno debe poder acceder a un log que muestre los mensajes de sus profesores (as) y los archivos recibidos.
 ### 2.3 Clases y características de usuario
+Los usuarios que interactuarán con la aplicación son:
++ Estudiantes: todo individuo que esté tomando clases en la institución, ya sea licenciatura, maestría, doctorado, diplomado, etc.
++ Profesores: todos los catedráticos de la institución.
++ Personal administrativo: todos los miembros administrativos de las divisiones académicas y departamentos de servicios escolares (caja, becas, servicio social, etc.).
 ### 2.4 Entorno operativo
+El software estará diseñado para ser una aplicación web que opere con garantía en versiones más recientes de Google Chrome, Safari y Explorer, por lo que funciona sobre cualquier sistema operativo que soporte estos navegadores. Se tomará como base el funcionamiento de la aplicación sobre una computadora como dispositivo.
 ### 2.5 Restricciones de diseño e implementación
+
 ### 2.6 Documentación del usuario
+
 ### 2.7 Supuestos y dependencias
+El software tiene como dependencias el sistema de autenticación del ITAM y el sistema que administra su base de datos. También se supone que los servidores del ITAM estén activos y tengan capacidad suficiente de respuesta para manejar las solicitudes de los usuarios. Además, se asume que los usuarios tendrán acceso a una computadora con acceso a internet para poder utilizar la aplicación.
 
 ## 3. Requerimientos de la interfaz externa
 ### 3.1 Interfaz de usuario
 ### 3.2 Interfaz de hardware
 ### 3.3 Interfaz de software
 ### 3.4 Interfaz de comunicación
+El sistema de mensajería utilizará el protocolo XMPP, que es un protocolo abierto y extensible, también utilizado por otras plataformas de mensajería instantánea como Google Talk, el chat de Facebook y Whatsapp. Además, se comunicará  con la base de datos que se encuentra en un servidor por medio de Internet con ayuda del protocolo HTTP. Los datos enviados y recibidos mediante los protocolos de Internet son encriptados para evitar robo de información.
 
 ## 4. Funcionalidades del sistema
 
