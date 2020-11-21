@@ -159,14 +159,41 @@ La "Red Colmillo" es un software que le permite a los alumnos y profesores del I
 
 ## 5. Otros requerimientos no funcionales
 ### 5.1 Requerimientos de rendimiento
+El sistema debe tener un tiempo de respuesta menor a 200ms. Además de esto, se requiere que los servidores y bases de datos del ITAM se encuentren activos para que la aplicación funcione correctamente.
+
 ### 5.2 Safety Requirements
+Dada la naturaleza personal de la mensajería privada y los riesgos que esta puede provocar, se protegerá la privacidad y seguridad de los usuarios incorporando cifrado de extremo a extremo en nuestra aplicación. Sabiendo que podrían existir usuariso que le den un mal uso a esta herramienta, los usuarios podrán evitar que alguien se comunique con ellos directamente desde un chat utilizando la función de bloqueo. Esto evitará permitir que esta plataforma se utilice con objetivos de bullying o acoso. 
+
+Es un hecho que las pantallas causan fatiga ocular (ojo seco, visión borrosa, dolor de cabeza...) por lo que se recomiensa a los usuarios tomarse un descanso de 5 minutos después de cada hora que pasen utilizando nuestra aplicación. 
+
 ### 5.3 Security Requirements
+* El software protegerá la confidencialidad de los usuarios resguardando los datos sensibles como nombres de usuarios y grupos a los que están inscritos los distintos alumnos. Las conversaciones privadas se mantendrán de esta forma y su contenido solo podr+a visualizarse por los miembros de la conversación. Toda conversación será protegida y encriptada al momento de ser enviada, procesada o almacenada la Red Colmillo para mantener la privacidad de los usuarios y sus conversaciones.
+
+* Todas los usarios que inicien sesión serán automáticamente veriicados utilizando un microservicio provisto por el Instituto Tecnológico Autónomo de México. La Red Colmillo proverá al sistema del ITAM el usuario y contraseña del individuo que esté solicitando tener acceso a la página de tal forma que la contraseña se provea ya hasheada para evitar un filtro de esta información sensible durante el proceso de comunicación con los servidores del ITAM.
+
+* Se protegerá la integridad de los datos para que no hayan modificaciones erróneas en las especificaciones de los alumnos y sus características, en el contenido de las conversaciones y en los archivos que se hayan subido al sistema.
+
+* Se harán backups cada minuto de la información del sistema, las conversaciones y los grupos existentes.
+
+* Ante una caída del sistema, existirá un tiempo máximo de tolerancia y espera de 30 minutos. Durante las dos semanas del curso y las últimas 3 semanas del curso (que incluyen los exámenes finales) el tiempo de máxima tolerancia y espera ante una caida debe reducirse a 15 minutos.
+
+* Service Level Agreements = 90%
+
+* El software utilizará autenticación dos pasos cada vez que un usuario ingrese al sistema de un dispositivo no marcado previamente como confiable. Este proceso le requerirá al alumno confirmar el inicio de sesión a traves de un correo institucionales que se le mandará.
+
+* Los permisos administrativos que permitan alterar la información de los cursos y sus gruposno deberán asignarse a los alumnos y/o profesores, solo al administrador del sistema. Los profesors y alumnos podrán modificar la información de los grupos que ellos creen de manera independiente.
+
+* Cada acción que se lleve a cabo en la Red Colmillo deberá de guardarse en el log del sistema. Las acciones correspondientes a mandar mensaje únicamente deberán de indicar las personas que están entablando una conversación, más nos e guardara el contenido de esta.
+
+* Cada que se altere la información de un curso, deberá de notificarse al profesor del mismo. El sistema deberá verificar diariamente que los miembros pertenecientes a cada grupo sigan inscritos al mismo, de lo contrario deberá eliminar al alumno. Si por alguna razón un profesor abandona la institución durante el semestre, deberá protegerse el grupo. El profesor será eliminado y los permisos que tenía pasarán al administrador del sistema.
+
 ### 5.4 Atributos de calidad de software
 - **Portabilidad:** 
 - **Confiabilidad:**  
 - **Mantenibilidad:** 
 - **Facilidad de testeo:**  
 - **Reusabilidad:**
+
 ### 5.5 Reglas de negocio
 
 # Plan de calidad
