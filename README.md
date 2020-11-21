@@ -110,12 +110,13 @@ El software estará diseñado para ser una aplicación web que opere con garant�
 ### 2.5 Restricciones de diseño e implementación
 
 ### 2.6 Documentación del usuario
-
+List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.
 ### 2.7 Supuestos y dependencias
 El software tiene como dependencias el sistema de autenticación del ITAM y el sistema que administra su base de datos. También se supone que los servidores del ITAM estén activos y tengan capacidad suficiente de respuesta para manejar las solicitudes de los usuarios. Además, se asume que los usuarios tendrán acceso a una computadora con acceso a internet para poder utilizar la aplicación.
 
 ## 3. Requerimientos de la interfaz externa
 ### 3.1 Interfaz de usuario
+
 ### 3.2 Interfaz de hardware
 ### 3.3 Interfaz de software
 ### 3.4 Interfaz de comunicación
