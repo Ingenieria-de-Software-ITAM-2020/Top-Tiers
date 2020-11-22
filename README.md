@@ -1,9 +1,14 @@
-# ![Logo](https://github.com/Ingenieria-de-Software-ITAM-2020/Top-Tiers/blob/main/LogoRedColmillo.png)
-
-**Ingeniería de Software**
-**Proyecto Final** 
-
-**Equipo Top Tiers**
+<p align="center">
+  <img width="260" height="100" src="https://github.com/Ingenieria-de-Software-ITAM-2020/Top-Tiers/blob/main/LogoRedColmillo.png">
+<br>
+<b>
+Ingeniería de Software
+<br>
+Proyecto Final
+<br>
+Equipo: Top Tiers
+</b>
+</p>
 
 **Integrantes:**
 - Manuel Fernández Verda — 166496
@@ -92,7 +97,7 @@ La "Red Colmillo" es un software que le permite a los alumnos y profesores del I
 ### 2.1 Perspectiva del producto
 El software que se presenta en este documento consiste de un sistema de mensajería instntánea para los miembros de la comunidad ITAM. Red Colmillo pertenecerá al conjunto de aplicaciones que ofrece el ITAM, por lo que requerirá compartir recursos con estos elementos, además de que podrá tomar o proveer información a estas aplicaciones. Este software específicamente podrá acceder a la base de datos del ITAM que contiene la información acerca de los maestros, alumnos y materias que se ofrecen, además de información útil acerca de fechas importantes y de los departamentos administrativos de la institución. Esto último es para que el alumnado pueda comunicarse con Colmillo, el chatbot del sistema, sin necesidad de contactar directamente al personal administrativo del ITAM.
 ### 2.2 Funciones del producto
-Las principales funciones de Red Colmillo:
+Las principales funciones de Red Colmillo son:
 + Comunicarse con Colmillo: el alumno debe poder mandar mensajes al chatbot del sistema.
 + Mandar mensajes a grupos: el alumno debe poder comunicarse con sus compañeros y profesor (a) de sus materias a través del chat grupal del curso.
 + Crear grupos: el alumno debe poder crear grupos para comunicarse con sus compañeros de equipo.
@@ -102,22 +107,23 @@ Las principales funciones de Red Colmillo:
 ### 2.3 Clases y características de usuario
 Los usuarios que interactuarán con la aplicación son:
 + **Estudiantes:** todo individuo que esté tomando clases en la institución, ya sea licenciatura, maestría, doctorado, diplomado, etc.
-+ **Profesores:*** todos los catedráticos de la institución.
++ **Profesores:** todos los catedráticos de la institución.
 + **Personal administrativo:** todos los miembros administrativos de las divisiones académicas y departamentos de servicios escolares (caja, becas, servicio social, etc.).
 + **Administrador del sistema:** persona (s) encargada (s) de mantener la página web y el chatbot, así como asignar a los alumnos y profesores a los chat grupales de los cursos que les correspondan.
 ### 2.4 Entorno operativo
-El software estará diseñado para ser una aplicación web que opere con garantía en versiones más recientes de Google Chrome, Safari y Explorer, por lo que funciona sobre cualquier sistema operativo que soporte estos navegadores. Se tomará como base el funcionamiento de la aplicación sobre una computadora como dispositivo.
+El software estará diseñado para ser una aplicación web que opere con garantía en versiones más recientes de navegadores que soporten HTML5 y javascript. Se sugieren Google Chrome, Safari, Firefox y Microsoft Edge. Es decir, funciona sobre cualquier sistema operativo que soporte estos navegadores. Se tomará como base el funcionamiento de la aplicación sobre una computadora como dispositivo.
 ### 2.5 Restricciones de diseño e implementación
 Red Colmillo únicamente servirá como mensajería instntánea. No se podrán relizar llamadas de voz ni de video a través de la aplicación. 
-*Describe any items or issues that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing requirements, memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; parallel operations; language requirements; communications protocols; security considerations; design conventions or programming standards (for example, if the customer’s organization will be responsible for maintaining the delivered software)*
+
++ *Describe any items or issues that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing requirements, memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; parallel operations; language requirements; communications protocols; security considerations; design conventions or programming standards (for example, if the customer’s organization will be responsible for maintaining the delivered software)*
 ### 2.6 Documentación del usuario
-*List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.*
++  *List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.*
 ### 2.7 Supuestos y dependencias
 El software tiene como dependencias el sistema de autenticación del ITAM y el sistema que administra su base de datos. También se supone que los servidores del ITAM estén activos y tengan capacidad suficiente de respuesta para manejar las solicitudes de los usuarios. Además, se asume que los usuarios tendrán acceso a una computadora con acceso a internet para poder utilizar la aplicación.
 
 ## 3. Requerimientos de la interfaz externa
 ### 3.1 Interfaz de usuario
-*Todas las que se generen del prototipo*
++  *Todas las que se generen del prototipo*
 ### 3.2 Interfaz de hardware
 La aplicacicación web está diseñada principalmente para visualizarse en ordenadores. Sin embrago, puede visualizarse en cualquier dispositivo con acceso a internet.
 ### 3.3 Interfaz de software
@@ -129,6 +135,7 @@ El sistema de mensajería utilizará el protocolo XMPP, que es un protocolo abie
 
 ### 4.1 Iniciar sesión
 #### 4.1.1 Descripción y prioridad
+???
 #### 4.1.2 Secuencias de estímulo / respuesta
 #### 4.1.3 Requerimientos Funcionales
 - REQ-1:
@@ -159,6 +166,7 @@ El sistema de mensajería utilizará el protocolo XMPP, que es un protocolo abie
 
 ### 4.6 Mandar mensajes a grupos
 #### 4.6.1 Descripción y prioridad
+El objetivo primordial del software es precisamente que el alumno pueda comunicarse con sus profesores y compañeros. 
 #### 4.6.2 Secuencias de estímulo / respuesta
 #### 4.6.3 Requerimientos Funcionales
 - REQ-1:
