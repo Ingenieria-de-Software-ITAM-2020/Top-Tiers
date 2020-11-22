@@ -132,63 +132,66 @@ El sistema de mensajería utilizará el protocolo XMPP, que es un protocolo abie
 
 ### 4.1 Iniciar sesión
 #### 4.1.1 Descripción y prioridad
-???
 #### 4.1.2 Secuencias de estímulo / respuesta
 #### 4.1.3 Requerimientos Funcionales
 - REQ-1:
+Andy
 
 ### 4.2 Crear Grupos
 #### 4.2.1 Descripción y prioridad
 #### 4.2.2 Secuencias de estímulo / respuesta
 #### 4.2.3 Requerimientos Funcionales
 - REQ-1:
+Ruben
 
 ### 4.3 Buscar contactos
 #### 4.3.1 Descripción y prioridad
 #### 4.3.2 Secuencias de estímulo / respuesta
 #### 4.3.3 Requerimientos Funcionales
 - REQ-1:
+Manu
 
 ### 4.4 Comunicarse con el ChatBot de servicios escolares
 #### 4.4.1 Descripción y prioridad
 #### 4.4.2 Secuencias de estímulo / respuesta
 #### 4.4.3 Requerimientos Funcionales
 - REQ-1:
-
+Juan
 ### 4.5 Mandar mensajes directos
 #### 4.5.1 Descripción y prioridad
 #### 4.5.2 Secuencias de estímulo / respuesta
 #### 4.5.3 Requerimientos Funcionales
 - REQ-1:
-
+Manu
 ### 4.6 Mandar mensajes a grupos
 #### 4.6.1 Descripción y prioridad
 El objetivo primordial del software es precisamente que el alumno pueda comunicarse con sus profesores y compañeros. 
 #### 4.6.2 Secuencias de estímulo / respuesta
 #### 4.6.3 Requerimientos Funcionales
 - REQ-1:
+Rabs
 
 ### 4.7 Acceder a notificaciones
 #### 4.7.1 Descripción y prioridad
 #### 4.7.2 Secuencias de estímulo / respuesta
 #### 4.7.3 Requerimientos Funcionales
 - REQ-1:
+Andy
 
-### 4.8 Configurar el perfil
-#### 4.8.1 Descripción y prioridad
-#### 4.8.2 Secuencias de estímulo / respuesta
-#### 4.8.3 Requerimientos Funcionales
-- REQ-1:
+
+### 4.8 Subir documentos
+Ruben
 
 ### 4.9 Cerrar sesión
 #### 4.9.1 Descripción y prioridad
 #### 4.9.2 Secuencias de estímulo / respuesta
 #### 4.9.3 Requerimientos Funcionales
 - REQ-1:
+Andy
 
 ## 5. Otros requerimientos no funcionales
 ### 5.1 Requerimientos de rendimiento
-El sistema debe tener un tiempo de respuesta menor a 200ms. Además de esto, se requiere que los servidores y bases de datos del ITAM se encuentren activos para que la aplicación funcione correctamente.
+El sistema debe tener un tiempo de respuesta menor a 200ms. Además de esto, se requiere que los servidores y bases de datos del ITAM se encuentren activos para que la aplicación funcione correctamente durante el semestre.
 
 ### 5.2 Safety Requirements
 Dada la naturaleza personal de la mensajería privada y los riesgos que esta puede provocar, se protegerá la privacidad y seguridad de los usuarios incorporando cifrado de extremo a extremo en nuestra aplicación. Sabiendo que podrían existir usuariso que le den un mal uso a esta herramienta, los usuarios podrán evitar que alguien se comunique con ellos directamente desde un chat utilizando la función de bloqueo. Esto evitará permitir que esta plataforma se utilice con objetivos de bullying o acoso. 
@@ -222,8 +225,11 @@ Es un hecho que las pantallas causan fatiga ocular (ojo seco, visión borrosa, d
 - **Mantenibilidad:** 
 - **Facilidad de testeo:**  
 - **Reusabilidad:**
+MANU
 
 ### 5.5 Reglas de negocio
+<List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.>
+Juan
 
 # Plan de calidad
 ## 1. Identificador del plan de prueba
@@ -268,4 +274,14 @@ Creemos que es conveniente hacer uso de esta metodología debido a que permite e
 
 
 # Documentación para replicar
+Como navegar el prototipo.
+Bajar just in mind
+abrir 
+
+Se abre login debes de ingresaon con usuario usuario@itam.mx
+abrir grupos mineria
+mandar mensaje
+
+Juan
+
 
