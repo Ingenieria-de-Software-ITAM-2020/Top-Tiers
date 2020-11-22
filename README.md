@@ -44,7 +44,7 @@
         5. [Mandar mensajes directos](#45-mandar-mensajes-directos)
         6. [Mandar mensajes a grupos](#46-mandar-mensajes-a-grupos)
         7. [Acceder a notificaciones](#47-acceder-a-notificaciones)
-        8. [Configurar mi perfil](#48-configurar-el-perfil)
+        8. [Subir documentos](#48-subir-documentos)
         9. [Cerrar sesión](#49-cerrar-sesión)
     5. [Otros requerimientos no funcionales](#5-otros-requerimientos-no-funcionales)
         1. [Requerimientos de rendimiento](#51-requerimientos-de-rendimiento)
@@ -103,9 +103,9 @@ Las principales funciones de Red Colmillo son:
 + Ver notificaciones: el alumno debe poder acceder a un log que muestre los mensajes de sus profesores (as) y los archivos recibidos.
 ### 2.3 Clases y características de usuario
 Los usuarios que interactuarán con la aplicación son:
-+ **Estudiantes: ** todo individuo que esté tomando clases en la institución, ya sea licenciatura, maestría, doctorado, diplomado, etc.
-+ **Profesores: ** todos los catedráticos de la institución.
-+ **Personal administrativo: ** todos los miembros administrativos de las divisiones académicas y departamentos de servicios escolares (caja, becas, servicio social, etc.).
++ **Estudiantes:** todo individuo que esté tomando clases en la institución, ya sea licenciatura, maestría, doctorado, diplomado, etc.
++ **Profesores:** todos los catedráticos de la institución.
++ **Personal administrativo:** todos los miembros administrativos de las divisiones académicas y departamentos de servicios escolares (caja, becas, servicio social, etc.).
 + **Administrador del sistema:** persona (s) encargada (s) de mantener la página web y el ChatBot, así como asignar a los alumnos y profesores a los chat grupales de los cursos que les correspondan.
 ### 2.4 Entorno operativo
 El software estará diseñado para ser una aplicación web que opere con garantía en versiones más recientes de navegadores que soporten HTML5 y JavaScript. Se sugieren Google Chrome, Safari, Firefox y Microsoft Edge. Es decir, funciona sobre cualquier sistema operativo que soporte estos navegadores. Se tomará como base el funcionamiento de la aplicación sobre una computadora como dispositivo.
@@ -157,15 +157,16 @@ Manu
 #### 4.4.3 Requerimientos Funcionales
 - REQ-1:
 Juan
+
 ### 4.5 Mandar mensajes directos
 #### 4.5.1 Descripción y prioridad
 #### 4.5.2 Secuencias de estímulo / respuesta
 #### 4.5.3 Requerimientos Funcionales
 - REQ-1:
 Manu
+
 ### 4.6 Mandar mensajes a grupos
 #### 4.6.1 Descripción y prioridad
-El objetivo primordial del software es precisamente que el alumno pueda comunicarse con sus profesores y compañeros. 
 #### 4.6.2 Secuencias de estímulo / respuesta
 #### 4.6.3 Requerimientos Funcionales
 - REQ-1:
@@ -178,9 +179,12 @@ Rabs
 - REQ-1:
 Andy
 
-
 ### 4.8 Subir documentos
-Ruben
+#### 4.8.1 Descripción y prioridad
+#### 4.8.2 Secuencias de estímulo / respuesta
+#### 4.8.3 Requerimientos Funcionales
+- REQ-1:
+Rabs
 
 ### 4.9 Cerrar sesión
 #### 4.9.1 Descripción y prioridad
