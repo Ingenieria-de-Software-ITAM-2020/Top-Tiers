@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="200" src="https://github.com/Ingenieria-de-Software-ITAM-2020/Top-Tiers/blob/main/LogoRedColmillo.png">
+  <img width="460" height="200" src="https://github.com/Ingenieria-de-Software-ITAM-2020/Top-Tiers/blob/main/img/LogoRedColmillo.png">
 </p>
 
 **Ingeniería de Software**
