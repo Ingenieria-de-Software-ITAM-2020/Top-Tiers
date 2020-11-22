@@ -1,14 +1,12 @@
 <p align="center">
-  <img width="260" height="100" src="https://github.com/Ingenieria-de-Software-ITAM-2020/Top-Tiers/blob/main/LogoRedColmillo.png">
-<br>
-<b>
-Ingeniería de Software
-<br>
-Proyecto Final
-<br>
-Equipo: Top Tiers
-</b>
+  <img width="460" height="200" src="https://github.com/Ingenieria-de-Software-ITAM-2020/Top-Tiers/blob/main/LogoRedColmillo.png">
 </p>
+
+**Ingeniería de Software**
+
+**Proyecto Final**
+
+**Equipo: Top Tiers**
 
 **Integrantes:**
 - Manuel Fernández Verda — 166496
