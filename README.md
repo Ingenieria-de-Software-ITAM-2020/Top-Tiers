@@ -101,23 +101,27 @@ Las principales funciones de Red Colmillo:
 + Ver notificaciones: el alumno debe poder acceder a un log que muestre los mensajes de sus profesores (as) y los archivos recibidos.
 ### 2.3 Clases y características de usuario
 Los usuarios que interactuarán con la aplicación son:
-+ Estudiantes: todo individuo que esté tomando clases en la institución, ya sea licenciatura, maestría, doctorado, diplomado, etc.
-+ Profesores: todos los catedráticos de la institución.
-+ Personal administrativo: todos los miembros administrativos de las divisiones académicas y departamentos de servicios escolares (caja, becas, servicio social, etc.).
++ **Estudiantes:** todo individuo que esté tomando clases en la institución, ya sea licenciatura, maestría, doctorado, diplomado, etc.
++ **Profesores:*** todos los catedráticos de la institución.
++ **Personal administrativo:** todos los miembros administrativos de las divisiones académicas y departamentos de servicios escolares (caja, becas, servicio social, etc.).
++ **Administrador del sistema:** persona (s) encargada (s) de mantener la página web y el chatbot, así como asignar a los alumnos y profesores a los chat grupales de los cursos que les correspondan.
 ### 2.4 Entorno operativo
 El software estará diseñado para ser una aplicación web que opere con garantía en versiones más recientes de Google Chrome, Safari y Explorer, por lo que funciona sobre cualquier sistema operativo que soporte estos navegadores. Se tomará como base el funcionamiento de la aplicación sobre una computadora como dispositivo.
 ### 2.5 Restricciones de diseño e implementación
-
+Red Colmillo únicamente servirá como mensajería instntánea. No se podrán relizar llamadas de voz ni de video a través de la aplicación. 
+*Describe any items or issues that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing requirements, memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; parallel operations; language requirements; communications protocols; security considerations; design conventions or programming standards (for example, if the customer’s organization will be responsible for maintaining the delivered software)*
 ### 2.6 Documentación del usuario
-List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.
+*List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.*
 ### 2.7 Supuestos y dependencias
 El software tiene como dependencias el sistema de autenticación del ITAM y el sistema que administra su base de datos. También se supone que los servidores del ITAM estén activos y tengan capacidad suficiente de respuesta para manejar las solicitudes de los usuarios. Además, se asume que los usuarios tendrán acceso a una computadora con acceso a internet para poder utilizar la aplicación.
 
 ## 3. Requerimientos de la interfaz externa
 ### 3.1 Interfaz de usuario
-
+*Todas las que se generen del prototipo*
 ### 3.2 Interfaz de hardware
+La aplicacicación web está diseñada principalmente para visualizarse en ordenadores. Sin embrago, puede visualizarse en cualquier dispositivo con acceso a internet.
 ### 3.3 Interfaz de software
+Este sistema utilizará un microservicio del ITAM para autenticar el inicio de sesión y así proteger al usuario de un ataque a datos sensibles. Los datos generados dentro de la aplicación, serán guardados en una base de datos de los servidores del ITAM.
 ### 3.4 Interfaz de comunicación
 El sistema de mensajería utilizará el protocolo XMPP, que es un protocolo abierto y extensible, también utilizado por otras plataformas de mensajería instantánea como Google Talk, el chat de Facebook y Whatsapp. Además, se comunicará  con la base de datos que se encuentra en un servidor por medio de Internet con ayuda del protocolo HTTP. Los datos enviados y recibidos mediante los protocolos de Internet son encriptados para evitar robo de información.
 
