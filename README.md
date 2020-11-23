@@ -148,8 +148,8 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 
 #### 4.1.3 Requerimientos Funcionales
 - *REQ-1: El ITAM debe generar y otorgar al usuario sus credenciales de inicio de sesión.*
-- *REQ-3: El usuario no debe poder cambiar su nombre de usuario*
-- *REQ-3: El usuario debe poder cambiar su contraseña*
+- *REQ-2: El usuario no debe poder cambiar su nombre de usuario.*
+- *REQ-3: El usuario debe poder cambiar su contraseña.*
 
 ### 4.2 Crear Grupos
 #### 4.2.1 Descripción y prioridad
