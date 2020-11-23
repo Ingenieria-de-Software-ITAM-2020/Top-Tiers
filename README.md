@@ -82,7 +82,7 @@
 ### 1.1 Propósito
 A continuación, se presenta el documento de especificación de requerimientos para la “Red Colmillo”, un sistema de comunicación interna dedicado al Instituto Tecnológico Autónomo de México. El propósito de este software será permitirle a todos los alumnos y profesores inscritos en el ITAM poder comunicarse con sus distintos compañeros, colegas o áreas administrativas del ITAM a lo largo de todo el ciclo escolar. El panorama que seguirá este SRS será dar perspectivas, definiciones y descripciones del software, además de especificar los requerimientos de cada una de las funcionalidades que ofrecerá el software. La versión que se muestra en este documento es "Red Colmillo 1.0".
 ### 1.2 Convenciones del documento
-Para este documento de Especificación de Requerimientos de Software (SRS, por sus siglas en inglés), las prioridades de los requisitos se definieron de la siguiente manera: a los más esenciales, se les asignó la prioridad 1, mientras que a los menos esenciales se les otorgó la 5.
+Para este documento de Especificación de Requerimientos de Software (SRS, por sus siglas en inglés), las prioridades de los requisitos se definen de la siguiente manera: a los más esenciales, se les asignará la prioridad 1, mientras que a los menos esenciales se les otorgará la 5.
 ### 1.3 Audiencia prevista y sugerencia de lectura
 Este documento va dirigido al personal encargado de darle mantenimiento a la página web Red Colmillo, así como al personal administrativo y de cómputo que utilizarán y explicarán su uso a nuevos usuarios. Para el personal técnico o de desarrollo, se recomienda leer todo el documento de manera secuencial. Para nuevos usuarios, se recomienda leer únicamente la sección 1 de Introducción y la sección 2 de Descripción General.
 ### 1.4 Alcance del producto
@@ -114,6 +114,8 @@ Red Colmillo únicamente servirá como mensajería instantánea. No se podrán r
 
 + *Describe any items or issues that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing requirements, memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; parallel operations; language requirements; communications protocols; security considerations; design conventions or programming standards (for example, if the customer’s organization will be responsible for maintaining the delivered software)*
 ### 2.6 Documentación del usuario
+El software incluirá un tutorial interactivo para el usuario la primera vez que inicie sesión. También podrá pedirle a Colmillo que le repita el tutorial interactivo. Además, le llegará un manual de usuario a su correo escolar.
+
 +  *List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.*
 ### 2.7 Supuestos y dependencias
 El software tiene como dependencias el sistema de autenticación del ITAM y el sistema que administra su base de datos. También se supone que los servidores del ITAM estén activos y tengan capacidad suficiente de respuesta para manejar las solicitudes de los usuarios. Además, se asume que los usuarios tendrán acceso a una computadora con acceso a internet para poder utilizar la aplicación.
@@ -132,17 +134,29 @@ El sistema de mensajería utilizará el protocolo XMPP, que es un protocolo abie
 
 ### 4.1 Iniciar sesión
 #### 4.1.1 Descripción y prioridad
+A esta funcionalidad se le otorgó prioridad 1 porque el usuario debe poder iniciar sesión para llevar a cabo las demás funcionalidades.
+Ningún miembro de la comunidad ITAM podrá crear su propia cuenta; esta será otorgada por la institución. Es por eso que, para el inicio de sesión, se usará el servicio de autenticación del ITAM.
 #### 4.1.2 Secuencias de estímulo / respuesta
+Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
+
+1. El usuario está inscrito o empleado en el ITAM durante el semestre próximo.
+2. El usuario cuenta con su nombre de usuario otorgado por la institución y con su contraseña.
+3. El usuario ingresa a la página web de Red Colmillo.
+4. El sistema redirige al usuario a la página de autenticación de las credenciales de inicio de sesión del ITAM.
+5. El usuario ingresa su nombre de usuario y contraseña.
+6. En caso de que el usuario haya ingresado las credenciales correctas, se redirige al alumno a la página principal de Red Colmillo.
+7. En caso de que el usuario haya ingresado las credenciales incorrectas, se le hace saber al alumno que su nombre de usuario y/o contraseña no concuerdan, y se repite desde el punto 3.
+
 #### 4.1.3 Requerimientos Funcionales
-- REQ-1:
-Andy
+- *REQ-1: El ITAM debe generar y otorgar al usuario sus credenciales de inicio de sesión.*
+- *REQ-2:*
 
 ### 4.2 Crear Grupos
 #### 4.2.1 Descripción y prioridad
 #### 4.2.2 Secuencias de estímulo / respuesta
 #### 4.2.3 Requerimientos Funcionales
 - REQ-1:
-Ruben
+Rabs
 
 ### 4.3 Buscar contactos
 #### 4.3.1 Descripción y prioridad
@@ -232,8 +246,9 @@ Es un hecho que las pantallas causan fatiga ocular (ojo seco, visión borrosa, d
 MANU
 
 ### 5.5 Reglas de negocio
-<List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.>
 Juan
+
++ List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.
 
 # Plan de calidad
 ## 1. Identificador del plan de prueba
@@ -272,20 +287,17 @@ La metodología que elegimos para el desarrollo de la Red Colmillo es la basada 
 
 Elegimos esta metodología debido a que el proyecto de desarrollo de la Red Colmillo se puede discretizar fácilmente alrededor de proyectos de características independientes como lo son mandar un mensaje personal, mandar un mensaje a un grupo, iniciar sesión, conversar con el ChatBot de Colmillo, entre otros. Estas funcionalidades nos permiten construir el desarrollo de nuestra aplicación alrededor de ellas tomando ciclos de desarrollo para cada funcionalidad. El valor del desarrollo basado en funcionalidades es que te permite enfocarte en las funciones que son altamente valoradas por el usuario y desarrollar un producto de calidad basado en la experiencia de usuario.
 
-Los pasos de desarrollo con esta metodología se hacen de la siguiente forma. Primero se desarrolla un modelo global de la aplicación lo cual hicimos planteando cual era el objetivo de la aplicación y como iba a funcionar de manera general de tal forma que cumpla con los objetivos que se plantearon que eran necesarios resolver con el uso de esta aplicación. Más adelante se genera una lista de características y funcionalidades que debe cubrir la aplicación describiendo todos los requerimientos de cada funcionalidad; esto se realizó utilizando un Documento de Requerimientos. Hecho lo anterior se planifica el desarrollo de la aplicación por funcionalidad lo cual requirió que definiéramos la manera y el orden en la cual llevaríamos acabo el desarrollo de funcionalidades.  Más adelante se diseñan modelos específicos de las características de cada funcionalidad, lo cual hicimos en el desarrollo del prototipo donde cada ciclo de trabajo se desarrolló completamente una funcionalidad específica de la aplicación y una vez finalizada procedimos a la siguiente. Hecho lo anterior, finalmente se puede construir y desarrollar la funcionalidad final que se incorporará al producto final, lo cual no desarrollamos esta vez debido a que el alcance del producto se quedará en un prototipo de alto nivel.
+Los pasos de desarrollo con esta metodología se hacen de la siguiente forma. Primero, se desarrolla un modelo global de la aplicación lo cual hicimos planteando cual era el objetivo de la aplicación y como iba a funcionar de manera general de tal forma que cumpla con los objetivos que se plantearon que eran necesarios resolver con el uso de esta aplicación. Más adelante, se genera una lista de características y funcionalidades que debe cubrir la aplicación describiendo todos los requerimientos de cada funcionalidad; esto se realizó utilizando un Documento de Requerimientos. Hecho lo anterior, se planifica el desarrollo de la aplicación por funcionalidad lo cual requirió que definiéramos la manera y el orden en la cual llevaríamos acabo el desarrollo de funcionalidades. Más adelante, se diseñan modelos específicos de las características de cada funcionalidad, lo cual hicimos en el desarrollo del prototipo donde cada ciclo de trabajo se desarrolló completamente una funcionalidad específica de la aplicación y una vez finalizada procedimos a la siguiente. Hecho lo anterior, finalmente, se puede construir y desarrollar la funcionalidad final que se incorporará al producto final, lo cual no desarrollamos esta vez debido a que el alcance del producto se quedará en un prototipo de alto nivel.
 
 Creemos que es conveniente hacer uso de esta metodología debido a que permite el desarrollo rápido de productos por medio del desarrollo continuo y eficiente de código enfocado al desarrollo total e integral de funcionalidades de un sistema. Este tipo de metodología le permite a los equipos moverse rápidamente por el desarrollo del producto lo cual resulta ser conveniente para un equipo de desarrolladores como nosotros que suponemos tendremos tiempo limitado al ser estudiantes y al mismo tiempo querer desarrollar una aplicación de comunicación para el ITAM la cual debe de entregarse y desplegarse lo antes posible suponiendo que el ITAM quisiera tener lista la aplicación para el próximo semestre.
 
 
 # Documentación para replicar
-Como navegar el prototipo.
-Bajar just in mind
-abrir 
+Juan 
 
-Se abre login debes de ingresaon con usuario usuario@itam.mx
-abrir grupos mineria
-mandar mensaje
-
-Juan
-
-
+- Como navegar el prototipo.
+1. Bajar just in mind
+2. abrir 
+3. Se abre login debes de ingresaon con usuario usuario@itam.mx
+4. abrir grupos mineria
+5. mandar mensaje
