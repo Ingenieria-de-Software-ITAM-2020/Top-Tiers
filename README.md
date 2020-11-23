@@ -138,7 +138,6 @@ A esta funcionalidad se le otorgó prioridad 1 porque el usuario debe poder inic
 Ningún miembro de la comunidad ITAM podrá crear su propia cuenta; esta será otorgada por la institución. Es por eso que, para el inicio de sesión, se usará el servicio de autenticación del ITAM.
 #### 4.1.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
-
 1. El usuario está inscrito o empleado en el ITAM durante el semestre próximo.
 2. El usuario cuenta con su nombre de usuario otorgado por la institución y con su contraseña.
 3. El usuario ingresa a la página web de Red Colmillo.
@@ -149,7 +148,8 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 
 #### 4.1.3 Requerimientos Funcionales
 - *REQ-1: El ITAM debe generar y otorgar al usuario sus credenciales de inicio de sesión.*
-- *REQ-2:*
+- *REQ-3: El usuario no debe poder cambiar su nombre de usuario*
+- *REQ-3: El usuario debe poder cambiar su contraseña*
 
 ### 4.2 Crear Grupos
 #### 4.2.1 Descripción y prioridad
