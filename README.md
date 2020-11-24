@@ -194,15 +194,27 @@ Juan
 
 ### 4.5 Mandar mensajes directos
 #### 4.5.1 Descripción y prioridad
-Uno de los objetivos primordiales del software es precisamente que el usuario pueda tener una conversación, de forma segura y accesible, con cualquier miembro con quien así lo desee del ITAM. Es por ello que a esta funcionalidad se le determina una prioridad muy alta (1). El alumno entonces podrá acceder a una interfaz donde pueda mantener conversaciones de mensajería directa con los contactos deseados.
+Uno de los objetivos primordiales del software es precisamente que el usuario pueda tener una conversación, de forma segura y accesible, con cualquier miembro con quien así lo desee del ITAM. Es por ello que a esta funcionalidad se le determina una prioridad muy alta (1). El alumno entonces podrá acceder a una interfaz donde pueda mantener conversaciones de mensajería directa con los contactos deseados. Esta interfaz debe mostrar al centro de la imagen el área de mensajería.
 #### 4.5.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
 1. El usuario desea comunicarse con otro miembro del ITAM de una forma rápida y segura.
 2. El usuario iniciar sesión en la Red Colmillo
-3. 
+3. El usuario hace uso de la funcionalidad de búsqueda para elegir el contacto con el que quiere comunicarse.
+4. El usuario envía un mensaje directo a dicho contacto.
 #### 4.5.3 Requerimientos Funcionales
-- *REQ-1: *
-Manu
+- *REQ-1: Un alumno puede enviar un mensaje directo a cualquier alumno o profesor del ITAM. Con excepción de los usuarios que lo hayan bloqueado. *
+- *REQ-2: Un usuario de tipo alumno podrá bloquear a otro usuario de tipo alumno y este segundo no podrá contactar al primero a través de mensajes personales.*
+- *REQ-3: Un profesor puede enviar un mensaje directo a cualquier alumno o profesor del ITAM.*
+- *REQ-4: Un alumno o profesor pueden enviar mensajes directos a cualquier área administrativa dada de alta en la Red Colmillo, como lo pueden ser el área de Caja, Becas, Servicios Escolares, entre otros. Aunque esta funcionalidad generalmente será abarcada por el chatbot de Colmillo.*
+- *REQ-5: Al mandar un mensaje, este se visualizará en el área del chat hasta que el chat sea eliminado.*
+- *REQ-6: Un usuario deberá poder visualizar todas las conversaciones recientes que no haya eliminado y su contenido.*
+- *REQ-7: Todo usuario podrá mandar archivos (PDFs, archivos de la familia Windows) y fotografías (.jpg, .png, .tiff, .jepg, .gif) a través de la mensajería directa.*
+- *REQ-8: Los usuarios podrán enviar emoticones por medio del chat.*
+- *REQ-9: Todo mensaje deberá ser encriptado de "end to end" lo que implica que nunca se procesará ni se enviarán mensajes en claro.*
+- *REQ-10: Ninguna funcionalidad de la Red Comillo podrá analizar o almacenar las conversaciones, para mantener así la privacidad de los usuarios.*
+- *REQ-11: En el área de chat, cada vez que un usuario recibe un mensaje, se debe mostrar el nombre del usuario que lo envía y cada vez que contesta un mensaje debe aparecer igualmente su nombre.*
+- *REQ-12: Junto a los mensajes aparecerá una imagen con la fotografía de perfil del usuario que lo envía. De no tener fotografía, aparecerá una silueta de una persona.*
+
 
 ### 4.6 Mandar mensajes a grupos
 #### 4.6.1 Descripción y prioridad
