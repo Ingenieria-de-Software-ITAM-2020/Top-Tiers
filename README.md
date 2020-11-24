@@ -52,6 +52,7 @@
         3. [Security Requirements](#53-security-requirements)
         4. [Atributos de calidad de software](#54-atributos-de-calidad-de-software)
         5. [Reglas de negocio](#55-reglas-de-negocio)
+        
 2. **[Plan de calidad](#plan-de-calidad)**
     1. [Identificador del plan de prueba](#1-identificador-del-plan-de-prueba)
     2. [Referencias](#2-referencias)
@@ -72,8 +73,11 @@
     17. [Planificación de riesgos y contingencias](#17-planificación-de-riesgos-y-contingencias)
     18. [Aprobaciones](#18-aprobaciones)
     19. [Glosario](#19-glosario)
+    
 3. **[Arquitectura](#arquitectura)**
+
 4. **[Metodología](#metodología)**
+
 5. **[Documentación para replicar](#documentación-para-replicar)**
 ----
 
@@ -136,7 +140,6 @@ El sistema de mensajería utilizará el protocolo XMPP, que es un protocolo abie
 #### 4.1.1 Descripción y prioridad
 A esta funcionalidad se le otorgó prioridad muy alta (1) porque el usuario debe poder iniciar sesión para llevar a cabo las demás funcionalidades.
 Ningún miembro de la comunidad ITAM podrá crear su propia cuenta; esta será otorgada por la institución. Es por eso que, para el inicio de sesión, se usará el servicio de autenticación del ITAM.
-
 #### 4.1.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
 1. El usuario está inscrito o empleado en el ITAM durante el semestre próximo.
@@ -146,7 +149,6 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 5. El usuario ingresa su nombre de usuario y contraseña.
 6. En caso de que el usuario haya ingresado las credenciales correctas, se redirige al alumno a la página principal de Red Colmillo.
 7. En caso de que el usuario haya ingresado las credenciales incorrectas, se le hace saber al alumno que su nombre de usuario y/o contraseña no concuerdan, y se repite desde el punto 3.
-
 #### 4.1.3 Requerimientos Funcionales
 - *REQ-1: El ITAM debe generar y otorgar al usuario sus credenciales de inicio de sesión.*
 - *REQ-2: El usuario no debe poder cambiar su nombre de usuario.*
@@ -156,11 +158,9 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 
 ### 4.2 Crear Grupos
 #### 4.2.1 Descripción y prioridad
-
 #### 4.2.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
 1. 
-
 #### 4.2.3 Requerimientos Funcionales
 - REQ-1:
 Rabs
@@ -168,14 +168,12 @@ Rabs
 ### 4.3 Buscar contactos
 #### 4.3.1 Descripción y prioridad
 Para poder iniciar una conversación a través de un mensaje directo, un usuario debe buscar primero en contacto del miembro del ITAM con el que se quiere comunicar. Esto lo puede realizar a través de la sección de búsqueda que se proporcionará en la aplicación. Se considera que esta es una funcionalidad de prioridad alta (2) porque brinda a los alumnos la información necesaria para poder utilizar la aplicación de mensajería directa. Sin embargo, se le ha asignado prioridad 2 debido a que no es la principal función del sistema. El alumno podrá acceder en la parte superior de la interfaz a esta funcionalidad.
-
 #### 4.3.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
 1. El usuario ingresa a la Red Colmillo para mandar un mensaje.
 2. El usuario conoce el nombre de la persona o destinatario al cual le desea mandar el mensaje.
 3. El usuario busca al usuario o destinatario en la sección de búsqueda.
 4. El usuario inicia su conversación.
-
 #### 4.3.3 Requerimientos Funcionales
 - *REQ-1: La sección de búsqueda deberá estar siempre presente en la interfaz gráfica para que el usuario pueda acceder a ella en cualquier momento.*
 - *REQ-2: La funcionalidad de búsqueda deberá apoyarse de los servicios proporcionados por el ITAM para poder acceder a su base de datos de contactos.*
@@ -190,7 +188,6 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 #### 4.4.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
 1. 
-
 #### 4.4.3 Requerimientos Funcionales
 - *REQ-1: *
 Juan
@@ -198,11 +195,11 @@ Juan
 ### 4.5 Mandar mensajes directos
 #### 4.5.1 Descripción y prioridad
 Uno de los objetivos primordiales del software es precisamente que el usuario pueda tener una conversación, de forma segura y accesible, con cualquier miembro con quien así lo desee del ITAM. Es por ello que a esta funcionalidad se le determina una prioridad muy alta (1). El alumno entonces podrá acceder a una interfaz donde pueda mantener conversaciones de mensajería directa con los contactos deseados.
-
 #### 4.5.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
-1. 
-
+1. El usuario desea comunicarse con otro miembro del ITAM de una forma rápida y segura.
+2. El usuario iniciar sesión en la Red Colmillo
+3. 
 #### 4.5.3 Requerimientos Funcionales
 - *REQ-1: *
 Manu
@@ -212,7 +209,6 @@ Manu
 #### 4.6.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
 1. 
-
 #### 4.6.3 Requerimientos Funcionales
 - *REQ-1: *
 Rabs
@@ -222,7 +218,6 @@ Rabs
 #### 4.7.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
 1. 
-
 #### 4.7.3 Requerimientos Funcionales
 - *REQ-1: *
 Andy
@@ -232,7 +227,6 @@ Andy
 #### 4.8.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
 1. 
-
 #### 4.8.3 Requerimientos Funcionales
 - *REQ-1: *
 Rabs
@@ -242,7 +236,6 @@ Rabs
 #### 4.9.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
 1. 
-
 #### 4.9.3 Requerimientos Funcionales
 - *REQ-1: *
 Andy
@@ -250,7 +243,6 @@ Andy
 ## 5. Otros requerimientos no funcionales
 ### 5.1 Requerimientos de rendimiento
 El sistema debe tener un tiempo de respuesta menor a 200ms. Además de esto, se requiere que los servidores y bases de datos del ITAM se encuentren activos para que la aplicación funcione correctamente durante el semestre.
-
 ### 5.2 Safety Requirements
 Dada la naturaleza personal de la mensajería privada y los riesgos que esta puede provocar, se protegerá la privacidad y seguridad de los usuarios incorporando cifrado de extremo a extremo en nuestra aplicación. Sabiendo que podrían existir usuariso que le den un mal uso a esta herramienta, los usuarios podrán evitar que alguien se comunique con ellos directamente desde un chat utilizando la función de bloqueo. Esto evitará permitir que esta plataforma se utilice con objetivos de bullying o acoso. 
 
@@ -258,23 +250,14 @@ Es un hecho que las pantallas causan fatiga ocular (ojo seco, visión borrosa, d
 
 ### 5.3 Security Requirements
 * El software protegerá la confidencialidad de los usuarios resguardando los datos sensibles como nombres de usuarios y grupos a los que están inscritos los distintos alumnos. Las conversaciones privadas se mantendrán de esta forma y su contenido solo podrá visualizarse por los miembros de la conversación. Toda conversación será protegida y encriptada al momento de ser enviada, procesada o almacenada la Red Colmillo para mantener la privacidad de los usuarios y sus conversaciones.
-
 * Todos los usuarios que inicien sesión serán automáticamente verificados utilizando un microservicio provisto por el Instituto Tecnológico Autónomo de México. La Red Colmillo proveerá al sistema del ITAM el usuario y contraseña del individuo que esté solicitando tener acceso a la página de tal forma que la contraseña se provea ya hasheada para evitar un filtro de esta información sensible durante el proceso de comunicación con los servidores del ITAM.
-
 * Se protegerá la integridad de los datos para que no haya modificaciones erróneas en las especificaciones de los alumnos y sus características, en el contenido de las conversaciones y en los archivos que se hayan subido al sistema.
-
 * Se harán backups cada minuto de la información del sistema, las conversaciones y los grupos existentes.
-
 * Ante una caída del sistema, existirá un tiempo máximo de tolerancia y espera de 30 minutos. Durante las dos semanas del curso y las últimas 3 semanas del curso (que incluyen los exámenes finales) el tiempo de máxima tolerancia y espera ante una caida debe reducirse a 15 minutos.
-
 * Service Level Agreements = 90%
-
 * El software utilizará autenticación dos pasos cada vez que un usuario ingrese al sistema de un dispositivo no marcado previamente como confiable. Este proceso le requerirá al alumno confirmar el inicio de sesión a través de un correo institucionales que se le mandará.
-
 * Los permisos administrativos que permitan alterar la información de los cursos y sus grupos no deberán asignarse a los alumnos y/o profesores, solo al administrador del sistema. Los profesores y alumnos podrán modificar la información de los grupos que ellos creen de manera independiente.
-
 * Cada acción que se lleve a cabo en la Red Colmillo deberá de guardarse en el log del sistema. Las acciones correspondientes a mandar mensaje únicamente deberán de indicar las personas que están entablando una conversación, más nos se guardará el contenido de esta.
-
 * Cada que se altere la información de un curso, deberá de notificarse al profesor de este. El sistema deberá verificar diariamente que los miembros pertenecientes a cada grupo sigan inscritos al mismo, de lo contrario deberá eliminar al alumno. Si por alguna razón un profesor abandona la institución durante el semestre, deberá protegerse el grupo. El profesor será eliminado y los permisos que tenía pasarán al administrador del sistema.
 
 ### 5.4 Atributos de calidad de software
