@@ -136,6 +136,7 @@ El sistema de mensajería utilizará el protocolo XMPP, que es un protocolo abie
 #### 4.1.1 Descripción y prioridad
 A esta funcionalidad se le otorgó prioridad muy alta (1) porque el usuario debe poder iniciar sesión para llevar a cabo las demás funcionalidades.
 Ningún miembro de la comunidad ITAM podrá crear su propia cuenta; esta será otorgada por la institución. Es por eso que, para el inicio de sesión, se usará el servicio de autenticación del ITAM.
+
 #### 4.1.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
 1. El usuario está inscrito o empleado en el ITAM durante el semestre próximo.
@@ -150,10 +151,16 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 - *REQ-1: El ITAM debe generar y otorgar al usuario sus credenciales de inicio de sesión.*
 - *REQ-2: El usuario no debe poder cambiar su nombre de usuario.*
 - *REQ-3: El usuario debe poder cambiar su contraseña.*
+- *REQ-3: Únicamente los miembros inscritos al ITAM pueden hacer uso de esta herramienta, por lo tanto solo ellos están autorizados a hacer login.*
+
 
 ### 4.2 Crear Grupos
 #### 4.2.1 Descripción y prioridad
+
 #### 4.2.2 Secuencias de estímulo / respuesta
+Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
+1. 
+
 #### 4.2.3 Requerimientos Funcionales
 - REQ-1:
 Rabs
@@ -167,57 +174,77 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 1. El usuario ingresa a la Red Colmillo para mandar un mensaje.
 2. El usuario conoce el nombre de la persona o destinatario al cual le desea mandar el mensaje.
 3. El usuario busca al usuario o destinatario en la sección de búsqueda.
-4. El alumno inicia su conversación.
+4. El usuario inicia su conversación.
 
 #### 4.3.3 Requerimientos Funcionales
-- REQ-1: La sección de búsqueda deberá estar siempre presente en la interfaz gráfica para que el usuario pueda acceder a ella en cualquier momento.
-- REQ-2: La funcionalidad de búsqueda deberá apoyarse de los servicios proporcionados por el ITAM para poder acceder a su base de datos de contactos.
-- REQ-3: Cuando el usuario haga clic sobre la sección de búsqueda, deberá desplegarse una lista con los 5 contactos recomendados que se basará en un historial de las personas con las que el usuario más conversa.
-- REQ-4: Cada que se ingresa una letra en la sección de búsqueda, la funcionalidad deberá desplegar una lista de los contactos sugeridos, según las letras que se hayan ingresado, por lo que deberá estar revisando constantemente la base de datos y comparando los valores para mostrar los más cercanos a la búsqueda.
-- REQ-5: Al seleccionar un contacto de la sección de búsqueda, esta sección deberá de cerrarse y se deberá de abrir una conversación directa con el usuario seleccionado.
-- REQ-6: En la sección de búsqueda aparecerá cualquier miembro de la institución ya sea alumno, profesor o administrativo. Además, se podrán buscar los grupos en los que el usuario se encuentra inscritos, aunque este no será el área principal para buscar grupos. Si se selecciona un grupo se abrirá la conversación general del mismo.
-- REQ-7: Por cuestiones de seguridad, un usuario podrá bloquear a cualquier usuario únicamente de tipo "alumno". Los profesores y administrativos no podrán ser bloqueados. Hecho lo anterior, si el usuario al cual bloquearon trata de buscar al contacto que lo bloqueo, este no le aparecerá en la sección de búsqueda, por lo que no podrá mandarle mensajes.
+- *REQ-1: La sección de búsqueda deberá estar siempre presente en la interfaz gráfica para que el usuario pueda acceder a ella en cualquier momento.*
+- *REQ-2: La funcionalidad de búsqueda deberá apoyarse de los servicios proporcionados por el ITAM para poder acceder a su base de datos de contactos.*
+- *REQ-3: Cuando el usuario haga clic sobre la sección de búsqueda, deberá desplegarse una lista con los 5 contactos recomendados que se basará en un historial de las personas con las que el usuario más conversa.*
+- *REQ-4: Cada que se ingresa una letra en la sección de búsqueda, la funcionalidad deberá desplegar una lista de los contactos sugeridos, según las letras que se hayan ingresado, por lo que deberá estar revisando constantemente la base de datos y comparando los valores para mostrar los más cercanos a la búsqueda.*
+- *REQ-5: Al seleccionar un contacto de la sección de búsqueda, esta sección deberá de cerrarse y se deberá de abrir una conversación directa con el usuario seleccionado.
+- *REQ-6: En la sección de búsqueda aparecerá cualquier miembro de la institución ya sea alumno, profesor o administrativo. Además, se podrán buscar los grupos en los que el usuario se encuentra inscritos, aunque este no será el área principal para buscar grupos. Si se selecciona un grupo se abrirá la conversación general del mismo.*
+- *REQ-7: Por cuestiones de seguridad, un usuario podrá bloquear a cualquier usuario únicamente de tipo "alumno". Los profesores y administrativos no podrán ser bloqueados. Hecho lo anterior, si el usuario al cual bloquearon trata de buscar al contacto que lo bloqueo, este no le aparecerá en la sección de búsqueda, por lo que no podrá mandarle mensajes.*
 
 ### 4.4 Comunicarse con el ChatBot de servicios escolares
 #### 4.4.1 Descripción y prioridad
 #### 4.4.2 Secuencias de estímulo / respuesta
+Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
+1. 
+
 #### 4.4.3 Requerimientos Funcionales
-- REQ-1:
+- *REQ-1: *
 Juan
 
 ### 4.5 Mandar mensajes directos
 #### 4.5.1 Descripción y prioridad
+Uno de los objetivos primordiales del software es precisamente que el usuario pueda tener una conversación, de forma segura y accesible, con cualquier miembro con quien así lo desee del ITAM. Es por ello que a esta funcionalidad se le determina una prioridad muy alta (1). El alumno entonces podrá acceder a una interfaz donde pueda mantener conversaciones de mensajería directa con los contactos deseados.
+
 #### 4.5.2 Secuencias de estímulo / respuesta
+Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
+1. 
+
 #### 4.5.3 Requerimientos Funcionales
-- REQ-1:
+- *REQ-1: *
 Manu
 
 ### 4.6 Mandar mensajes a grupos
 #### 4.6.1 Descripción y prioridad
 #### 4.6.2 Secuencias de estímulo / respuesta
+Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
+1. 
+
 #### 4.6.3 Requerimientos Funcionales
-- REQ-1:
+- *REQ-1: *
 Rabs
 
 ### 4.7 Acceder a notificaciones
 #### 4.7.1 Descripción y prioridad
 #### 4.7.2 Secuencias de estímulo / respuesta
+Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
+1. 
+
 #### 4.7.3 Requerimientos Funcionales
-- REQ-1:
+- *REQ-1: *
 Andy
 
 ### 4.8 Subir documentos
 #### 4.8.1 Descripción y prioridad
 #### 4.8.2 Secuencias de estímulo / respuesta
+Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
+1. 
+
 #### 4.8.3 Requerimientos Funcionales
-- REQ-1:
+- *REQ-1: *
 Rabs
 
 ### 4.9 Cerrar sesión
 #### 4.9.1 Descripción y prioridad
 #### 4.9.2 Secuencias de estímulo / respuesta
+Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
+1. 
+
 #### 4.9.3 Requerimientos Funcionales
-- REQ-1:
+- *REQ-1: *
 Andy
 
 ## 5. Otros requerimientos no funcionales
