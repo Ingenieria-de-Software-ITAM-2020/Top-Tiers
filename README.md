@@ -179,7 +179,7 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 - *REQ-2: La funcionalidad de búsqueda deberá apoyarse de los servicios proporcionados por el ITAM para poder acceder a su base de datos de contactos.*
 - *REQ-3: Cuando el usuario haga clic sobre la sección de búsqueda, deberá desplegarse una lista con los 5 contactos recomendados que se basará en un historial de las personas con las que el usuario más conversa.*
 - *REQ-4: Cada que se ingresa una letra en la sección de búsqueda, la funcionalidad deberá desplegar una lista de los contactos sugeridos, según las letras que se hayan ingresado, por lo que deberá estar revisando constantemente la base de datos y comparando los valores para mostrar los más cercanos a la búsqueda.*
-- *REQ-5: Al seleccionar un contacto de la sección de búsqueda, esta sección deberá de cerrarse y se deberá de abrir una conversación directa con el usuario seleccionado.
+- *REQ-5: Al seleccionar un contacto de la sección de búsqueda, esta sección deberá de cerrarse y se deberá de abrir una conversación directa con el usuario seleccionado.*
 - *REQ-6: En la sección de búsqueda aparecerá cualquier miembro de la institución ya sea alumno, profesor o administrativo. Además, se podrán buscar los grupos en los que el usuario se encuentra inscritos, aunque este no será el área principal para buscar grupos. Si se selecciona un grupo se abrirá la conversación general del mismo.*
 - *REQ-7: Por cuestiones de seguridad, un usuario podrá bloquear a cualquier usuario únicamente de tipo "alumno". Los profesores y administrativos no podrán ser bloqueados. Hecho lo anterior, si el usuario al cual bloquearon trata de buscar al contacto que lo bloqueo, este no le aparecerá en la sección de búsqueda, por lo que no podrá mandarle mensajes.*
 
@@ -202,7 +202,7 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 3. El usuario hace uso de la funcionalidad de búsqueda para elegir el contacto con el que quiere comunicarse.
 4. El usuario envía un mensaje directo a dicho contacto.
 #### 4.5.3 Requerimientos Funcionales
-- *REQ-1: Un alumno puede enviar un mensaje directo a cualquier alumno o profesor del ITAM. Con excepción de los usuarios que lo hayan bloqueado. *
+- *REQ-1: Un alumno puede enviar un mensaje directo a cualquier alumno o profesor del ITAM. Con excepción de los usuarios que lo hayan bloqueado.*
 - *REQ-2: Un usuario de tipo alumno podrá bloquear a otro usuario de tipo alumno y este segundo no podrá contactar al primero a través de mensajes personales.*
 - *REQ-3: Un profesor puede enviar un mensaje directo a cualquier alumno o profesor del ITAM.*
 - *REQ-4: Un alumno o profesor pueden enviar mensajes directos a cualquier área administrativa dada de alta en la Red Colmillo, como lo pueden ser el área de Caja, Becas, Servicios Escolares, entre otros. Aunque esta funcionalidad generalmente será abarcada por el chatbot de Colmillo.*
@@ -226,10 +226,12 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 Rabs
 
 ### 4.7 Acceder a notificaciones
+
 #### 4.7.1 Descripción y prioridad
 #### 4.7.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
-1. 
+1. El usuario inicia sesión.
+2. 
 #### 4.7.3 Requerimientos Funcionales
 - *REQ-1: *
 Andy
