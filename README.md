@@ -12,7 +12,7 @@
 - Manuel Fernández Verda — 166496
 - Andrea Carolina Padilla Rodriguez — 166605
 - Ruben Romero Ortega — 174178
-- Juan Carlos Sigler Pliego — 174215
+- Juan Carlos Sigler Priego — 174215
 
 ---- 
 # Tabla de contenido
@@ -151,10 +151,9 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 7. En caso de que el usuario haya ingresado las credenciales incorrectas, se le hace saber al alumno que su nombre de usuario y/o contraseña no concuerdan, y se repite desde el punto 3.
 #### 4.1.3 Requerimientos Funcionales
 - *REQ-1: El ITAM debe generar y otorgar al usuario sus credenciales de inicio de sesión.*
-- *REQ-2: El usuario no debe poder cambiar su nombre de usuario.*
-- *REQ-3: El usuario debe poder cambiar su contraseña.*
-- *REQ-3: Únicamente los miembros inscritos al ITAM pueden hacer uso de esta herramienta, por lo tanto solo ellos están autorizados a hacer login.*
-
+- *REQ-2: Únicamente los miembros inscritos al ITAM pueden hacer uso de esta herramienta, por lo tanto solo ellos están autorizados a hacer login.*
+- *REQ-3: El usuario no debe poder cambiar su nombre de usuario.*
+- *REQ-4: El usuario debe poder cambiar su contraseña.*
 
 ### 4.2 Crear Grupos
 #### 4.2.1 Descripción y prioridad
@@ -162,7 +161,7 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
 1. 
 #### 4.2.3 Requerimientos Funcionales
-- REQ-1:
+- *REQ-1:*
 Rabs
 
 ### 4.3 Buscar contactos
@@ -189,7 +188,7 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
 1. 
 #### 4.4.3 Requerimientos Funcionales
-- *REQ-1: *
+- *REQ-1:*
 Juan
 
 ### 4.5 Mandar mensajes directos
@@ -198,7 +197,7 @@ Uno de los objetivos primordiales del software es precisamente que el usuario pu
 #### 4.5.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
 1. El usuario desea comunicarse con otro miembro del ITAM de una forma rápida y segura.
-2. El usuario iniciar sesión en la Red Colmillo
+2. El usuario iniciar sesión en la Red Colmillo.
 3. El usuario hace uso de la funcionalidad de búsqueda para elegir el contacto con el que quiere comunicarse.
 4. El usuario envía un mensaje directo a dicho contacto.
 #### 4.5.3 Requerimientos Funcionales
@@ -215,26 +214,30 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 - *REQ-11: En el área de chat, cada vez que un usuario recibe un mensaje, se debe mostrar el nombre del usuario que lo envía y cada vez que contesta un mensaje debe aparecer igualmente su nombre.*
 - *REQ-12: Junto a los mensajes aparecerá una imagen con la fotografía de perfil del usuario que lo envía. De no tener fotografía, aparecerá una silueta de una persona.*
 
-
 ### 4.6 Mandar mensajes a grupos
 #### 4.6.1 Descripción y prioridad
 #### 4.6.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
 1. 
 #### 4.6.3 Requerimientos Funcionales
-- *REQ-1: *
+- *REQ-1:*
 Rabs
 
 ### 4.7 Acceder a notificaciones
-
 #### 4.7.1 Descripción y prioridad
+Al iniciar sesión, el alumno debe poder visualizar de manera rápida y sencilla los mensajes más importantes recibidos durante su ausencia. A esta funcionalidad se le otorgó prioridad alta (2): aunque le facilitará al usuario el seguimiento de sus conversaciones y le permitirá visualizar más facilmente los anuncios de sus profesores, no es indispensable para el funcionamiento del sistema. En un panel del lado derecho, se mostrarán únicamente los mensajes de sus profesores y los archivos que se hayan mandado en sus grupos.
 #### 4.7.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
-1. El usuario inicia sesión.
-2. 
+1. El usuario desea acceder a los anuncios de sus profesores.
+2. El usuario inicia sesión con sus credenciales otorgadas por la institución.
+3. Una vez dentro de la Red Colmillo, el usuario visualiza los mensajes de sus profesores en el panel a la derecha. De no tener mensajes pendientes, el área de notificaciones se mostrará vacía.
 #### 4.7.3 Requerimientos Funcionales
-- *REQ-1: *
-Andy
+- *REQ-1: Las notificaciones deben ser mostradas en orden cronológico.*
+- *REQ-2: En el área de notificaciones, únicamente se mostrarán mensajes que el alumno no haya visualizado previamente.*
+- *REQ-3: En el área de notificaciones, únicamente se mostrarán los últimos 5 mensajes recibidos dpor cada profesor (a).*
+- *REQ-4: El alumno será notificado únicamente sobre mensajes de sus profesores, no sobre respuestas de sus compañeros.*
+- *REQ-5: Cada notificación mostrará el nombre del profesor, la hora a la que fue recibido el mensaje y el contenido del mismo.*
+- *REQ-6: El alumno podrá acceder al mensaje en el grupo al darle click a la notificación.*
 
 ### 4.8 Subir documentos
 #### 4.8.1 Descripción y prioridad
@@ -242,7 +245,7 @@ Andy
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
 1. 
 #### 4.8.3 Requerimientos Funcionales
-- *REQ-1: *
+- *REQ-1:*
 Rabs
 
 ### 4.9 Cerrar sesión
@@ -251,7 +254,7 @@ Rabs
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
 1. 
 #### 4.9.3 Requerimientos Funcionales
-- *REQ-1: *
+- *REQ-1:*
 Andy
 
 ## 5. Otros requerimientos no funcionales
