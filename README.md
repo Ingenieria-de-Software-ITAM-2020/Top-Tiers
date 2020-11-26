@@ -195,13 +195,25 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 
 ### 4.4 Comunicarse con el ChatBot de servicios escolares
 #### 4.4.1 Descripción y prioridad
+Con el objetivo de acercar a los usuarios a la comunidad del ITAM se diseñó Colmillo, el chatbot propio del ITAM. El usuario entonces podrá interactuar con Colmillo para consultar las fechas y avisos importantes por parte de la escuela o bien para comunicarse con un área de servicios escolares (como cajas, becas, centro de tesis). Se considera que esta funcionalidad tiene una prioridad alta (2) dado que le brinda al software un valor añadido que ningun otro software podría ofrecer al acercar a los alumnos con servicios propios de la institución.
 #### 4.4.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
-1. 
+1. El usuario inicia sesión en la Red Colmillo.
+2. El usuario ingresa al área especial del chatbot Colmillo.
+3. El usuario desea preguntarle a Colmillos qué fechas importantes se acercan.
+4. Colmillo le da a conocer los eventos de esta semana del ITAM.
+5. El usuario desea comunicarse con algun área de servicios escolares.
+6. El usuario le pide a Colmillo que lo comunique con un área de servicios escolares.
+7. Colmillo abre un nuevo caso (chat) con el área solicitada.
+8. El usuario se comunica satisfactoriamente con servicios escolares.
 #### 4.4.3 Requerimientos Funcionales
-- *REQ-1:*
-Juan
-
+- *REQ-1: Cualquier alumno inscrito al ITAM puede hacer uso del chatbot Colmillo.*
+- *REQ-2: El usuario debe comunicarse con Colmillo usando los servicios ya preestablecidos que ofrece.*
+- *REQ-3: Debe haber personal del ITAM que ingrese las noticias y anuncios importantes en la base de Colmillo.*
+- *REQ-4: El usuario solo puede pedir comunicarse con servicios escolares en los horarios de atención establecidos.*
+- *REQ-5: Por cuestiones de seguridad, para no saturar los servicios, los usuarios no podrán enviar más de 60 mensajes por minuto.*
+- *REQ-6: Cuando el usuario pida comunicarse con un área de servicios escolares, deberá abrirse un caso (chat) completamente nuevo y contactar alguna persona que pueda atender al usuario.*
+- *REQ-7: Colmillo deberá avisar a las áreas de servicios escolares cuántos alumnos hay en cola para ser atendidos.*
 ### 4.5 Mandar mensajes directos
 #### 4.5.1 Descripción y prioridad
 Uno de los objetivos primordiales del software es precisamente que el usuario pueda tener una conversación, de forma segura y accesible, con cualquier miembro con quien así lo desee del ITAM. Es por ello que a esta funcionalidad se le determina una prioridad muy alta (1). El alumno entonces podrá acceder a una interfaz donde pueda mantener conversaciones de mensajería directa con los contactos deseados. Esta interfaz debe mostrar al centro de la imagen el área de mensajería.
