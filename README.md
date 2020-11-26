@@ -333,9 +333,15 @@ Es un hecho que las pantallas causan fatiga ocular (ojo seco, visión borrosa, d
 MANU
 
 ### 5.5 Reglas de negocio
-Juan
+Todos estos roles tienen acceso a las funcionalidades descritas en la sección [Funcionalidades del sistema](#4-funcionalidades-del-sistema). Tenemos tres roles dentro de la red Colmillo:
 
-+ List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.
+**Alumno**: Este rol es el usuario por defecto pensado en el software. Para tener este rol, solo se necesita poder iniciar sesión en los servicios del ITAM.
+
+**Profesor**: Este rol lo brinda la institución. Los profesores podrán además mandar mensajes importantes al grupo que están impartiendo, dejar tareas y administrar el grupo de la materia. Los profesores no pueden ser bloqueados.
+
+**Empleado**: Este rol está diseñado para los asistentes que trabajan en algún área de servicios escolares. Estos podrán dado el área que están asignados, atender peticiones de alumnos. 
+
+**Administrador**: Este rol es para los administrativos de la institución, que tienen el privilegio de dar rol de empleado y profesor.
 
 # Plan de calidad
 ## 1. Identificador del plan de prueba
@@ -380,11 +386,60 @@ Creemos que es conveniente hacer uso de esta metodología debido a que permite e
 
 
 # Documentación para replicar
-Juan 
 
-- Como navegar el prototipo.
-1. Bajar just in mind
-2. abrir 
-3. Se abre login debes de ingresaon con usuario usuario@itam.mx
-4. abrir grupos mineria
-5. mandar mensaje
+Requerimientos
+- Descargar [Justinmind](https://www.justinmind.com/).
+- Clonar o descargar este repositorio.
+
+A continuación se muestran los pasos a seguir para navegar sobre el prototipo del software.
+
+1. Abrir Justinmind
+2. Abrir prototipo ```RedColmillo.vp```
+3. Clic en simular prototipo.
+4. Ingresar correo y contraseña, y clic en iniciar sesión.
+![login](img/simular/login.png)
+5. Clic en "Chat grupal".
+6. Escribir "Mi computadora no tiene cámara :(((" como mensaje.
+![chat grupal](img/simular/chat-grupal.png)
+7. Clic en el ícono de enviar.
+8. Clic en "Documentos".
+9. Clic en "Materiales de clase".
+10. Clic para regresar a documentos.
+![regresar a documentos](img/simular/regresar-documentos.png)
+11. Clic en "Tareas"
+12. Clic en "Nuevo"
+13. Clic en "Nuevo grupo"
+14. Escribir "Equipo Inge Software" en nombre del grupo, escribir descripción y clic en "Crear Grupo".
+![nuevo grupo](img/simular/nuevo-grupo.png)
+15. Clic en ícono para buscar personas.
+![personitas](img/simular/personitas.png)
+16. Clic en "Agregar miembros".
+17. Escribir "ruben" en la barra de buscador y clic en ícono de lupa.
+![buscar ruben](img/simular/buscar-ruben.png)
+18. Clic en "Rubén Romero Ortega".
+19. Clic en ícono para buscar personas nuevamente.
+20. Clic en notificación de "Liliana Millán".
+![notificación](img/simular/notificacion.png)
+21. Ir a la pestaña de mensajes.
+![ir a mensajes](img/simular/ir-mensajes.png)
+22. Clic en "Rubén Romero".
+23. Escribir "Había tarea??????" en la barra de mensajes y enviar.
+![mensaje privado](img/simular/habia-tarea.png)
+24. Clic en "Nuevo chat"
+25. Escribir "Andrea" en el buscador y clic en el la lupa.
+![buscar Andrea](img/simular/buscar-andrea.png)
+26. Clic en "Andrea Padilla".
+27. Escribir "Rola la tareaaaaaaa" en la barra de mensajes y enviar.
+28. Ir a la pestaña de Colmillo.
+![Ir con Colmillo](img/simular/ir-colmillo.png)
+29. Escribir y enviar (o clic) en "¿Qué fechas importantes se acercan?".
+![Fechas importantes](img/simular/fechas.png)
+30. Clic nuevamente en ícono de enviar.
+31. Escribir y enviar "Comunícame con Cajas"
+![Comunicar a cajas](img/simular/comunicar.png)
+32. Clic nuevamente en ícono de enviar.
+33. Abrir el chat de Cajas
+![abrir chat Cajas](img/simular/cajas.png)
+34. Dos veces clic en ícono de enviar.
+35. Clic en "Regresar con Colmillo".
+![Regresar con Colmillo](img/simular/regresa-colmillo.png)
