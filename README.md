@@ -387,7 +387,7 @@ Creemos que es conveniente hacer uso de esta metodología debido a que permite e
 
 # Documentación para replicar
 
-Requerimientos
+Requisitos
 - Descargar [Justinmind](https://www.justinmind.com/).
 - Clonar o descargar este repositorio.
 
