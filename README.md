@@ -158,12 +158,23 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 
 ### 4.2 Crear Grupos
 #### 4.2.1 Descripción y prioridad
+A esta funcionalidad se le otorgó una prioridad media (3) porque el objetivo del sistema es mejorar la comunicación de los alumnos con los profesores. Esta funcionalidad sirve para crear grupos nuevos entre alumnos de la escuela. Se pueden crear un número ilimitado de grupos, al iniciar cada semestre los grupos automáticos serán los de cada clase.
 #### 4.2.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
-1. 
+1. El usuario ingresó a "Red Colmillo".
+2. El usuario se dirige a la sección de grupos.
+3. El usuario selecciona la opción de "Nuevo grupo".
+4. El usuario ingresa el nombre y la descripción del nuevo grupo.
+5. El usuario selecciona la opción de miembros.
+6. El usuario selecciona la opción de agregar miembro.
+7. El usuario ingresa el nombre del nuevo miembro.
 #### 4.2.3 Requerimientos Funcionales
-- REQ-1:
-Rabs
+- *REQ-1:El usuario debe tener credenciales activas del ITAM.*
+- *REQ-2:El usuario debe estár registrado en el sistema "Red Colmillo".*
+- *REQ-3:El usuario debe poder crear y eliminar grupos.*
+- *REQ-4:Solo miembros del ITAM pueden ser agregados a los grupos.*
+- *REQ-5:Los nuevos miembros del grupo deben aceptar una invitación al grupo nuevo.*
+
 
 ### 4.3 Buscar contactos
 #### 4.3.1 Descripción y prioridad
@@ -218,12 +229,21 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 
 ### 4.6 Mandar mensajes a grupos
 #### 4.6.1 Descripción y prioridad
+A esta funcionalidad se le otorgó una prioridad muy alta (1) porque los grupos son un punto de interacción clave entre maestro y alumno. Los mensajes deben llegar a todos los miembros del grupo y guardarse en un historial. 
 #### 4.6.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
-1. 
+1. El usuario desea comunicarse con sus compañeros de clase y su maestro.
+2. El usuario inicia sesión en la Red Colmillo.
+3. El usuario ingresa a su grupo.
+4. El usuario envia un mensaje al grupo.
 #### 4.6.3 Requerimientos Funcionales
-- *REQ-1: *
-Rabs
+- *REQ-1: El usuario debe tener credenciales activas del ITAM.*
+- *REQ-2: El usuario debe estar registrado en el grupo con el que se desea comunicar.*
+- *REQ-3: El usuario debe poder leer el historial de todos los mensajes que se han enviado en el grupo.*
+- *REQ-4: El usuario debe enviar emoticones o imagenes al chat del grupo.*
+- *REQ-5: En cada mensaje se debe mostrar el nombre del usuario que lo envió.*
+- *REQ-6: En cada mensaje se debe mostrar la imagen del usuario que lo envió.*
+- *REQ-7: En cada mensaje se debe mostrar la hora en que se envió.*
 
 ### 4.7 Acceder a notificaciones
 
@@ -238,12 +258,24 @@ Andy
 
 ### 4.8 Subir documentos
 #### 4.8.1 Descripción y prioridad
+A esta funcionalidad se le otorgó una prioridad media (3). Para extender las capacidades de una red de comunicación simple, esta funcionalidad permite que los usuarios puedan subir documentos a los grupos para que todos los miembros puedan verlos, estos documentos pueden ser desde material de clase hasta tareas.
 #### 4.8.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
-1. 
+1. El usuario desea subir un documento para que el grupo pueda ver el material.
+2. El usuario inicia sesión en la Red Colmillo.
+3. El usuario ingresa a su grupo.
+4. El usuario entra a la sección de documentos.
+5. El usuario se mete a la carpeta donde quiere subir el documento.
+6. El usuario sube el documento.
 #### 4.8.3 Requerimientos Funcionales
-- *REQ-1: *
-Rabs
+- *REQ-1: El usuario debe tener credenciales activas del ITAM.*
+- *REQ-2: El usuario debe estar registrado en el grupo con el que se desea comunicar.*
+- *REQ-3: El usuario debe ver un señalamiento en los documentos que él subió.*
+- *REQ-4: El usuario debe poder descargar cualquier documento visible al grupo en general.*
+- *REQ-5: El usuario debe poder eliminar sus archivos.*
+- *REQ-6: El profesor debe poder descargar o ver todos los documentos del grupo.*
+- *REQ-7: En cada documento se debe mostrar la hora a la que se subió.*
+
 
 ### 4.9 Cerrar sesión
 #### 4.9.1 Descripción y prioridad
