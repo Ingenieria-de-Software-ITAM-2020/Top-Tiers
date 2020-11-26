@@ -349,23 +349,41 @@ TODO: Discutir con el equipo para ver si esto esta bien.
 
 # Plan de calidad
 ## 1. Identificador del plan de prueba
+
 ## 2. Referencias
+
 ## 3. Introducción
+
 ## 4. Elementos de prueba
+
 ## 5. Problemas de riesgo de software
+
 ## 6. Funcionalidades a probar
+
 ## 7. Funcionalidades que no se deben probar
+
 ## 8. Enfoque
+
 ## 9. Criterios de aprobación / falla del elemento
+
 ## 10. Criterios de suspensión y requisitos de reanudación
+
 ## 11. Entregables de prueba
+
 ## 12. Tareas de prueba restantes
+
 ## 13. Necesidades ambientales
+
 ## 14. Necesidades de personal y capacitación
+
 ## 15. Responsabilidades
+
 ## 16. Horario
+
 ## 17. Planificación de riesgos y contingencias
+
 ## 18. Aprobaciones
+
 ## 19. Glosario
 
 # Arquitectura
@@ -397,7 +415,7 @@ Requisitos
 
 A continuación se muestran los pasos a seguir para navegar sobre el prototipo del software.
 
-1. Abrir Justinmind
+1. Abrir Justinmind (descargarlo en caso de no tenerlo)
 2. Abrir prototipo ```RedColmillo.vp```
 3. Clic en simular prototipo.
 4. Ingresar correo y contraseña, y clic en iniciar sesión.
