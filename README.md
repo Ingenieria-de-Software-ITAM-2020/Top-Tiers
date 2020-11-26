@@ -343,6 +343,8 @@ Todos estos roles tienen acceso a las funcionalidades descritas en la sección [
 
 **Administrador**: Este rol es para los administrativos de la institución, que tienen el privilegio de dar rol de empleado y profesor.
 
+TODO: Discutir con el equipo para ver si esto esta bien.
+
 # Plan de calidad
 ## 1. Identificador del plan de prueba
 ## 2. Referencias
