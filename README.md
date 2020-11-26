@@ -164,12 +164,11 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 6. El usuario selecciona la opción de agregar miembro.
 7. El usuario ingresa el nombre del nuevo miembro.
 #### 4.2.3 Requerimientos Funcionales
-
-- *REQ-1:El usuario debe tener credenciales activas del ITAM.*
-- *REQ-2:El usuario debe estár registrado en el sistema "Red Colmillo".*
-- *REQ-3:El usuario debe poder crear y eliminar grupos.*
-- *REQ-4:Solo miembros del ITAM pueden ser agregados a los grupos.*
-- *REQ-5:Los nuevos miembros del grupo deben aceptar una invitación al grupo nuevo.*
+- *REQ-1: El usuario debe tener credenciales activas del ITAM.*
+- *REQ-2: El usuario debe estár registrado en el sistema "Red Colmillo".*
+- *REQ-3: El usuario debe poder crear y eliminar grupos.*
+- *REQ-4: Sólo miembros del ITAM pueden ser agregados a los grupos.*
+- *REQ-5: Los nuevos miembros del grupo deben aceptar una invitación al grupo nuevo.*
 
 ### 4.3 Buscar contactos
 #### 4.3.1 Descripción y prioridad
@@ -210,6 +209,7 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 - *REQ-5: Por cuestiones de seguridad, para no saturar los servicios, los usuarios no podrán enviar más de 60 mensajes por minuto.*
 - *REQ-6: Cuando el usuario pida comunicarse con un área de servicios escolares, deberá abrirse un caso (chat) completamente nuevo y contactar alguna persona que pueda atender al usuario.*
 - *REQ-7: Colmillo deberá avisar a las áreas de servicios escolares cuántos alumnos hay en cola para ser atendidos.*
+
 ### 4.5 Mandar mensajes directos
 #### 4.5.1 Descripción y prioridad
 Uno de los objetivos primordiales del software es precisamente que el usuario pueda tener una conversación, de forma segura y accesible, con cualquier miembro con quien así lo desee del ITAM. Es por ello que a esta funcionalidad se le determina una prioridad muy alta (1). El alumno entonces podrá acceder a una interfaz donde pueda mantener conversaciones de mensajería directa con los contactos deseados. Esta interfaz debe mostrar al centro de la imagen el área de mensajería.
@@ -243,7 +243,6 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 3. El usuario ingresa a su grupo.
 4. El usuario envia un mensaje al grupo.
 #### 4.6.3 Requerimientos Funcionales
-
 - *REQ-1: El usuario debe tener credenciales activas del ITAM.*
 - *REQ-2: El usuario debe estar registrado en el grupo con el que se desea comunicar.*
 - *REQ-3: El usuario debe poder leer el historial de todos los mensajes que se han enviado en el grupo.*
@@ -251,7 +250,6 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 - *REQ-5: En cada mensaje se debe mostrar el nombre del usuario que lo envió.*
 - *REQ-6: En cada mensaje se debe mostrar la imagen del usuario que lo envió.*
 - *REQ-7: En cada mensaje se debe mostrar la hora en que se envió.*
-
 
 ### 4.7 Acceder a notificaciones
 #### 4.7.1 Descripción y prioridad
@@ -264,7 +262,7 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 #### 4.7.3 Requerimientos Funcionales
 - *REQ-1: Las notificaciones deben ser mostradas en orden cronológico.*
 - *REQ-2: En el área de notificaciones, únicamente se mostrarán mensajes que el alumno no haya visualizado previamente.*
-- *REQ-3: En el área de notificaciones, únicamente se mostrarán los últimos 5 mensajes recibidos dpor cada profesor (a).*
+- *REQ-3: En el área de notificaciones, únicamente se mostrarán los últimos 5 mensajes recibidos por cada profesor (a).*
 - *REQ-4: El alumno será notificado únicamente sobre mensajes de sus profesores, no sobre respuestas de sus compañeros.*
 - *REQ-5: Cada notificación mostrará el nombre del profesor, la hora a la que fue recibido el mensaje y el contenido del mismo.*
 - *REQ-6: El alumno podrá acceder al mensaje en el grupo al darle click a la notificación.*
@@ -281,7 +279,6 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 5. El usuario se mete a la carpeta donde quiere subir el documento.
 6. El usuario sube el documento.
 #### 4.8.3 Requerimientos Funcionales
-
 - *REQ-1: El usuario debe tener credenciales activas del ITAM.*
 - *REQ-2: El usuario debe estar registrado en el grupo con el que se desea comunicar.*
 - *REQ-3: El usuario debe ver un señalamiento en los documentos que él subió.*
@@ -290,15 +287,24 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 - *REQ-6: El profesor debe poder descargar o ver todos los documentos del grupo.*
 - *REQ-7: En cada documento se debe mostrar la hora a la que se subió.*
 
-
 ### 4.9 Cerrar sesión
 #### 4.9.1 Descripción y prioridad
+Con el fin de resguardar su seguridad, el usuario podrá cerrar sesión cuando lo desee. Además, para proteger sus datos y conversaciones, el sistema también podrá finalizar la sesión del usuario en caso de que se detecte inactividad durante 7 minutos. Esta funcionalidad cumple con los requisitos de seguridad, es por eso que se le otorgó una prioridad alta (2), sin embargo, no es necesaria para el funcionamiento general del sistema.
 #### 4.9.2 Secuencias de estímulo / respuesta
 Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
-1. 
+1. El usuario desea comunicarse con miembros de la comunidad ITAM a través de Red Comlillo.
+2. El usuario inicia sesión.
+3. El usuario finaliza el intercambio de mensajes directos y/o grupales.
+4. El usuario selecciona el botón de "Configuración".
+5. El usuario da click en "Cerrar sesión".
+6. El sistema confirma el cierre de sesión redireccionándolo a la página de inicio de sesión.
 #### 4.9.3 Requerimientos Funcionales
-- *REQ-1:*
-Andy
+- *REQ-1: El sistema debe cerrar la sesión del usuario en caso de haber inactividad por un mínimo de siete minutos.*
+- *REQ-2: El sistema debe mostrar un mensaje de confirmación de cierre de sesión en caso de que el usuario dé click al botón de "Cerrar sesión".*
+    - *REQ-2.1: En caso de que el usuario seleccione "Sí", el sistema debe cerrar la sesión del usuario.*
+    - *REQ-2.2: En caso de que el usuario seleccione "No", el sistema debe seguir activo.*
+- *REQ-3: Al cerrar la sesión, el sistema debe redirigir al usuario a la interfaz de inicio de sesión del ITAM.*
+- *REQ-4: En caso de que el usuario cierre la ventana sin finalizar su sesión, el sistema debe cerrar sesión automáticamente.*
 
 ## 5. Otros requerimientos no funcionales
 ### 5.1 Requerimientos de rendimiento
