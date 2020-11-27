@@ -114,7 +114,7 @@ Los usuarios que interactuarán con la aplicación son:
 ### 2.4 Entorno operativo
 El software estará diseñado para ser una aplicación web que opere con garantía en versiones más recientes de navegadores que soporten HTML5 y JavaScript. Se sugieren Google Chrome, Safari, Firefox y Microsoft Edge. Es decir, funciona sobre cualquier sistema operativo que soporte estos navegadores. Se tomará como base el funcionamiento de la aplicación sobre una computadora como dispositivo.
 ### 2.5 Restricciones de diseño e implementación
-Red Colmillo únicamente servirá como mensajería instantánea. No se podrán realizar llamadas de voz ni de video a través de la aplicación. Se utilizará el servicio de inicio de sesión del ITAM, así que el usuario tampoco podrá crear su propia cuenta, deberá ingresar con las credenciales proporcionadas por la institución. Por lo pronto, sólo se implementará el sistema en español. 
+Red Colmillo únicamente servirá como mensajería instantánea. No se podrán realizar llamadas de voz ni de video a través de la aplicación. Se utilizará el servicio de inicio de sesión del ITAM, así que el usuario tampoco podrá crear su propia cuenta, deberá ingresar con las credenciales proporcionadas por la institución. Por lo pronto, sólo se implementará el sistema en español, y únicamente como aplicación web. 
 ### 2.6 Documentación del usuario
 El software incluirá un tutorial interactivo para el usuario la primera vez que inicie sesión. También podrá pedirle a Colmillo que le repita el tutorial interactivo. Además, le llegará un manual de usuario a su correo escolar.
 ### 2.7 Supuestos y dependencias
@@ -355,7 +355,6 @@ TODO: Discutir con el equipo para ver si esto esta bien.
 ## 3. Introducción
 
 ## 4. Elementos de prueba
-
 - Validación de que el usuario y contraseña concuerden.
 - Que las pantallas se desplieguen correctamente.
 - Que los botones redireccionen a las pantallas correctas.
@@ -363,13 +362,11 @@ TODO: Discutir con el equipo para ver si esto esta bien.
 - Que se pueda interactuar con los inputs de forma correcta.
 
 ## 5. Problemas de riesgo de software
-
 - Que el servidor de la aplicación se encuentre fuera de servicio.
 - Que el sistema del ITAM con los datos de los usuarios esté fuera de servicio.
 - Que el sistema no pierda los documentos o mensajes que se manden.
 
 ## 6. Funcionalidades a probar
-
 - Que el usuario pueda iniciar sesión.
 - Que el sistema permita al usuario crear nuevos grupos.
 - Que el sistema permita buscar contactos.
@@ -380,13 +377,15 @@ TODO: Discutir con el equipo para ver si esto esta bien.
 - Que el usuario pueda acceder a notificaciones.
 
 ## 7. Funcionalidades que no se deben probar
-
 - Que el usuario pueda cerrar sesión.
 - Que se mantenga un historial de mensajes.
 - Que se configure el perfil.
 - Que el usuario tenga conexión a internet para utilizar la aplicación.
 
 ## 8. Enfoque
+Como se mencionó con anterioridad, el prototipo se realizó en Justinmind, una herramienta de creación para prototipos de aplicaciones web y móviles y wireframes de sitios web de alta fidelidad. Dentro de Justinmind, se eligió crear el prototipo para una computadora de escritorio, ya que se desea que el sistema sea una aplicación web. Se planea que el sistema funcione en los navegadores mencionados en [Documento de Requerimientos: Entorno operativo](#24-entorno-operativo). 
+
+En el documento se proponen diversas pruebas que se podrían realizar una vez que se realice la entrega final del sistema. Se debe acordar el valor deseado para las métrica *Mean Time Between Failures*. Se estima que se realizarán entregables una vez cada dos semanas. Al final de cada reunión, se debe entregar un reporte al *Product Manager*, informando posibles errores que puedan existir en el entregable de prueba. En esta primer prueba, se debe verificar que las funcionalidades establecidas en [Funcionalidades a probar](#6-funcionalidades-a-probar), junto con los [Elementos de prueba](#4-elementos-de-prueba), se ejecuten de manera correcta. Al ser solamente un prototipo, no se probará la obtención ni inserción de datos a las bases. Con la última entrega, se deben comprobar todas las funcionalidades, incluyendo las listadas en [Funcionalidades que no se deben probar](#7-funcionalidades-que-no-se-deben-probar). Se lanzará la versión final únicamente cuando las funcionalidades del sistema superen los criterios listados en [Criterios de aprobación / falla del elemento](#9-criterios-de-aprobación--falla-del-elemento).
 
 ## 9. Criterios de aprobación / falla del elemento
 
