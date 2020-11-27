@@ -425,6 +425,9 @@ Se entregará un documento detallado de las funcionalidades que se probaron. Par
 
 ## 14. Necesidades de personal y capacitación
 
+- Las personas encargadas de las pruebas deberán tener conocimiento completo de la funcionalidad encargada de probar.
+- Los encargados de probar la integración con los servicios del ITAM, deberán tener conocimiento de las APIs que ofrece el ITAM.
+
 ## 15. Responsabilidades
 
 ## 16. Horario
