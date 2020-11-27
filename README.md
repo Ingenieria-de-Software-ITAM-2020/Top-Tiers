@@ -412,7 +412,16 @@ Se entregará un documento detallado de las funcionalidades que se probaron. Par
 
 ## 12. Tareas de prueba restantes
 
+- Permitir que el usuario configure su perfil.
+- Lograr que el usuario pueda ver todo el historial de los mensajes en un grupo.
+- Permitir que los usuarios puedan descargar los documentos sin tener fallas.
+- Crear una validación de documentos.
+
 ## 13. Necesidades ambientales
+
+- El usuario necesitará acceso a una computadora o celular inteligente.
+- Es necesario que el usuario tenga acceso a internet.
+- Es necesario que el usuario tenga credenciales activas en el ITAM.
 
 ## 14. Necesidades de personal y capacitación
 
