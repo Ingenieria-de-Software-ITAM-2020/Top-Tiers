@@ -392,6 +392,10 @@ TODO: Discutir con el equipo para ver si esto esta bien.
 
 ## 10. Criterios de suspensión y requisitos de reanudación
 
+- Las pruebas que involucren funcionalidades que consideramos de prioridad muy alta (1) no deben ser nunca puestas en suspensión.
+- Las pruebas con el chatbot serán suspendidas siempre que los microservicios del ITAM estén abajo o en mantenimiento. Estas serán reanudadas en cuanto esté arriba los servicios del ITAM.
+- Se suspenderan las pruebas si se encuentra una falla en el sistema que afecte las funcionalidades del sistema. Se retomará en cuanto el equipo arregle dicha falla.
+
 ## 11. Entregables de prueba
 
 ## 12. Tareas de prueba restantes
