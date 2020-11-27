@@ -356,11 +356,35 @@ TODO: Discutir con el equipo para ver si esto esta bien.
 
 ## 4. Elementos de prueba
 
+- Validación de que el usuario y contraseña concuerden.
+- Que las pantallas se desplieguen correctamente.
+- Que los botones redireccionen a las pantallas correctas.
+- Que los botones tengan los links bien definidos.
+- Que se pueda interactuar con los inputs de forma correcta.
+
 ## 5. Problemas de riesgo de software
+
+- Que el servidor de la aplicación se encuentre fuera de servicio.
+- Que el sistema del ITAM con los datos de los usuarios esté fuera de servicio.
+- Que el sistema no pierda los documentos o mensajes que se manden.
 
 ## 6. Funcionalidades a probar
 
+- Que el usuario pueda iniciar sesión.
+- Que el sistema permita al usuario crear nuevos grupos.
+- Que el sistema permita buscar contactos.
+- Que el usuario pueda mandar mensajes a grupos.
+- Que el usuario pueda subir documentos.
+- Que el usuario pueda mandar mensajes directos.
+- Que el usuario pueda comunicarse con el chatbot del sistema.
+- Que el usuario pueda acceder a notificaciones.
+
 ## 7. Funcionalidades que no se deben probar
+
+- Que el usuario pueda cerrar sesión.
+- Que se mantenga un historial de mensajes.
+- Que se configure el perfil.
+- Que el usuario tenga conexión a internet para utilizar la aplicación.
 
 ## 8. Enfoque
 
