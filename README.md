@@ -359,7 +359,9 @@ Prueba 1.0 del prototipo en JustInMind 9.1.4 para la aplicación Red Colmillo en
 
 ## 2. Referencias
 El desarrollo de las pruebas de este prototipo se hará a través de la plataforma de JustInMind 9.1.4. Este software puede ser descargado a través del siguiente link:
-https://www.justinmind.com/download. Si el lector desconoce el uso de esta herramienta, puede apoyarse del manual de uso que se encuentra en el siguiente link: https://www.justinmind.com/support/. Para poder conocer más acerca de la aplicación que se pondrá a prueba, se le recomienda al lector leer antes los puntos de este documento dedicados a al [Documento de Requerimientos](#documento-de-requerimientos), la [Metodología](#metodología) y la [Arquitectura](#arquitectura). Estos documentos darán una mejor visión acerca de los objetivos que se quieren lograr con el desarrollo y prueba de la Red Colmillo 1.0.
+https://www.justinmind.com/download. Si el lector desconoce el uso de esta herramienta, puede apoyarse del manual de uso que se encuentra en el siguiente link: https://www.justinmind.com/support/. Una vez puesto en producción, las pruebas se harán utilizando Heurio. Este software puede ser descargado a través del siguiente link:https://chrome.google.com/webstore/detail/heurio-ux-review-visual-f/pjdbofhiijhapnmpgilkeammkanglfdj. Si el lector desconoce el uso de esta herramienta, puede apoyarse del manual de uso que se encuentra en el siguiente link: https://www.heur.io/support.
+
+Para poder conocer más acerca de la aplicación que se pondrá a prueba, se le recomienda al lector leer antes los puntos de este documento dedicados a al [Documento de Requerimientos](#documento-de-requerimientos), la [Metodología](#metodología) y la [Arquitectura](#arquitectura). Estos documentos darán una mejor visión acerca de los objetivos que se quieren lograr con el desarrollo y prueba de la Red Colmillo 1.0.
 
 ## 3. Introducción
 
@@ -369,6 +371,8 @@ https://www.justinmind.com/download. Si el lector desconoce el uso de esta herra
 - Que los botones redireccionen a las pantallas correctas.
 - Que los botones tengan los links bien definidos.
 - Que se pueda interactuar con los inputs de forma correcta.
+- Que todos los usuarios puedan enviar y recibir mensajes.
+- Que no existan pérdidas de información.
 
 ## 5. Problemas de riesgo de software
 - Que el servidor de la aplicación se encuentre fuera de servicio.
@@ -424,6 +428,21 @@ Se entregará un documento detallado de las funcionalidades que se probaron. Par
 - Es necesario que el usuario tenga credenciales activas en el ITAM.
 
 ## 14. Necesidades de personal y capacitación
+Para llevar a cabo las pruebas mencionadas en este documento, utilizaremos la aplicación de Heurio. Todo el personal deberá de capacitarse antes de realizar las pruebas. A este tiempo se le dedicará una semana. También se podrán apoyar del siguiente link: https://www.heur.io/support. También, todo miembro del equipo que participe en las pruebas deberá haber leido completamente este plan de calidad, además de el  [Documento de Requerimientos](#documento-de-requerimientos).
+
+El equipo de pruebas constará de 4 personas las cuales dividiremos en dos equipo, cada uno con dos personas. El equipo 1 se enfocará a las labores de mensajeria directa y de grupos, mientras que el equipo 2 se enfocará a las labores del chatbot y funcionalidades generales. La división se hará de la siguiente manera:
+
+Equipo 1 (miembros Ruben Romero y Juan Carlos Sigler):
+- Que el usuario pueda mandar mensajes a grupos.
+- Que el usuario pueda subir documentos.
+- Que el usuario pueda mandar mensajes directos.
+
+Equipo 2 (miembros Andrea Padilla y Manuel Fernández):
+- Que el usuario pueda iniciar sesión.
+- Que el sistema permita al usuario crear nuevos grupos.
+- Que el sistema permita buscar contactos.
+- Que el usuario pueda comunicarse con el chatbot del sistema.
+- Que el usuario pueda acceder a notificaciones.
 
 - Las personas encargadas de las pruebas deberán tener conocimiento completo de la funcionalidad encargada de probar.
 - Los encargados de probar la integración con los servicios del ITAM, deberán tener conocimiento de las APIs que ofrece el ITAM.
@@ -463,12 +482,12 @@ Creemos que es conveniente hacer uso de esta metodología debido a que permite e
 # Documentación para replicar
 
 Requisitos
-- Descargar [Justinmind](https://www.justinmind.com/).
+- Descargar [Justinmind](https://www.justinmind.com/download).
 - Clonar o descargar este repositorio.
 
 A continuación se muestran los pasos a seguir para navegar sobre el prototipo del software.
 
-1. Abrir Justinmind (descargarlo en caso de no tenerlo)
+1. Abrir Justinmind 
 2. Abrir prototipo ```RedColmillo.vp```
 3. Clic en simular prototipo.
 4. Ingresar correo y contraseña, y clic en iniciar sesión.
