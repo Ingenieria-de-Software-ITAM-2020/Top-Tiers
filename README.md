@@ -363,19 +363,13 @@ Todos estos roles tienen acceso a las funcionalidades descritas en la sección [
 Se realizaron casos de uso de tres [funcionalidades listadas en el documento de requerimientos](#4-funcionalidades-del-sistema): subir documentos a grupos, mandar mensaje directo y conversar con Colmillo.
 
 ## 1. Subir documento
-<p align="center">
-  <img width="460" height="400" src="img/CasoDeUso1.PNG">
-</p>
+![Subir documento](img/CasoDeUso1.PNG)
 
 ## 2. Mandar mensajes directos
-<p align="center">
-  <img width="460" height="400" src="img/CasoDeUso2.PNG">
-</p>
+![Mandar mensaje directo](img/CasoDeUso2.PNG)
 
 ## 3. Comunicarse con el ChatBot de servicios escolares
-<p align="center">
-  <img width="460" height="400" src="img/CasoDeUso3.PNG">
-</p>
+![Comunicarse con Chatbot](img/CasoDeUso3.PNG)
 
 # Plan de calidad
 ## 1. Identificador del plan de prueba
