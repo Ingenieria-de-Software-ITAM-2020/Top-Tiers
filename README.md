@@ -430,6 +430,8 @@ Se entregará un documento detallado de las funcionalidades que se probaron. Par
 ## 14. Necesidades de personal y capacitación
 Para llevar a cabo las pruebas mencionadas en este documento, utilizaremos la aplicación de Heurio. Todo el personal deberá de capacitarse antes de realizar las pruebas. A este tiempo se le dedicará una semana. También se podrán apoyar del siguiente link: https://www.heur.io/support. También, todo miembro del equipo que participe en las pruebas deberá haber leido completamente este plan de calidad, además de el  [Documento de Requerimientos](#documento-de-requerimientos).
 
+Por otro lado, las personas encargadas de las pruebas deberán tener conocimiento completo de la funcionalidad encargada de probar. Además, los encargados de probar la integración con los servicios del ITAM, deberán tener conocimiento de las APIs que ofrece el ITAM.
+
 El equipo de pruebas constará de 4 personas las cuales dividiremos en dos equipo, cada uno con dos personas. El equipo 1 se enfocará a las labores de mensajeria directa y de grupos, mientras que el equipo 2 se enfocará a las labores del chatbot y funcionalidades generales. La división se hará de la siguiente manera:
 
 Equipo 1 (miembros Ruben Romero y Juan Carlos Sigler):
@@ -443,9 +445,6 @@ Equipo 2 (miembros Andrea Padilla y Manuel Fernández):
 - Que el sistema permita buscar contactos.
 - Que el usuario pueda comunicarse con el chatbot del sistema.
 - Que el usuario pueda acceder a notificaciones.
-
-- Las personas encargadas de las pruebas deberán tener conocimiento completo de la funcionalidad encargada de probar.
-- Los encargados de probar la integración con los servicios del ITAM, deberán tener conocimiento de las APIs que ofrece el ITAM.
 
 ## 15. Responsabilidades
 
