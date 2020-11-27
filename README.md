@@ -431,6 +431,7 @@ Se entregará un documento detallado de las funcionalidades que se probaron. Par
 ## 15. Responsabilidades
 
 ## 16. Horario
+Red Colmillo estará lista en 8 meses: el primer mes se realizará el diseño y prototipado de la aplicación, se destinarán seis meses al desarrollo y un mes a pruebas finales.  Aunque por ahora sólo se tenga el prototipo de la aplicación, se planea que los entregables del desarrollo de software se relizarán cada dos semanas, estimando realizar la entrega final en 6 meses. Esta se probará durante un mes para verificar el correcto funcionamiento. Al pasar los criterios de prueba, se lanzará la aplicación. 
 
 ## 17. Planificación de riesgos y contingencias
 
