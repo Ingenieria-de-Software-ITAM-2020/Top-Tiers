@@ -434,6 +434,8 @@ Para llevar a cabo las pruebas mencionadas en este documento, utilizaremos la ap
 
 Por otro lado, las personas encargadas de las pruebas deberán tener conocimiento completo de la funcionalidad encargada de probar. Además, los encargados de probar la integración con los servicios del ITAM, deberán tener conocimiento de las APIs que ofrece el ITAM.
 
+## 15. Responsabilidades
+
 El equipo de pruebas constará de 4 personas las cuales dividiremos en dos equipo, cada uno con dos personas. El equipo 1 se enfocará a las labores de mensajeria directa y de grupos, mientras que el equipo 2 se enfocará a las labores del chatbot y funcionalidades generales. La división se hará de la siguiente manera:
 
 Equipo 1 (miembros Ruben Romero y Juan Carlos Sigler):
@@ -447,8 +449,6 @@ Equipo 2 (miembros Andrea Padilla y Manuel Fernández):
 - Que el sistema permita buscar contactos.
 - Que el usuario pueda comunicarse con el chatbot del sistema.
 - Que el usuario pueda acceder a notificaciones.
-
-## 15. Responsabilidades
 
 ## 16. Horario
 Red Colmillo estará lista en 8 meses: el primer mes se realizará el diseño y prototipado de la aplicación, se destinarán seis meses al desarrollo y un mes a pruebas finales.  Aunque por ahora sólo se tenga el prototipo de la aplicación, se planea que los entregables del desarrollo de software se relizarán cada dos semanas, estimando realizar la entrega final en 6 meses. Esta se probará durante un mes para verificar el correcto funcionamiento. Al pasar los criterios de prueba, se lanzará la aplicación. 
