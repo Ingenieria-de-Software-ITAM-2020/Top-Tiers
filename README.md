@@ -454,6 +454,9 @@ Red Colmillo estará lista en 8 meses: el primer mes se realizará el diseño y 
 
 ## 17. Planificación de riesgos y contingencias
 
+- En caso de que no haya personal suficiente para hacer las pruebas de integración con los servicios del ITAM, se extenderá el periodo de prueba hasta tener la suficiente capacitación.
+- En caso de fallas en la integridad, se reiniciarán todas las pruebas para cada funcionalidad.
+
 ## 18. Aprobaciones
 
 ## 19. Glosario
