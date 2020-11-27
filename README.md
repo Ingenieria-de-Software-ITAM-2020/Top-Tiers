@@ -460,6 +460,8 @@ Red Colmillo estará lista en 8 meses: el primer mes se realizará el diseño y 
 
 ## 18. Aprobaciones
 
+Dado que la aplicación es para individuos del ITAM, solo se necesitaría la aprobación de las autoridades del ITAM para obtener los datos sobre los grupos de clases y las cuentas de los usuarios para acceder.
+
 ## 19. Glosario
 
 - Red Colmillo: Nombre del sistema.
