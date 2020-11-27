@@ -365,6 +365,8 @@ Para poder conocer más acerca de la aplicación que se pondrá a prueba, se le 
 
 ## 3. Introducción
 
+El objetivo del proyecto es crear un prototipo que cumpla los requerimientos de UX sobre las funcionalidades más importantes de un sistema de comunicación entre alumnos y trabajadores del Instituto Tecnológico Autónomo de México. Asimismo, resaltar la importancia de la documentación, metodología y arquitectura de un proyecto.
+
 ## 4. Elementos de prueba
 - Validación de que el usuario y contraseña concuerden.
 - Que las pantallas se desplieguen correctamente.
@@ -459,6 +461,9 @@ Red Colmillo estará lista en 8 meses: el primer mes se realizará el diseño y 
 ## 18. Aprobaciones
 
 ## 19. Glosario
+
+- Red Colmillo: Nombre del sistema.
+- Clave única: Clave de identificación asociada al ITAM.
 
 # Arquitectura
 Actualmente, la Red Colmillo trabaja con arquitectura por eventos donde la aplicación utiliza la información en tiempo real proporcionada por los usuarios para orquestar decisiones. Aquí, los creadores de eventos o módulos, es decir los usuarios, transmiten la necesidad de entablar una conversación, en un tiempo dado, al gestor de eventos (la plataforma online), quien agregaría esta transmisión a su aplicación para poder conectar a los usuarios que se quieren comunicar con algún miembro o área de servicios del ITAM. Alguno de los módulos que el orquestador pudiera manejar se podría ver como los siguientes:
