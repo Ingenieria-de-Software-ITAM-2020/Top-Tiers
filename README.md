@@ -74,9 +74,9 @@
     18. [Aprobaciones](#18-aprobaciones)
     19. [Glosario](#19-glosario)
     
-3. **[Arquitectura](#arquitectura)**
+3. **[Arquitectura](#arquitectura)** 
 
-4. **[Metodología](#metodología)**
+4. **[Metodología](#metodología)** 
 
 5. **[Documentación para replicar](#documentación-para-replicar)**
 ----
@@ -308,12 +308,11 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 
 ## 5. Otros requerimientos no funcionales
 ### 5.1 Requerimientos de rendimiento
-El sistema debe tener un tiempo de respuesta menor a 200ms. Además de esto, se requiere que los servidores y bases de datos del ITAM se encuentren activos para que la aplicación funcione correctamente durante el semestre.
+El sistema debe tener un tiempo de respuesta menor a 200ms. Además de esto, se requiere que los servidores y bases de datos del ITAM se encuentren activos para que la aplicación funcione correctamente durante el semestre. La aplicación deberá poder soportar una carga de 6000 usuarios realizando 1 solicitud por segundo.
 ### 5.2 Safety Requirements
 Dada la naturaleza personal de la mensajería privada y los riesgos que esta puede provocar, se protegerá la privacidad y seguridad de los usuarios incorporando cifrado de extremo a extremo en nuestra aplicación. Sabiendo que podrían existir usuariso que le den un mal uso a esta herramienta, los usuarios podrán evitar que alguien se comunique con ellos directamente desde un chat utilizando la función de bloqueo. Esto evitará permitir que esta plataforma se utilice con objetivos de bullying o acoso. 
 
 Es un hecho que las pantallas causan fatiga ocular (ojo seco, visión borrosa, dolor de cabeza...) por lo que se recomienda a los usuarios tomarse un descanso de 5 minutos después de cada hora que pasen utilizando nuestra aplicación. 
-
 ### 5.3 Security Requirements
 * El software protegerá la confidencialidad de los usuarios resguardando los datos sensibles como nombres de usuarios y grupos a los que están inscritos los distintos alumnos. Las conversaciones privadas se mantendrán de esta forma y su contenido solo podrá visualizarse por los miembros de la conversación. Toda conversación será protegida y encriptada al momento de ser enviada, procesada o almacenada la Red Colmillo para mantener la privacidad de los usuarios y sus conversaciones.
 * Todos los usuarios que inicien sesión serán automáticamente verificados utilizando un microservicio provisto por el Instituto Tecnológico Autónomo de México. La Red Colmillo proveerá al sistema del ITAM el usuario y contraseña del individuo que esté solicitando tener acceso a la página de tal forma que la contraseña se provea ya hasheada para evitar un filtro de esta información sensible durante el proceso de comunicación con los servidores del ITAM.
@@ -327,12 +326,19 @@ Es un hecho que las pantallas causan fatiga ocular (ojo seco, visión borrosa, d
 * Cada que se altere la información de un curso, deberá de notificarse al profesor de este. El sistema deberá verificar diariamente que los miembros pertenecientes a cada grupo sigan inscritos al mismo, de lo contrario deberá eliminar al alumno. Si por alguna razón un profesor abandona la institución durante el semestre, deberá protegerse el grupo. El profesor será eliminado y los permisos que tenía pasarán al administrador del sistema.
 
 ### 5.4 Atributos de calidad de software
-- **Portabilidad:** 
-- **Confiabilidad:**  
+- **Fiabilidad:** Una vez puesto en producción el código, este no debe de presentar más de un incidente de alta prioridad al mes. Por este término entendemos a los incidentes que no le permitan a los usuarios mantener conversaciones en sus grupos privados o conversaciones directas. También, deberá de cuidarse que los números de incidentes bajo presión, que consideramos a los que sucedan en las primeras dos semanas de clases y en las últimas tres semanas donde se presentan los exámenes finales, sean menor a 5 durante esos plazos. Esto para poder garantizar que el servicio de la Red Colmillo estará funcionando correctamente durante las semanas críticas que necesitan que exista una herramienta de comunicación entre los miembros de la institución. Por último, nos enfocaremos que el promedio de errores por usuario de alumno sea el menor posible dentro de nuestros 3 tipos de usuarios, debido a que los usuarios tipo alumno serán nuestra prioridad en la Red Colmillo.
+
+- **Rendimiento:** 
+Mensualmente deberan de hacerse pruebas de carga en las que se estrese el sistema. Deberá verificarse que los servidores pueden soportar una carga de 6000 usuarios realizando 1 solicitud por segundo. Además existirá un panel de "Application performance monitoring (APM)" que monitoree el comportamiento de nuestros perfiles y nos permita obtener información para hacer los cambios necesarios en el sistema. El APM deberá revisarse al menos una vez por semana.
+
+- **Seguridad:** 
+El sistema deberá de procurar no tener vulnerabilidades que permita que se comparta el contendio de las conversaciones. También deberá cuidarse los permisos de autenticación y de uso, principalmente enfocandonos a que las personas que no pertenezcan a ciertos grupos no puedan tener acceso a ellos. Ante una vulnerabilidad el sistema y el equipo de desarrollo deberá presentar un tiempo de resolución menor a los 30 minutos. Por último, cada 15 días deberá revisarse los parametros de seguridad y actualizarse de ser necesario.
+
 - **Mantenibilidad:** 
-- **Facilidad de testeo:**  
-- **Reusabilidad:**
-MANU
+Los desarrolladores deberan de cuidar tener los mismos estándares, mismas formas de documentació y misma nomenclatura que ayude a que todos entiendan el código y pueden contribuir de forma sencilla. Para ello utilizaremos TRAVIS como sistema de apoyo para mantener los estándares.
+
+- **Capacidad de entrega:**  
+En una etapa inicial, los primeros 3 meses de producción, el equipo deberá de poder hacer entregables cada dos semanas hasta tener la aplicación corriendo de una forma estable. Durante el primer año de la Red Colmillo, los entregables para lanzar a producción podrán reducirse a hacerse de manera mensual. Depués del primer año y si el equipo lo considera apropiado, se deberá de lanzar a producción cada tres meses.
 
 ### 5.5 Reglas de negocio
 Todos estos roles tienen acceso a las funcionalidades descritas en la sección [Funcionalidades del sistema](#4-funcionalidades-del-sistema). Tenemos tres roles dentro de la red Colmillo:
@@ -349,8 +355,11 @@ TODO: Discutir con el equipo para ver si esto esta bien.
 
 # Plan de calidad
 ## 1. Identificador del plan de prueba
+Prueba 1.0 del prototipo en JustInMind 9.1.4 para la aplicación Red Colmillo en su versión 1.0
 
 ## 2. Referencias
+El desarrollo de las pruebas de este prototipo se hará a través de la plataforma de JustInMind 9.1.4. Este software puede ser descargado a través del siguiente link:
+https://www.justinmind.com/download. Si el lector desconoce el uso de esta herramienta, puede apoyarse del manual de uso que se encuentra en el siguiente link: https://www.justinmind.com/support/. Para poder conocer más acerca de la aplicación que se pondrá a prueba, se le recomienda al lector leer antes los puntos de este documento dedicados a al [Documento de Requerimientos](#documento-de-requerimientos), la [Metodología](#metodología) y la [Arquitectura](#arquitectura). Estos documentos darán una mejor visión acerca de los objetivos que se quieren lograr con el desarrollo y prueba de la Red Colmillo 1.0.
 
 ## 3. Introducción
 
