@@ -364,17 +364,17 @@ Se realizaron casos de uso de tres [funcionalidades listadas en el documento de 
 
 ## 1. Subir documento
 <p align="center">
-  <img width="460" height="400" src="img/CasoDeUso1.png">
+  <img width="460" height="400" src="img/CasoDeUso1.PNG">
 </p>
 
 ## 2. Mandar mensajes directos
 <p align="center">
-  <img width="460" height="400" src="img/CasoDeUso2.png">
+  <img width="460" height="400" src="img/CasoDeUso2.PNG">
 </p>
 
 ## 3. Comunicarse con el ChatBot de servicios escolares
 <p align="center">
-  <img width="460" height="400" src="img/CasoDeUso3.png">
+  <img width="460" height="400" src="img/CasoDeUso3.PNG">
 </p>
 
 # Plan de calidad
