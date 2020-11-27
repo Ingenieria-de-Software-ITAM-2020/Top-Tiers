@@ -354,7 +354,15 @@ Todos estos roles tienen acceso a las funcionalidades descritas en la sección [
 
 **Administrador**: Este rol es para los administrativos de la institución, que tienen el privilegio de dar rol de empleado y profesor.
 
-TODO: Discutir con el equipo para ver si esto esta bien.
+# Casos de uso
+Se realizaron casos de uso de tres [funcionalidades listadas en el documento de requerimientos](#4-funcionalidades-del-sistema): subir documentos a grupos, mandar mensaje directo y conversar con Colmillo.
+
+## Subir documento
+
+## Mandar mensajes directos
+
+## Comunicarse con el ChatBot de servicios escolares
+
 
 # Plan de calidad
 ## 1. Identificador del plan de prueba
