@@ -84,6 +84,8 @@
 5. **[Metodología](#metodología)** 
 
 6. **[Documentación para replicar](#documentación-para-replicar)**
+
+7. **[Presentación](#presentación)
 ----
 
 # Documento de Requerimientos
@@ -564,3 +566,9 @@ A continuación se muestran los pasos a seguir para navegar sobre el prototipo d
 34. Dos veces clic en ícono de enviar.
 35. Clic en "Regresar con Colmillo".
 ![Regresar con Colmillo](img/simular/regresa-colmillo.png)
+
+# Presentación
+
+Para ver la presentación, siga el siguiente [link](https://docs.google.com/presentation/d/1yus-saQ1mBBxDOMPK3Nznbhivuaxosoj6aZfDHEqTgY/edit?usp=sharing)
+
+![Gif](img/presentacion.GIF)
