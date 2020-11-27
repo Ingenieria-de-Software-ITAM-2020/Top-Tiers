@@ -40,7 +40,7 @@
         1. [Iniciar Sesión](#41-iniciar-sesión)
         2. [Crear grupos](#42-crear-grupos)
         3. [Buscar contactos](#43-buscar-contactos)
-        4. [Comunicarte con el chatbot de servicios escolares](#44-comunicarse-con-el-chatbot-de-servicios-escolares)
+        4. [Comunicarse con el chatbot de servicios escolares](#44-comunicarse-con-el-chatbot-de-servicios-escolares)
         5. [Mandar mensajes directos](#45-mandar-mensajes-directos)
         6. [Mandar mensajes a grupos](#46-mandar-mensajes-a-grupos)
         7. [Acceder a notificaciones](#47-acceder-a-notificaciones)
@@ -52,8 +52,13 @@
         3. [Security Requirements](#53-security-requirements)
         4. [Atributos de calidad de software](#54-atributos-de-calidad-de-software)
         5. [Reglas de negocio](#55-reglas-de-negocio)
+
+2. **[Casos de uso](#casos-de-uso)**
+    1. [Subir documentos](#1-subir-documentos)
+    2. [Mandar mensajes directos](#2-mandar-mensajes-directos)
+    3. [Comunicarse con el chatbot de servicios escolares](#3-comunicarse-con-el-chatbot-de-servicios-escolares)
         
-2. **[Plan de calidad](#plan-de-calidad)**
+3. **[Plan de calidad](#plan-de-calidad)**
     1. [Identificador del plan de prueba](#1-identificador-del-plan-de-prueba)
     2. [Referencias](#2-referencias)
     3. [Introducción](#3-introducción)
@@ -74,11 +79,11 @@
     18. [Aprobaciones](#18-aprobaciones)
     19. [Glosario](#19-glosario)
     
-3. **[Arquitectura](#arquitectura)** 
+4. **[Arquitectura](#arquitectura)** 
 
-4. **[Metodología](#metodología)** 
+5. **[Metodología](#metodología)** 
 
-5. **[Documentación para replicar](#documentación-para-replicar)**
+6. **[Documentación para replicar](#documentación-para-replicar)**
 ----
 
 # Documento de Requerimientos
@@ -357,12 +362,20 @@ Todos estos roles tienen acceso a las funcionalidades descritas en la sección [
 # Casos de uso
 Se realizaron casos de uso de tres [funcionalidades listadas en el documento de requerimientos](#4-funcionalidades-del-sistema): subir documentos a grupos, mandar mensaje directo y conversar con Colmillo.
 
-## Subir documento
+## 1. Subir documento
+<p align="center">
+  <img width="460" height="400" src="img/CasoDeUso1.png">
+</p>
 
-## Mandar mensajes directos
+## 2. Mandar mensajes directos
+<p align="center">
+  <img width="460" height="400" src="img/CasoDeUso2.png">
+</p>
 
-## Comunicarse con el ChatBot de servicios escolares
-
+## 3. Comunicarse con el ChatBot de servicios escolares
+<p align="center">
+  <img width="460" height="400" src="img/CasoDeUso3.png">
+</p>
 
 # Plan de calidad
 ## 1. Identificador del plan de prueba
