@@ -400,6 +400,8 @@ Se espera que, a nivel de front-end, los elementos de las interfaces puedan ser 
 
 ## 11. Entregables de prueba
 
+Se entregará un documento detallado de las funcionalidades que se probaron. Para cada funcionalidad, se especificarán los resultados de las pruebas hechas para cada rol; esto es, alumno, personal y administrativos.
+
 ## 12. Tareas de prueba restantes
 
 ## 13. Necesidades ambientales
