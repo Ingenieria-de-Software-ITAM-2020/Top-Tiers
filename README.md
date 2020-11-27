@@ -390,6 +390,8 @@ TODO: Discutir con el equipo para ver si esto esta bien.
 
 ## 9. Criterios de aprobación / falla del elemento
 
+Se espera que, a nivel de front-end, los elementos de las interfaces puedan ser probadas para comprobar su funcionamiento correcto. En cuanto a infraestructura, se espera un porcentaje muy bajo de fallas, en donde se pueden encontrar errores al subir documentos por el tipo de documento.
+
 ## 10. Criterios de suspensión y requisitos de reanudación
 
 ## 11. Entregables de prueba
