@@ -122,7 +122,10 @@ El software tiene como dependencias el sistema de autenticación del ITAM y el s
 
 ## 3. Requerimientos de la interfaz externa
 ### 3.1 Interfaz de usuario
-+  *Todas las que se generen del prototipo*
+- Interfaz de mensajes de grupo.
+- Interfaz de documentos por grupo.
+- Interfaz de mensajes directos.
+- Interfaz de chatbot Colmillo.
 ### 3.2 Interfaz de hardware
 La aplicación web está diseñada principalmente para visualizarse en ordenadores. Sin embrago, puede visualizarse en cualquier dispositivo con acceso a internet.
 ### 3.3 Interfaz de software
