@@ -85,7 +85,7 @@
 
 6. **[Documentación para replicar](#documentación-para-replicar)**
 
-7. **[Presentación](#presentación)
+7. **[Presentación](#presentación)**
 ----
 
 # Documento de Requerimientos
