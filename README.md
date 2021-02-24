@@ -3,18 +3,7 @@
 </p>
 
 **Ingeniería de Software**
- 
-**Proyecto Final**
 
-**Equipo: Top Tiers**
-
-**Integrantes:**
-- Manuel Fernández Verda — 166496
-- Andrea Carolina Padilla Rodriguez — 166605
-- Ruben Romero Ortega — 174178
-- Juan Carlos Sigler Priego — 174215
-
----- 
 # Tabla de contenido
 1. **[Documento de Requerimientos](#documento-de-requerimientos)**
     1. [Introducción](#1-introducción)
