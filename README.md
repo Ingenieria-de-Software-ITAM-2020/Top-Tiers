@@ -2,8 +2,6 @@
   <img width="460" height="200" src="img/LogoRedColmillo.png">
 </p>
 
-**Ingeniería de Software**
-
 # Tabla de contenido
 1. **[Documento de Requerimientos](#documento-de-requerimientos)**
     1. [Introducción](#1-introducción)
