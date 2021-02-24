@@ -2,90 +2,17 @@
   <img width="460" height="200" src="img/LogoRedColmillo.png">
 </p>
 
-# Tabla de contenido
-1. **[Documento de Requerimientos](#documento-de-requerimientos)**
-    1. [Introducción](#1-introducción)
-        1. [Propósito](#11-propósito)
-        2. [Convenciones del documento](#12-convenciones-del-documento)
-        3. [Audiencia prevista y sugerencia de lectura](#13-audiencia-prevista-y-sugerencia-de-lectura)
-        4. [Alcance del producto](#14-alcance-del-producto)
-        5. [Referencias](#15-referencias)
-    2. [Descripción General](#2-descripción-general)
-        1. [Perspectiva del producto](#21-perspectiva-del-producto)
-        2. [Funciones del producto](#22-funciones-del-producto)
-        3. [Clases y características de usuario](#23-clases-y-características-de-usuario)
-        4. [Entorno operativo](#24-entorno-operativo)
-        5. [Restricciones de diseño e implementación](#25-restricciones-de-diseño-e-implementación)
-        6. [Documentación del usuario](#26-documentación-del-usuario)
-        7. [Supuestos y dependencias](#27-supuestos-y-dependencias)
-    3. [Requerimientos de la interfaz externa](#3-requerimientos-de-la-interfaz-externa)
-        1. [Interfaz de usuario](#31-interfaz-de-usuario)
-        2. [Interfaz de hardware](#32-interfaz-de-hardware)
-        3. [Interfaz de software](#33-interfaz-de-software)
-        4. [Interfaz de comunicación](#34-interfaz-de-comunicación)
-    4. [Funcionalidades del sistema](#4-funcionalidades-del-sistema)
-        1. [Iniciar Sesión](#41-iniciar-sesión)
-        2. [Crear grupos](#42-crear-grupos)
-        3. [Buscar contactos](#43-buscar-contactos)
-        4. [Comunicarse con el chatbot de servicios escolares](#44-comunicarse-con-el-chatbot-de-servicios-escolares)
-        5. [Mandar mensajes directos](#45-mandar-mensajes-directos)
-        6. [Mandar mensajes a grupos](#46-mandar-mensajes-a-grupos)
-        7. [Acceder a notificaciones](#47-acceder-a-notificaciones)
-        8. [Subir documentos](#48-subir-documentos)
-        9. [Cerrar sesión](#49-cerrar-sesión)
-    5. [Otros requerimientos no funcionales](#5-otros-requerimientos-no-funcionales)
-        1. [Requerimientos de rendimiento](#51-requerimientos-de-rendimiento)
-        2. [Safety Requirements](#52-safety-requirements)
-        3. [Security Requirements](#53-security-requirements)
-        4. [Atributos de calidad de software](#54-atributos-de-calidad-de-software)
-        5. [Reglas de negocio](#55-reglas-de-negocio)
-
-2. **[Casos de uso](#casos-de-uso)**
-    1. [Subir documentos](#1-subir-documentos)
-    2. [Mandar mensajes directos](#2-mandar-mensajes-directos)
-    3. [Comunicarse con el chatbot de servicios escolares](#3-comunicarse-con-el-chatbot-de-servicios-escolares)
-        
-3. **[Plan de calidad](#plan-de-calidad)**
-    1. [Identificador del plan de prueba](#1-identificador-del-plan-de-prueba)
-    2. [Referencias](#2-referencias)
-    3. [Introducción](#3-introducción)
-    4. [Elementos de prueba](#4-elementos-de-prueba)
-    5. [Problemas de riesgo de software](#5-problemas-de-riesgo-de-software)
-    6. [Funcionalidades a probar](#6-funcionalidades-a-probar)
-    7. [Funcionalidades que no se deben probar](#7-funcionalidades-que-no-se-deben-probar)
-    8. [Enfoque](#8-enfoque)
-    9. [Criterios de aprobación / falla del elemento](#9-criterios-de-aprobación--falla-del-elemento)
-    10. [Criterios de suspensión y requisitos de reanudación](#10-criterios-de-suspensión-y-requisitos-de-reanudación)
-    11. [Entregables de prueba](#11-entregables-de-prueba)
-    12. [Tareas de prueba restantes](#12-tareas-de-prueba-restantes)
-    13. [Necesidades ambientales](#13-necesidades-ambientales)
-    14. [Necesidades de personal y capacitación](#14-necesidades-de-personal-y-capacitación)
-    15. [Responsabilidades](#15-responsabilidades)
-    16. [Horario](#16-horario)
-    17. [Planificación de riesgos y contingencias](#17-planificación-de-riesgos-y-contingencias)
-    18. [Aprobaciones](#18-aprobaciones)
-    19. [Glosario](#19-glosario)
-    
-4. **[Arquitectura](#arquitectura)** 
-
-5. **[Metodología](#metodología)** 
-
-6. **[Documentación para replicar](#documentación-para-replicar)**
-
-7. **[Presentación](#presentación)**
-----
-
-# Documento de Requerimientos
-## 1. Introducción
-### 1.1 Propósito
+# ¿En qué consiste este proyecto?
 A continuación, se presenta el documento de especificación de requerimientos para la “Red Colmillo”, un sistema de comunicación interna dedicado al Instituto Tecnológico Autónomo de México. El propósito de este software será permitirle a todos los alumnos y profesores inscritos en el ITAM poder comunicarse con sus distintos compañeros, colegas o áreas administrativas del ITAM a lo largo de todo el ciclo escolar. El panorama que seguirá este SRS será dar perspectivas, definiciones y descripciones del software, además de especificar los requerimientos de cada una de las funcionalidades que ofrecerá el software. La versión que se muestra en este documento es "Red Colmillo 1.0".
-### 1.2 Convenciones del documento
-Para este documento de Especificación de Requerimientos de Software (SRS, por sus siglas en inglés), las prioridades de los requisitos se definen del 1 al 5 de la siguiente manera: a los más esenciales, se les asignará la prioridad 1, mientras que a los menos esenciales se les otorgará la 5.
+# ¿Qué funcionalidades tiene?
+# ¿Cómo se debe de utilizar
+
+
+
 ### 1.3 Audiencia prevista y sugerencia de lectura
 Este documento va dirigido al personal encargado de darle mantenimiento a la página web Red Colmillo, así como al personal administrativo y de cómputo que utilizarán y explicarán su uso a nuevos usuarios. Para el personal técnico o de desarrollo, se recomienda leer todo el documento de manera secuencial. Para nuevos usuarios, se recomienda leer únicamente la sección 1 de Introducción y la sección 2 de Descripción General.
 ### 1.4 Alcance del producto
 La "Red Colmillo" es un software que le permite a los alumnos y profesores del Instituto Tecnológico Autónomo de México (ITAM) tener un medio rápido y eficiente de comunicación. La comunicación efectiva es una característica esencial para crear relaciones de trabajo positivas y productivas. Cuando la comunicación fluye a través de los integrantes de una institución educativa, se es posible difundir el conocimiento y volver más productivo el trabajo ayudando a alcanzar los objetivos, tanto profesionales, como personales, de cada miembro de la institución. Los beneficios que ofrece la Red Colmillo es brindar un sistema de comunicación que le permite a los alumnos y profesores tener un lugar de acceso fácil a la información que concierne las discusiones más relevantes que se llevan a cabo en los distintos cursos a los que estén inscritos durante el semestre. También, les facilita entablar conversaciones con cualquier miembro del ITAM. Todo esto se logra a través de una interfaz amigable para añadir para poder iniciar conversaciones individuales o grupales con miembros de la institución. Además, es un sistema que incluye la conversación de los miembros de la institución con un ChatBot.
-### 1.5 Referencias
 
 
 ## 2. Descripción General
@@ -111,8 +38,7 @@ El software estará diseñado para ser una aplicación web que opere con garant�
 Red Colmillo únicamente servirá como mensajería instantánea. No se podrán realizar llamadas de voz ni de video a través de la aplicación. Se utilizará el servicio de inicio de sesión del ITAM, así que el usuario tampoco podrá crear su propia cuenta, deberá ingresar con las credenciales proporcionadas por la institución. Por lo pronto, sólo se implementará el sistema en español, y únicamente como aplicación web. 
 ### 2.6 Documentación del usuario
 El software incluirá un tutorial interactivo para el usuario la primera vez que inicie sesión. También podrá pedirle a Colmillo que le repita el tutorial interactivo. Además, le llegará un manual de usuario a su correo escolar.
-### 2.7 Supuestos y dependencias
-El software tiene como dependencias el sistema de autenticación del ITAM y el sistema que administra su base de datos. También se supone que los servidores del ITAM estén activos y tengan capacidad suficiente de respuesta para manejar las solicitudes de los usuarios. Además, se asume que los usuarios tendrán acceso a una computadora con acceso a internet para poder utilizar la aplicación.
+
 
 ## 3. Requerimientos de la interfaz externa
 ### 3.1 Interfaz de usuario
@@ -303,176 +229,7 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 - *REQ-3: Al cerrar la sesión, el sistema debe redirigir al usuario a la interfaz de inicio de sesión del ITAM.*
 - *REQ-4: En caso de que el usuario cierre la ventana sin finalizar su sesión, el sistema debe cerrar sesión automáticamente.*
 
-## 5. Otros requerimientos no funcionales
-### 5.1 Requerimientos de rendimiento
-El sistema debe tener un tiempo de respuesta menor a 200ms. Además de esto, se requiere que los servidores y bases de datos del ITAM se encuentren activos para que la aplicación funcione correctamente durante el semestre. La aplicación deberá poder soportar una carga de 6000 usuarios realizando 1 solicitud por segundo.
-### 5.2 Safety Requirements
-Dada la naturaleza personal de la mensajería privada y los riesgos que esta puede provocar, se protegerá la privacidad y seguridad de los usuarios incorporando cifrado de extremo a extremo en nuestra aplicación. Sabiendo que podrían existir usuariso que le den un mal uso a esta herramienta, los usuarios podrán evitar que alguien se comunique con ellos directamente desde un chat utilizando la función de bloqueo. Esto evitará permitir que esta plataforma se utilice con objetivos de bullying o acoso. 
 
-Es un hecho que las pantallas causan fatiga ocular (ojo seco, visión borrosa, dolor de cabeza...) por lo que se recomienda a los usuarios tomarse un descanso de 5 minutos después de cada hora que pasen utilizando nuestra aplicación. 
-### 5.3 Security Requirements
-* El software protegerá la confidencialidad de los usuarios resguardando los datos sensibles como nombres de usuarios y grupos a los que están inscritos los distintos alumnos. Las conversaciones privadas se mantendrán de esta forma y su contenido solo podrá visualizarse por los miembros de la conversación. Toda conversación será protegida y encriptada al momento de ser enviada, procesada o almacenada la Red Colmillo para mantener la privacidad de los usuarios y sus conversaciones.
-* Todos los usuarios que inicien sesión serán automáticamente verificados utilizando un microservicio provisto por el Instituto Tecnológico Autónomo de México. La Red Colmillo proveerá al sistema del ITAM el usuario y contraseña del individuo que esté solicitando tener acceso a la página de tal forma que la contraseña se provea ya hasheada para evitar un filtro de esta información sensible durante el proceso de comunicación con los servidores del ITAM.
-* Se protegerá la integridad de los datos para que no haya modificaciones erróneas en las especificaciones de los alumnos y sus características, en el contenido de las conversaciones y en los archivos que se hayan subido al sistema.
-* Se harán backups cada minuto de la información del sistema, las conversaciones y los grupos existentes.
-* Ante una caída del sistema, existirá un tiempo máximo de tolerancia y espera de 30 minutos. Durante las dos semanas del curso y las últimas 3 semanas del curso (que incluyen los exámenes finales) el tiempo de máxima tolerancia y espera ante una caida debe reducirse a 15 minutos.
-* Service Level Agreements = 90%
-* El software utilizará autenticación dos pasos cada vez que un usuario ingrese al sistema de un dispositivo no marcado previamente como confiable. Este proceso le requerirá al alumno confirmar el inicio de sesión a través de un correo institucionales que se le mandará.
-* Los permisos administrativos que permitan alterar la información de los cursos y sus grupos no deberán asignarse a los alumnos y/o profesores, solo al administrador del sistema. Los profesores y alumnos podrán modificar la información de los grupos que ellos creen de manera independiente.
-* Cada acción que se lleve a cabo en la Red Colmillo deberá de guardarse en el log del sistema. Las acciones correspondientes a mandar mensaje únicamente deberán de indicar las personas que están entablando una conversación, más nos se guardará el contenido de esta.
-* Cada que se altere la información de un curso, deberá de notificarse al profesor de este. El sistema deberá verificar diariamente que los miembros pertenecientes a cada grupo sigan inscritos al mismo, de lo contrario deberá eliminar al alumno. Si por alguna razón un profesor abandona la institución durante el semestre, deberá protegerse el grupo. El profesor será eliminado y los permisos que tenía pasarán al administrador del sistema.
-
-### 5.4 Atributos de calidad de software
-- **Fiabilidad:** Una vez puesto en producción el código, este no debe de presentar más de un incidente de alta prioridad al mes. Por este término entendemos a los incidentes que no le permitan a los usuarios mantener conversaciones en sus grupos privados o conversaciones directas. También, deberá de cuidarse que los números de incidentes bajo presión, que consideramos a los que sucedan en las primeras dos semanas de clases y en las últimas tres semanas donde se presentan los exámenes finales, sean menor a 5 durante esos plazos. Esto para poder garantizar que el servicio de la Red Colmillo estará funcionando correctamente durante las semanas críticas que necesitan que exista una herramienta de comunicación entre los miembros de la institución. Por último, nos enfocaremos que el promedio de errores por usuario de alumno sea el menor posible dentro de nuestros 3 tipos de usuarios, debido a que los usuarios tipo alumno serán nuestra prioridad en la Red Colmillo.
-
-- **Rendimiento:** 
-Mensualmente deberan de hacerse pruebas de carga en las que se estrese el sistema. Deberá verificarse que los servidores pueden soportar una carga de 6000 usuarios realizando 1 solicitud por segundo. Además existirá un panel de "Application performance monitoring (APM)" que monitoree el comportamiento de nuestros perfiles y nos permita obtener información para hacer los cambios necesarios en el sistema. El APM deberá revisarse al menos una vez por semana.
-
-- **Seguridad:** 
-El sistema deberá de procurar no tener vulnerabilidades que permita que se comparta el contendio de las conversaciones. También deberá cuidarse los permisos de autenticación y de uso, principalmente enfocandonos a que las personas que no pertenezcan a ciertos grupos no puedan tener acceso a ellos. Ante una vulnerabilidad el sistema y el equipo de desarrollo deberá presentar un tiempo de resolución menor a los 30 minutos. Por último, cada 15 días deberá revisarse los parametros de seguridad y actualizarse de ser necesario.
-
-- **Mantenibilidad:** 
-Los desarrolladores deberan de cuidar tener los mismos estándares, mismas formas de documentació y misma nomenclatura que ayude a que todos entiendan el código y pueden contribuir de forma sencilla. Para ello utilizaremos TRAVIS como sistema de apoyo para mantener los estándares.
-
-- **Capacidad de entrega:**  
-En una etapa inicial, los primeros 3 meses de producción, el equipo deberá de poder hacer entregables cada dos semanas hasta tener la aplicación corriendo de una forma estable. Durante el primer año de la Red Colmillo, los entregables para lanzar a producción podrán reducirse a hacerse de manera mensual. Depués del primer año y si el equipo lo considera apropiado, se deberá de lanzar a producción cada tres meses.
-
-### 5.5 Reglas de negocio
-Todos estos roles tienen acceso a las funcionalidades descritas en la sección [Funcionalidades del sistema](#4-funcionalidades-del-sistema). Tenemos tres roles dentro de la red Colmillo:
-
-**Alumno**: Este rol es el usuario por defecto pensado en el software. Para tener este rol, solo se necesita poder iniciar sesión en los servicios del ITAM.
-
-**Profesor**: Este rol lo brinda la institución. Los profesores podrán además mandar mensajes importantes al grupo que están impartiendo, dejar tareas y administrar el grupo de la materia. Los profesores no pueden ser bloqueados.
-
-**Empleado**: Este rol está diseñado para los asistentes que trabajan en algún área de servicios escolares. Estos podrán dado el área que están asignados, atender peticiones de alumnos. 
-
-**Administrador**: Este rol es para los administrativos de la institución, que tienen el privilegio de dar rol de empleado y profesor.
-
-# Casos de uso
-Se realizaron casos de uso de tres [funcionalidades listadas en el documento de requerimientos](#4-funcionalidades-del-sistema): subir documentos a grupos, mandar mensaje directo y conversar con Colmillo.
-
-## 1. Subir documento
-![Subir documento](img/CasoDeUso1.PNG)
-
-## 2. Mandar mensajes directos
-![Mandar mensaje directo](img/CasoDeUso2.PNG)
-
-## 3. Comunicarse con el ChatBot de servicios escolares
-![Comunicarse con Chatbot](img/CasoDeUso3.PNG)
-
-# Plan de calidad
-## 1. Identificador del plan de prueba
-Prueba 1.0 del prototipo en JustInMind 9.1.4 para la aplicación Red Colmillo en su versión 1.0
-
-## 2. Referencias
-El desarrollo de las pruebas de este prototipo se hará a través de la plataforma de JustInMind 9.1.4. Este software puede ser descargado a través del siguiente link:
-https://www.justinmind.com/download. Si el lector desconoce el uso de esta herramienta, puede apoyarse del manual de uso que se encuentra en el siguiente link: https://www.justinmind.com/support/. Una vez puesto en producción, las pruebas se harán utilizando Heurio. Este software puede ser descargado a través del siguiente link:https://chrome.google.com/webstore/detail/heurio-ux-review-visual-f/pjdbofhiijhapnmpgilkeammkanglfdj. Si el lector desconoce el uso de esta herramienta, puede apoyarse del manual de uso que se encuentra en el siguiente link: https://www.heur.io/support.
-
-Para poder conocer más acerca de la aplicación que se pondrá a prueba, se le recomienda al lector leer antes los puntos de este documento dedicados a al [Documento de Requerimientos](#documento-de-requerimientos), la [Metodología](#metodología) y la [Arquitectura](#arquitectura). Estos documentos darán una mejor visión acerca de los objetivos que se quieren lograr con el desarrollo y prueba de la Red Colmillo 1.0.
-
-## 3. Introducción
-
-El objetivo del proyecto es crear un prototipo que cumpla los requerimientos de UX sobre las funcionalidades más importantes de un sistema de comunicación entre alumnos y trabajadores del Instituto Tecnológico Autónomo de México. Asimismo, resaltar la importancia de la documentación, metodología y arquitectura de un proyecto.
-
-## 4. Elementos de prueba
-- Validación de que el usuario y contraseña concuerden.
-- Que las pantallas se desplieguen correctamente.
-- Que los botones redireccionen a las pantallas correctas.
-- Que los botones tengan los links bien definidos.
-- Que se pueda interactuar con los inputs de forma correcta.
-- Que todos los usuarios puedan enviar y recibir mensajes.
-- Que no existan pérdidas de información.
-
-## 5. Problemas de riesgo de software
-- Que el servidor de la aplicación se encuentre fuera de servicio.
-- Que el sistema del ITAM con los datos de los usuarios esté fuera de servicio.
-- Que el sistema no pierda los documentos o mensajes que se manden.
-
-## 6. Funcionalidades a probar
-- Que el usuario pueda iniciar sesión.
-- Que el sistema permita al usuario crear nuevos grupos.
-- Que el sistema permita buscar contactos.
-- Que el usuario pueda mandar mensajes a grupos.
-- Que el usuario pueda subir documentos.
-- Que el usuario pueda mandar mensajes directos.
-- Que el usuario pueda comunicarse con el chatbot del sistema.
-- Que el usuario pueda acceder a notificaciones.
-
-## 7. Funcionalidades que no se deben probar
-- Que el usuario pueda cerrar sesión.
-- Que se mantenga un historial de mensajes.
-- Que se configure el perfil.
-- Que el usuario tenga conexión a internet para utilizar la aplicación.
-
-## 8. Enfoque
-Como se mencionó con anterioridad, el prototipo se realizó en Justinmind, una herramienta de creación para prototipos de aplicaciones web y móviles y wireframes de sitios web de alta fidelidad. Dentro de Justinmind, se eligió crear el prototipo para una computadora de escritorio, ya que se desea que el sistema sea una aplicación web. Se planea que el sistema funcione en los navegadores mencionados en [Documento de Requerimientos: Entorno operativo](#24-entorno-operativo). 
-
-En el documento se proponen diversas pruebas que se podrían realizar una vez que se realice la entrega final del sistema. Se debe acordar el valor deseado para las métrica *Mean Time Between Failures*. Se estima que se realizarán entregables una vez cada dos semanas. Al final de cada reunión, se debe entregar un reporte al *Product Manager*, informando posibles errores que puedan existir en el entregable de prueba. En esta primer prueba, se debe verificar que las funcionalidades establecidas en [Funcionalidades a probar](#6-funcionalidades-a-probar), junto con los [Elementos de prueba](#4-elementos-de-prueba), se ejecuten de manera correcta. Al ser solamente un prototipo, no se probará la obtención ni inserción de datos a las bases. Con la última entrega, se deben comprobar todas las funcionalidades, incluyendo las listadas en [Funcionalidades que no se deben probar](#7-funcionalidades-que-no-se-deben-probar). Se lanzará la versión final únicamente cuando las funcionalidades del sistema superen los criterios listados en [Criterios de aprobación / falla del elemento](#9-criterios-de-aprobación--falla-del-elemento).
-
-## 9. Criterios de aprobación / falla del elemento
-
-Se espera que, a nivel de front-end, los elementos de las interfaces puedan ser probadas para comprobar su funcionamiento correcto. En cuanto a infraestructura, se espera un porcentaje muy bajo de fallas, en donde se pueden encontrar errores al subir documentos por el tipo de documento.
-
-## 10. Criterios de suspensión y requisitos de reanudación
-
-- Las pruebas que involucren funcionalidades que consideramos de prioridad muy alta (1) no deben ser nunca puestas en suspensión.
-- Las pruebas con el chatbot serán suspendidas siempre que los microservicios del ITAM estén abajo o en mantenimiento. Estas serán reanudadas en cuanto esté arriba los servicios del ITAM.
-- Se suspenderan las pruebas si se encuentra una falla en el sistema que afecte las funcionalidades del sistema. Se retomará en cuanto el equipo arregle dicha falla.
-
-## 11. Entregables de prueba
-
-Se entregará un documento detallado de las funcionalidades que se probaron. Para cada funcionalidad, se especificarán los resultados de las pruebas hechas para cada rol; esto es, alumno, personal y administrativos.
-
-## 12. Tareas de prueba restantes
-
-- Permitir que el usuario configure su perfil.
-- Lograr que el usuario pueda ver todo el historial de los mensajes en un grupo.
-- Permitir que los usuarios puedan descargar los documentos sin tener fallas.
-- Crear una validación de documentos.
-
-## 13. Necesidades ambientales
-
-- El usuario necesitará acceso a una computadora o celular inteligente.
-- Es necesario que el usuario tenga acceso a internet.
-- Es necesario que el usuario tenga credenciales activas en el ITAM.
-
-## 14. Necesidades de personal y capacitación
-Para llevar a cabo las pruebas mencionadas en este documento, utilizaremos la aplicación de Heurio. Todo el personal deberá de capacitarse antes de realizar las pruebas. A este tiempo se le dedicará una semana. También se podrán apoyar del siguiente link: https://www.heur.io/support. También, todo miembro del equipo que participe en las pruebas deberá haber leido completamente este plan de calidad, además de el  [Documento de Requerimientos](#documento-de-requerimientos).
-
-Por otro lado, las personas encargadas de las pruebas deberán tener conocimiento completo de la funcionalidad encargada de probar. Además, los encargados de probar la integración con los servicios del ITAM, deberán tener conocimiento de las APIs que ofrece el ITAM.
-
-## 15. Responsabilidades
-
-El equipo de pruebas constará de 4 personas las cuales dividiremos en dos equipo, cada uno con dos personas. El equipo 1 se enfocará a las labores de mensajeria directa y de grupos, mientras que el equipo 2 se enfocará a las labores del chatbot y funcionalidades generales. La división se hará de la siguiente manera:
-
-Equipo 1 (miembros Ruben Romero y Juan Carlos Sigler):
-- Que el usuario pueda mandar mensajes a grupos.
-- Que el usuario pueda subir documentos.
-- Que el usuario pueda mandar mensajes directos.
-
-Equipo 2 (miembros Andrea Padilla y Manuel Fernández):
-- Que el usuario pueda iniciar sesión.
-- Que el sistema permita al usuario crear nuevos grupos.
-- Que el sistema permita buscar contactos.
-- Que el usuario pueda comunicarse con el chatbot del sistema.
-- Que el usuario pueda acceder a notificaciones.
-
-## 16. Horario
-Red Colmillo estará lista en 8 meses: el primer mes se realizará el diseño y prototipado de la aplicación, se destinarán seis meses al desarrollo y un mes a pruebas finales.  Aunque por ahora sólo se tenga el prototipo de la aplicación, se planea que los entregables del desarrollo de software se relizarán cada dos semanas, estimando realizar la entrega final en 6 meses. Esta se probará durante un mes para verificar el correcto funcionamiento. Al pasar los criterios de prueba, se lanzará la aplicación. 
-
-## 17. Planificación de riesgos y contingencias
-
-- En caso de que no haya personal suficiente para hacer las pruebas de integración con los servicios del ITAM, se extenderá el periodo de prueba hasta tener la suficiente capacitación.
-- En caso de fallas en la integridad, se reiniciarán todas las pruebas para cada funcionalidad.
-
-## 18. Aprobaciones
-
-Dado que la aplicación es para individuos del ITAM, solo se necesitaría la aprobación de las autoridades del ITAM para obtener los datos sobre los grupos de clases y las cuentas de los usuarios para acceder.
-
-## 19. Glosario
-
-- Red Colmillo: Nombre del sistema.
-- Clave única: Clave de identificación asociada al ITAM.
 
 # Arquitectura
 Actualmente, la Red Colmillo trabaja con arquitectura por eventos donde la aplicación utiliza la información en tiempo real proporcionada por los usuarios para orquestar decisiones. Aquí, los creadores de eventos o módulos, es decir los usuarios, transmiten la necesidad de entablar una conversación, en un tiempo dado, al gestor de eventos (la plataforma online), quien agregaría esta transmisión a su aplicación para poder conectar a los usuarios que se quieren comunicar con algún miembro o área de servicios del ITAM. Alguno de los módulos que el orquestador pudiera manejar se podría ver como los siguientes:
@@ -554,8 +311,3 @@ A continuación se muestran los pasos a seguir para navegar sobre el prototipo d
 35. Clic en "Regresar con Colmillo".
 ![Regresar con Colmillo](img/simular/regresa-colmillo.png)
 
-# Presentación
-
-Para ver la presentación, siga el siguiente [link](https://docs.google.com/presentation/d/1yus-saQ1mBBxDOMPK3Nznbhivuaxosoj6aZfDHEqTgY/edit?usp=sharing)
-
-![Gif](img/presentacion.GIF)
