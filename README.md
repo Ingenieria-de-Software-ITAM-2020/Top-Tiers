@@ -102,7 +102,7 @@ Con el fin de resguardar su seguridad, el usuario puede cerrar sesión cuando lo
 
 &nbsp;
 # ¿Cómo explorar este repositorio?
-Una vez que el usuario leyó este documento, se le recomienda seguir los pasos de la sección de [Restricciones de diseño e implementación](#Restricciones-de-diseño-e-implementación) y visualizar el prototipo en Just In Mind. La idea de esto es que el lector pueda experimentar el prototipo que presentamos. No obstante, si el lector quiere revisar el código puede hacerlo en la carpeta de este repositorio llamada [RedColmillo](https://github.com/Ingenieria-de-Software-ITAM-2020/Top-Tiers/tree/main/RedColmillo). 
+Una vez que el usuario leyó este documento, se le recomienda seguir los pasos de la sección de [Restricciones de diseño e implementación](#Restricciones-de-diseño-e-implementación) y visualizar el prototipo en Just In Mind. La idea de esto es que el lector pueda experimentar con la experiencia de usuasrio que ofrece el prototipo que presentamos. No obstante, si el lector quiere revisar el código puede hacerlo directamente en la carpeta de este repositorio llamada [RedColmillo](https://github.com/Ingenieria-de-Software-ITAM-2020/Top-Tiers/tree/main/RedColmillo). 
 
-Nuestro equipo espera que el lector disfrute su experiencia en nuestro repositorio y le pueda ser de utilidad para sus actuales o futuros proyectos.
+Nuestro equipo espera que el lector disfrute su experiencia en este repositorio y le pueda ser de utilidad para sus actuales o futuros proyectos.
 
