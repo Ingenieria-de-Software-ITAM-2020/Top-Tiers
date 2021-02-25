@@ -101,5 +101,5 @@ Para extender las capacidades de la red de comunicación, se añade esta funcion
 Con el fin de resguardar su seguridad, el usuario puede cerrar sesión cuando lo desee. Además, para proteger sus datos y conversaciones, el sistema a través de una subrutina en el código finaliza cualquier sesión en la que se detecta inactividad durante 15 minutos.
 
 ## ¿Cómo explorar este repositorio?
-Una vez que el usuario leyó este documento, se le recomienda seguir los pasos de la sección de [Restricciones de diseño e implementación](#Restricciones de diseño e implementación) y visualizar el prototipo en JustInMind para tener una idea de la experiencia de usuario. 
+Una vez que el usuario leyó este documento, se le recomienda seguir los pasos de la sección de [Restricciones de diseño e implementación](#Restricciones-de-diseño-e-implementación) y visualizar el prototipo en JustInMind para tener una idea de la experiencia de usuario. En cambio, si el lector quiere revisar el código, puede hacerlo en la carpeta de este repositorio llamada (```RedColmillo```).
 
