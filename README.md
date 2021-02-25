@@ -91,13 +91,13 @@ Al iniciar sesión, el alumno debe poder visualizar de manera rápida y sencilla
   <p align="center">Figura 8: Visualización de notificaciones.</p>
 </p>
 
-### 9. Subir documentos
+### 8. Subir documentos
 Para extender las capacidades de una red de comunicación simple, esta funcionalidad permite que los usuarios puedan subir documentos a los grupos para que todos los miembros puedan verlos, estos documentos pueden ser desde material de clase hasta tareas.
 <p align="center">
   <img width=90% src="img/simular/regresar-documentos.png">
   <p align="center">Figura 9: Subir documentos al curso de Minería de Datos.</p>
 </p>
 
-### 10. Cerrar sesión
+### 9. Cerrar sesión
 Con el fin de resguardar su seguridad, el usuario podrá cerrar sesión cuando lo desee. Además, para proteger sus datos y conversaciones, el sistema también podrá finalizar la sesión del usuario en caso de que se detecte inactividad durante 7 minutos.
 
