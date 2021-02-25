@@ -2,8 +2,8 @@
   <img width="460" height="200" src="img/LogoRedColmillo.png">
 </p>
 
-# Definición del proyecto
 &nbsp;
+# Definición del proyecto
 ## Descripción y motivación
 
 La “Red Colmillo” es un sistema de mensajería instantánea dedicada al Instituto Tecnológico Autónomo de México (ITAM). El propósito de este software es permitirle a todos los alumnos, profesores y personal administrativo del ITAM tener un medio de comunicación rápido y efectivo. 
@@ -27,8 +27,8 @@ La versión que se muestra en este respositorio es "Red Colmillo 1.0". Esta vers
 2. Clonar este repositorio.
 3. Abrir el prototipo ```RedColmillo.vp``` dentro de Justinmind.
 
-# Aspectos técnicos y de funcionalidad
 &nbsp;
+# Aspectos técnicos y de funcionalidad
 ## Entorno operativo
 El software estará diseñado para ser una aplicación web que opere con garantía en versiones más recientes de navegadores que soporten HTML5 y JavaScript. Se sugieren Google Chrome, Safari, Firefox y Microsoft Edge. Es decir, funciona sobre cualquier sistema operativo que soporte estos navegadores. Se tomará como base el funcionamiento de la aplicación sobre una computadora como dispositivo.
 
