@@ -10,7 +10,7 @@ La “Red Colmillo” es un **sistema de mensajería instantánea** dedicada al 
 
 Este proyecto surge ante la necesidad de tener un sistema de comunicación eficiente dentro de la comunidad ITAM. La comunicación efectiva es una característica esencial para crear relaciones de trabajo positivas y productivas en un entorno educativo. Cuando la comunicación fluye a través de los integrantes de una institución, es posible difundir conocimiento y hacer más productivo el trabajo. Esto ayuda a cada miembro de la institución a alcanzar sus objetivos profesionales y personales. 
 
-La forma en la que la "Red Colmillo" inteta proveer una herramienta de comunicación efectiva  es a partir de lo siguiente. Primero, brinda un sistema de comunicación que le permite a los alumnos y profesores del ITAM tener un lugar de acceso fácil a la información que concierne las discusiones más relevantes de sus cursos. Segundo, les facilita a los miembros de la comunidad entablar conversaciones individuales o grupales con cualquier otro colega de la institución a través una interfaz amigable. Por último, la aplicación incluye un sistema de asistencia sobre asuntos estudiantiles por medio de un _Chat Bot_.
+La forma en la que la "Red Colmillo" intenta proveer una herramienta de comunicación efectiva es a partir de lo siguiente. Primero, brinda un sistema de comunicación que le permite a los alumnos y profesores del ITAM tener un lugar de acceso fácil a la información que concierne las discusiones más relevantes de sus cursos. Segundo, les facilita a los miembros de la comunidad entablar conversaciones individuales o grupales con cualquier otro colega de la institución a través una interfaz amigable. Por último, la aplicación incluye un sistema de asistencia sobre asuntos estudiantiles por medio de un _Chat Bot_.
 
 ## Metodología de desarrollo del software
 La “Red Colmillo” se desarrolla a partir de la **metodología impulsada por funcionalidades** (conocida en inglés como *feature driven*). Esta metodología ágil organiza el desarrollo de software al rededor del progreso e implementación de funcionalidades específicas, como se muestra en la figura 1. Es decir, el producto se construye a través de ciclos de desarrollo ágiles que se enfocan a implementar una única funcionalidad y probarla con el usuario. Una vez terminado el ciclo, se puede pasar al desarrollo de otra funcionalidad en una nueva iteración. El valor del desarrollo basado en funcionalidades es que te permite enfocarte en las funcionalidades que son altamente valoradas por el usuario y desarrollar un producto de calidad, basándonos en la experiencia de usuario. Es importante que, al revisar este repositorio, el código y el historial de versiones se tengan en cuenta la metodología de desarrollo utilizada. Todos los cambios que se hicieron al repositorio fueron elaborados bajo este concepto.
@@ -37,7 +37,7 @@ Los usuarios que interactuarán con la aplicación son:
 + **Estudiantes:** todo individuo que esté tomando clases en la institución ya sea a nivel de licenciatura, maestría, doctorado o diplomado.
 + **Profesores:** todos los catedráticos de la institución.
 + **Personal administrativo:** todos los miembros administrativos de las divisiones académicas y departamentos de servicios escolares.
-+ **Administradores del sistema:** personas encargadas de mantener la página web y el ChatBot, así como asignar a los alumnos y profesores a los chat grupales de los cursos que les correspondan en cada semestre.
++ **Administradores del sistema:** personas encargadas de mantener la página web y el _Chat Bot_, así como asignar a los alumnos y profesores a los chat grupales de los cursos que les correspondan en cada semestre.
 
 ## Funcionalidades del sistema
 
@@ -59,10 +59,10 @@ Esta funcionalidad sirve para crear grupos nuevos en los que participarán alumn
 Para poder iniciar una conversación a través de un mensaje directo, un usuario puede buscar el contacto con el que se quiere comunicar. Esto lo hace a través de la sección de "búsqueda" que se proporcionará en la aplicación. Esta búsqueda se hace directamente con la base de datos del ITAM y abre una conversación entre los contactos que se van a comunicar.
 <p align="center">
   <img width=90% src="img/simular/buscar-ruben.png">
-  <p align="center">Figura 4: Buscar en contactos a "Ruben.</p>
+  <p align="center">Figura 4: Buscar en contactos a "Rubén.</p>
 </p>
 
-### 4. Comunicarse con el ChatBot de servicios escolares
+### 4. Comunicarse con el _Chat Bot_ de servicios escolares
 Con el objetivo de mejorar la experiencia de los usuarios de nuestro software se diseñó un _Chat Bot_ llamado Colmillo. El usuario puede interactuar con Colmillo para consultar dudas respecto a funcionalidades de la aplicación o hacer preguntas acerca de los trámites y actividades más relevantes del ITAM. Este último punto podemos ilustrarlo con los siguientes ejemplos. Por un lado, el usuario puede consultar las fechas y avisos importantes del ITAM o, por otro lado, puede comunicarse con asesores virtuales de las distintas áreas de servicios escolares.
 <p align="center">
   <img width=90% src="img/simular/comunicar.png">
@@ -78,7 +78,7 @@ Uno de los objetivos primordiales del software es que el usuario pueda tener una
 
 
 ### 6. Mandar mensajes a grupos
-Los grupos son un punto de interacción clave entre maestro y alumno. Por eso, ambos usuarios pueden mandar mensajes a grupos que visualizaran todos los miembros del mismo.
+Los grupos son un punto de interacción clave entre maestro y alumno. Por eso, ambos usuarios pueden mandar mensajes a grupos que visualizaran todos los miembros de este.
 <p align="center">
   <img width=90% src="img/simular/chat-grupal.png">
   <p align="center">Figura 7: Conversación grupal del curso de Minería de Datos.</p>
@@ -99,4 +99,7 @@ Para extender las capacidades de la red de comunicación, se añade esta funcion
 
 ### 9. Cerrar sesión
 Con el fin de resguardar su seguridad, el usuario puede cerrar sesión cuando lo desee. Además, para proteger sus datos y conversaciones, el sistema a través de una subrutina en el código finaliza cualquier sesión en la que se detecta inactividad durante 15 minutos.
+
+## ¿Cómo explorar este repositorio?
+Una vez que el usuario leyó este documento, se le recomienda
 
