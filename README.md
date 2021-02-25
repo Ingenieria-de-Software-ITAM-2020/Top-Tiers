@@ -41,89 +41,38 @@ Los usuarios que interactuarán con la aplicación son:
 
 ## Funcionalidades del sistema
 
-### Iniciar sesión
+### 1. Iniciar sesión
 Ningún miembro de la comunidad ITAM podrá crear su propia cuenta; esta será otorgada por la institución. Es por eso que, para el inicio de sesión, se usará el servicio de autenticación del ITAM.
 ![login](img/simular/login.png)
-### Crear Grupos
+
+### 2. Crear Grupos
 Esta funcionalidad sirve para crear grupos nuevos entre alumnos de la escuela. Se pueden crear un número ilimitado de grupos, al iniciar cada semestre los grupos automáticos serán los de cada clase.
-
-### Buscar contactos
-Para poder iniciar una conversación a través de un mensaje directo, un usuario debe buscar primero en contacto del miembro del ITAM con el que se quiere comunicar. Esto lo puede realizar a través de la sección de búsqueda que se proporcionará en la aplicación. Se considera que esta es una funcionalidad de prioridad alta (2) porque brinda a los alumnos la información necesaria para poder utilizar la aplicación de mensajería directa. Sin embargo, se le ha asignado prioridad 2 debido a que no es la principal función del sistema. El alumno podrá acceder en la parte superior de la interfaz a esta funcionalidad.
-
-### Comunicarse con el ChatBot de servicios escolares
-Con el objetivo de acercar a los usuarios a la comunidad del ITAM se diseñó Colmillo, el chatbot propio del ITAM. El usuario entonces podrá interactuar con Colmillo para consultar las fechas y avisos importantes por parte de la escuela o bien para comunicarse con un área de servicios escolares (como cajas, becas, centro de tesis). 
-
-### Mandar mensajes directos
-Uno de los objetivos primordiales del software es precisamente que el usuario pueda tener una conversación, de forma segura y accesible, con cualquier miembro con quien así lo desee del ITAM. El alumno entonces podrá acceder a una interfaz donde pueda mantener conversaciones de mensajería directa con los contactos deseados. Esta interfaz debe mostrar al centro de la imagen el área de mensajería.
-
-### Mandar mensajes a grupos
-Los grupos son un punto de interacción clave entre maestro y alumno. Los mensajes deben llegar a todos los miembros del grupo y guardarse en un historial. 
-
-### Acceder a notificaciones
-Al iniciar sesión, el alumno debe poder visualizar de manera rápida y sencilla los mensajes más importantes recibidos durante su ausencia. Esto le facilitará al usuario el seguimiento de sus conversaciones y le permitirá visualizar más facilmente los anuncios de sus profesores. En un panel del lado derecho, se mostrarán únicamente los mensajes de sus profesores y los archivos que se hayan mandado en sus grupos.
-
-### Subir documentos
-Para extender las capacidades de una red de comunicación simple, esta funcionalidad permite que los usuarios puedan subir documentos a los grupos para que todos los miembros puedan verlos, estos documentos pueden ser desde material de clase hasta tareas.
-
-### Cerrar sesión
-Con el fin de resguardar su seguridad, el usuario podrá cerrar sesión cuando lo desee. Además, para proteger sus datos y conversaciones, el sistema también podrá finalizar la sesión del usuario en caso de que se detecte inactividad durante 7 minutos.
-
-# Documentación para replicar
-
-Requisitos
-- Descargar [Justinmind](https://www.justinmind.com/download).
-- Clonar o descargar este repositorio.
-
-A continuación se muestran los pasos a seguir para navegar sobre el prototipo del software.
-
-1. Abrir Justinmind 
-2. Abrir prototipo ```RedColmillo.vp```
-3. Clic en simular prototipo.
-4. Ingresar correo y contraseña, y clic en iniciar sesión.
-![login](img/simular/login.png)
-5. Clic en "Chat grupal".
-6. Escribir "Mi computadora no tiene cámara :(((" como mensaje.
-![chat grupal](img/simular/chat-grupal.png)
-7. Clic en el ícono de enviar.
-8. Clic en "Documentos".
-9. Clic en "Materiales de clase".
-10. Clic para regresar a documentos.
-![regresar a documentos](img/simular/regresar-documentos.png)
-11. Clic en "Tareas"
-12. Clic en "Nuevo"
-13. Clic en "Nuevo grupo"
-14. Escribir "Equipo Inge Software" en nombre del grupo, escribir descripción y clic en "Crear Grupo".
 ![nuevo grupo](img/simular/nuevo-grupo.png)
-15. Clic en ícono para buscar personas.
-![personitas](img/simular/personitas.png)
-16. Clic en "Agregar miembros".
-17. Escribir "ruben" en la barra de buscador y clic en ícono de lupa.
+
+### 3. Buscar contactos
+Para poder iniciar una conversación a través de un mensaje directo, un usuario debe buscar primero en contacto del miembro del ITAM con el que se quiere comunicar. Esto lo puede realizar a través de la sección de búsqueda que se proporcionará en la aplicación. Se considera que esta es una funcionalidad de prioridad alta (2) porque brinda a los alumnos la información necesaria para poder utilizar la aplicación de mensajería directa. Sin embargo, se le ha asignado prioridad 2 debido a que no es la principal función del sistema. El alumno podrá acceder en la parte superior de la interfaz a esta funcionalidad.
 ![buscar ruben](img/simular/buscar-ruben.png)
-18. Clic en "Rubén Romero Ortega".
-19. Clic en ícono para buscar personas nuevamente.
-20. Clic en notificación de "Liliana Millán".
-![notificación](img/simular/notificacion.png)
-21. Ir a la pestaña de mensajes.
-![ir a mensajes](img/simular/ir-mensajes.png)
-22. Clic en "Rubén Romero".
-23. Escribir "Había tarea??????" en la barra de mensajes y enviar.
-![mensaje privado](img/simular/habia-tarea.png)
-24. Clic en "Nuevo chat"
-25. Escribir "Andrea" en el buscador y clic en el la lupa.
-![buscar Andrea](img/simular/buscar-andrea.png)
-26. Clic en "Andrea Padilla".
-27. Escribir "Rola la tareaaaaaaa" en la barra de mensajes y enviar.
-28. Ir a la pestaña de Colmillo.
-![Ir con Colmillo](img/simular/ir-colmillo.png)
-29. Escribir y enviar (o clic) en "¿Qué fechas importantes se acercan?".
-![Fechas importantes](img/simular/fechas.png)
-30. Clic nuevamente en ícono de enviar.
-31. Escribir y enviar "Comunícame con Cajas"
+
+### 4. Comunicarse con el ChatBot de servicios escolares
+Con el objetivo de acercar a los usuarios a la comunidad del ITAM se diseñó Colmillo, el chatbot propio del ITAM. El usuario entonces podrá interactuar con Colmillo para consultar las fechas y avisos importantes por parte de la escuela o bien para comunicarse con un área de servicios escolares (como cajas, becas, centro de tesis). 
 ![Comunicar a cajas](img/simular/comunicar.png)
-32. Clic nuevamente en ícono de enviar.
-33. Abrir el chat de Cajas
-![abrir chat Cajas](img/simular/cajas.png)
-34. Dos veces clic en ícono de enviar.
-35. Clic en "Regresar con Colmillo".
-![Regresar con Colmillo](img/simular/regresa-colmillo.png)
+
+### 5. Mandar mensajes directos
+Uno de los objetivos primordiales del software es precisamente que el usuario pueda tener una conversación, de forma segura y accesible, con cualquier miembro con quien así lo desee del ITAM. El alumno entonces podrá acceder a una interfaz donde pueda mantener conversaciones de mensajería directa con los contactos deseados. Esta interfaz debe mostrar al centro de la imagen el área de mensajería.
+![mensaje privado](img/simular/habia-tarea.png)
+
+### 6. Mandar mensajes a grupos
+Los grupos son un punto de interacción clave entre maestro y alumno. Los mensajes deben llegar a todos los miembros del grupo y guardarse en un historial. 
+![chat grupal](img/simular/chat-grupal.png)
+
+### 7. Acceder a notificaciones
+Al iniciar sesión, el alumno debe poder visualizar de manera rápida y sencilla los mensajes más importantes recibidos durante su ausencia. Esto le facilitará al usuario el seguimiento de sus conversaciones y le permitirá visualizar más facilmente los anuncios de sus profesores. En un panel del lado derecho, se mostrarán únicamente los mensajes de sus profesores y los archivos que se hayan mandado en sus grupos.
+![notificación](img/simular/notificacion.png)
+
+### 9. Subir documentos
+Para extender las capacidades de una red de comunicación simple, esta funcionalidad permite que los usuarios puedan subir documentos a los grupos para que todos los miembros puedan verlos, estos documentos pueden ser desde material de clase hasta tareas.
+![regresar a documentos](img/simular/regresar-documentos.png)
+
+### 10. Cerrar sesión
+Con el fin de resguardar su seguridad, el usuario podrá cerrar sesión cuando lo desee. Además, para proteger sus datos y conversaciones, el sistema también podrá finalizar la sesión del usuario en caso de que se detecte inactividad durante 7 minutos.
 
