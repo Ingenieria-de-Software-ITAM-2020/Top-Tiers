@@ -2,29 +2,21 @@
   <img width="460" height="200" src="img/LogoRedColmillo.png">
 </p>
 
-# ¿En qué consiste este proyecto?
-A continuación, se presenta la “Red Colmillo”, un sistema de comunicación interna dedicado al Instituto Tecnológico Autónomo de México. El propósito de este software será permitirle a todos los alumnos y profesores inscritos en el ITAM poder comunicarse con sus distintos compañeros, colegas o áreas administrativas del ITAM a lo largo de todo el ciclo escolar. El panorama que seguirá este SRS será dar perspectivas, definiciones y descripciones del software, además de especificar las funcionalidades que ofrecerá el software. La versión que se muestra en este respositorio es "Red Colmillo 1.0".
-
-## Audiencia prevista y sugerencia de lectura
-Este documento va dirigido al personal encargado de darle mantenimiento a la página web Red Colmillo, así como al personal administrativo y de cómputo que utilizarán y explicarán su uso a nuevos usuarios. Para el personal técnico o de desarrollo, se recomienda leer todo el documento de manera secuencial. Para nuevos usuarios, se recomienda leer únicamente la sección 1 de Introducción y la sección 2 de Descripción General.
+# Definición del proyecto
+## Definición del proyecto
+La “Red Colmillo” es un sistema de mensajería instantánea dedicada al Instituto Tecnológico Autónomo de México. El propósito de este software es permitirle a todos los alumnos y profesores inscritos en el ITAM poder comunicarse con sus distintos compañeros, colegas o áreas administrativas a lo largo de todo el ciclo escolar. El panorama que seguirá este SRS será dar perspectivas, definiciones y descripciones del software, además de especificar las funcionalidades que ofrecerá el software. La versión que se muestra en este respositorio es "Red Colmillo 1.0".
 
 ## Alcance del producto
-La "Red Colmillo" es un software que le permite a los alumnos y profesores del Instituto Tecnológico Autónomo de México (ITAM) tener un medio rápido y eficiente de comunicación. La comunicación efectiva es una característica esencial para crear relaciones de trabajo positivas y productivas. Cuando la comunicación fluye a través de los integrantes de una institución educativa, se es posible difundir el conocimiento y volver más productivo el trabajo ayudando a alcanzar los objetivos, tanto profesionales, como personales, de cada miembro de la institución. Los beneficios que ofrece la Red Colmillo es brindar un sistema de comunicación que le permite a los alumnos y profesores tener un lugar de acceso fácil a la información que concierne las discusiones más relevantes que se llevan a cabo en los distintos cursos a los que estén inscritos durante el semestre. También, les facilita entablar conversaciones con cualquier miembro del ITAM. Todo esto se logra a través de una interfaz amigable para añadir para poder iniciar conversaciones individuales o grupales con miembros de la institución. Además, es un sistema que incluye la conversación de los miembros de la institución con un ChatBot.
+La "Red Colmillo" es un software que le permite a los alumnos y profesores del Instituto Tecnológico Autónomo de México (ITAM) tener un medio rápido y eficiente de comunicación. La comunicación efectiva es una característica esencial para crear relaciones de trabajo positivas y productivas. Cuando la comunicación fluye a través de los integrantes de una institución educativa, es posible difundir el conocimiento y volver más productivo el trabajo ayudando a alcanzar los objetivos, tanto profesionales, como personales, de cada miembro de la institución. Los beneficios que ofrece la Red Colmillo es brindar un sistema de comunicación que le permite a los alumnos y profesores tener un lugar de acceso fácil a la información que concierne las discusiones más relevantes que se llevan a cabo en los distintos cursos a los que estén inscritos durante el semestre. También, les facilita entablar conversaciones con cualquier miembro del ITAM. Todo esto se logra a través de una interfaz amigable para añadir para poder iniciar conversaciones individuales o grupales con miembros de la institución. Además, es un sistema que incluye la conversación de los miembros de la institución con un ChatBot.
+
+## Restricciones de diseño e implementación
+Red Colmillo únicamente servirá como mensajería instantánea. No se podrán realizar llamadas de voz ni de video a través de la aplicación. Se utilizará el servicio de inicio de sesión del ITAM, así que el usuario tampoco podrá crear su propia cuenta, deberá ingresar con las credenciales proporcionadas por la institución. Por lo pronto, sólo se implementará el sistema en español, y únicamente como aplicación web. 
 
 
-# ¿Qué funcionalidades tiene?
+# Aspectos técnicos y de funcionalidad
 
-## Perspectiva del producto
-El software que se presenta en este documento consiste de un sistema de mensajería instantánea para los miembros de la comunidad ITAM. Red Colmillo pertenecerá al conjunto de aplicaciones que ofrece el ITAM, por lo que requerirá compartir recursos con estos elementos, además de que podrá tomar o proveer información a estas aplicaciones. Este software específicamente podrá acceder a la base de datos del ITAM que contiene la información acerca de los maestros, alumnos y materias que se ofrecen, además de información útil acerca de fechas importantes y de los departamentos administrativos de la institución. Esto último es para que el alumnado pueda comunicarse con Colmillo, el ChatBot del sistema, sin necesidad de contactar directamente al personal administrativo del ITAM.
-
-## Funciones del producto
-Las principales funciones de Red Colmillo son:
-+ Comunicarse con Colmillo: el alumno debe poder mandar mensajes al chat ChatBot del sistema.
-+ Mandar mensajes a grupos: el alumno debe poder comunicarse con sus compañeros y profesor (a) de sus materias a través del chat grupal del curso.
-+ Crear grupos: el alumno debe poder crear grupos para comunicarse con sus compañeros de equipo.
-+ Mandar mensajes directos: el alumno debe poder comunicarse con los miembros de la comunidad ITAM.
-+ Buscar contactos: el alumno debe poder buscar a los miembros de la comunidad ITAM para comunicarse con ellos.
-+ Ver notificaciones: el alumno debe poder acceder a un log que muestre los mensajes de sus profesores (as) y los archivos recibidos.
+## Entorno operativo
+El software estará diseñado para ser una aplicación web que opere con garantía en versiones más recientes de navegadores que soporten HTML5 y JavaScript. Se sugieren Google Chrome, Safari, Firefox y Microsoft Edge. Es decir, funciona sobre cualquier sistema operativo que soporte estos navegadores. Se tomará como base el funcionamiento de la aplicación sobre una computadora como dispositivo.
 
 ## Clases y características de usuario
 Los usuarios que interactuarán con la aplicación son:
@@ -33,31 +25,27 @@ Los usuarios que interactuarán con la aplicación son:
 + **Personal administrativo:** todos los miembros administrativos de las divisiones académicas y departamentos de servicios escolares (caja, becas, servicio social, etc.).
 + **Administrador del sistema:** persona (s) encargada (s) de mantener la página web y el ChatBot, así como asignar a los alumnos y profesores a los chat grupales de los cursos que les correspondan.
 
-## Entorno operativo
-El software estará diseñado para ser una aplicación web que opere con garantía en versiones más recientes de navegadores que soporten HTML5 y JavaScript. Se sugieren Google Chrome, Safari, Firefox y Microsoft Edge. Es decir, funciona sobre cualquier sistema operativo que soporte estos navegadores. Se tomará como base el funcionamiento de la aplicación sobre una computadora como dispositivo.
+## Funciones del producto
+Las principales funciones de Red Colmillo son:
++ Comunicarse con Colmillo: el alumno debe poder mandar mensajes al chat ChatBot del sistema.
++ Mandar mensajes a grupos: el alumno debe poder comunicarse con sus compañeros y profesor (a) de sus materias a través del chat grupal del curso.
++ Crear grupos: el alumno debe poder crear grupos para comunicarse con sus compañeros de equipo.
++ Mandar mensajes directos: el alumno debe poder comunicarse con los miembros de la comunidad ITAM.
++ Buscar contactos: el alumno debe poder buscar a los miembros de la comunidad ITAM para comunicarse con ellos.
++ Ver notificaciones: el alumno debe poder acceder a un log que muestre los mensajes de sus profesores (as) y los archivos recibidos.## Funciones del producto
+Las principales funciones de Red Colmillo son:
++ Comunicarse con Colmillo: el alumno debe poder mandar mensajes al chat ChatBot del sistema.
++ Mandar mensajes a grupos: el alumno debe poder comunicarse con sus compañeros y profesor (a) de sus materias a través del chat grupal del curso.
++ Crear grupos: el alumno debe poder crear grupos para comunicarse con sus compañeros de equipo.
++ Mandar mensajes directos: el alumno debe poder comunicarse con los miembros de la comunidad ITAM.
++ Buscar contactos: el alumno debe poder buscar a los miembros de la comunidad ITAM para comunicarse con ellos.
++ Ver notificaciones: el alumno debe poder acceder a un log que muestre los mensajes de sus profesores (as) y los archivos recibidos.
 
-## Restricciones de diseño e implementación
-Red Colmillo únicamente servirá como mensajería instantánea. No se podrán realizar llamadas de voz ni de video a través de la aplicación. Se utilizará el servicio de inicio de sesión del ITAM, así que el usuario tampoco podrá crear su propia cuenta, deberá ingresar con las credenciales proporcionadas por la institución. Por lo pronto, sólo se implementará el sistema en español, y únicamente como aplicación web. 
 
-## Documentación del usuario
-El software incluirá un tutorial interactivo para el usuario la primera vez que inicie sesión. También podrá pedirle a Colmillo que le repita el tutorial interactivo. Además, le llegará un manual de usuario a su correo escolar.
 
 # ¿Cómo se debe de utilizar?
 
-## 3. Requerimientos de la interfaz externa
-### 3.1 Interfaz de usuario
-- Interfaz de mensajes de grupo.
-- Interfaz de documentos por grupo.
-- Interfaz de mensajes directos.
-- Interfaz de chatbot Colmillo.
-### 3.2 Interfaz de hardware
-La aplicación web está diseñada principalmente para visualizarse en ordenadores. Sin embrago, puede visualizarse en cualquier dispositivo con acceso a internet.
-### 3.3 Interfaz de software
-Este sistema utilizará un microservicio del ITAM para autenticar el inicio de sesión y así proteger al usuario de un ataque a datos sensibles. Los datos generados dentro de la aplicación serán guardados en una base de datos de los servidores del ITAM.
-### 3.4 Interfaz de comunicación
-El sistema de mensajería utilizará el protocolo XMPP, que es un protocolo abierto y extensible, también utilizado por otras plataformas de mensajería instantánea como Google Talk, el chat de Facebook y Whatsapp. Además, se comunicará con la base de datos que se encuentra en un servidor por medio de Internet con ayuda del protocolo HTTP. Los datos enviados y recibidos mediante los protocolos de Internet son encriptados para evitar robo de información.
-
-## 4. Funcionalidades del sistema
+## Funcionalidades del sistema
 
 ### 4.1 Iniciar sesión
 #### 4.1.1 Descripción y prioridad
@@ -78,183 +66,29 @@ Las acciones del usuario y respuestas del sistema que estimulan el comportamient
 - *REQ-3: El usuario no debe poder cambiar su nombre de usuario.*
 - *REQ-4: El usuario debe poder cambiar su contraseña.*
 
-### 4.2 Crear Grupos
-#### 4.2.1 Descripción y prioridad
+### Crear Grupos
 A esta funcionalidad se le otorgó una prioridad media (3) porque el objetivo del sistema es mejorar la comunicación de los alumnos con los profesores. Esta funcionalidad sirve para crear grupos nuevos entre alumnos de la escuela. Se pueden crear un número ilimitado de grupos, al iniciar cada semestre los grupos automáticos serán los de cada clase.
-#### 4.2.2 Secuencias de estímulo / respuesta
-Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
-1. El usuario ingresó a "Red Colmillo".
-2. El usuario se dirige a la sección de grupos.
-3. El usuario selecciona la opción de "Nuevo grupo".
-4. El usuario ingresa el nombre y la descripción del nuevo grupo.
-5. El usuario selecciona la opción de miembros.
-6. El usuario selecciona la opción de agregar miembro.
-7. El usuario ingresa el nombre del nuevo miembro.
-#### 4.2.3 Requerimientos Funcionales
-- *REQ-1: El usuario debe tener credenciales activas del ITAM.*
-- *REQ-2: El usuario debe estár registrado en el sistema "Red Colmillo".*
-- *REQ-3: El usuario debe poder crear y eliminar grupos.*
-- *REQ-4: Sólo miembros del ITAM pueden ser agregados a los grupos.*
-- *REQ-5: Los nuevos miembros del grupo deben aceptar una invitación al grupo nuevo.*
 
 ### 4.3 Buscar contactos
-#### 4.3.1 Descripción y prioridad
 Para poder iniciar una conversación a través de un mensaje directo, un usuario debe buscar primero en contacto del miembro del ITAM con el que se quiere comunicar. Esto lo puede realizar a través de la sección de búsqueda que se proporcionará en la aplicación. Se considera que esta es una funcionalidad de prioridad alta (2) porque brinda a los alumnos la información necesaria para poder utilizar la aplicación de mensajería directa. Sin embargo, se le ha asignado prioridad 2 debido a que no es la principal función del sistema. El alumno podrá acceder en la parte superior de la interfaz a esta funcionalidad.
-#### 4.3.2 Secuencias de estímulo / respuesta
-Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
-1. El usuario ingresa a la Red Colmillo para mandar un mensaje.
-2. El usuario conoce el nombre de la persona o destinatario al cual le desea mandar el mensaje.
-3. El usuario busca al usuario o destinatario en la sección de búsqueda.
-4. El usuario inicia su conversación.
-#### 4.3.3 Requerimientos Funcionales
-- *REQ-1: La sección de búsqueda deberá estar siempre presente en la interfaz gráfica para que el usuario pueda acceder a ella en cualquier momento.*
-- *REQ-2: La funcionalidad de búsqueda deberá apoyarse de los servicios proporcionados por el ITAM para poder acceder a su base de datos de contactos.*
-- *REQ-3: Cuando el usuario haga clic sobre la sección de búsqueda, deberá desplegarse una lista con los 5 contactos recomendados que se basará en un historial de las personas con las que el usuario más conversa.*
-- *REQ-4: Cada que se ingresa una letra en la sección de búsqueda, la funcionalidad deberá desplegar una lista de los contactos sugeridos, según las letras que se hayan ingresado, por lo que deberá estar revisando constantemente la base de datos y comparando los valores para mostrar los más cercanos a la búsqueda.*
-- *REQ-5: Al seleccionar un contacto de la sección de búsqueda, esta sección deberá de cerrarse y se deberá de abrir una conversación directa con el usuario seleccionado.*
-- *REQ-6: En la sección de búsqueda aparecerá cualquier miembro de la institución ya sea alumno, profesor o administrativo. Además, se podrán buscar los grupos en los que el usuario se encuentra inscritos, aunque este no será el área principal para buscar grupos. Si se selecciona un grupo se abrirá la conversación general del mismo.*
-- *REQ-7: Por cuestiones de seguridad, un usuario podrá bloquear a cualquier usuario únicamente de tipo "alumno". Los profesores y administrativos no podrán ser bloqueados. Hecho lo anterior, si el usuario al cual bloquearon trata de buscar al contacto que lo bloqueo, este no le aparecerá en la sección de búsqueda, por lo que no podrá mandarle mensajes.*
 
 ### 4.4 Comunicarse con el ChatBot de servicios escolares
-#### 4.4.1 Descripción y prioridad
 Con el objetivo de acercar a los usuarios a la comunidad del ITAM se diseñó Colmillo, el chatbot propio del ITAM. El usuario entonces podrá interactuar con Colmillo para consultar las fechas y avisos importantes por parte de la escuela o bien para comunicarse con un área de servicios escolares (como cajas, becas, centro de tesis). Se considera que esta funcionalidad tiene una prioridad alta (2) dado que le brinda al software un valor añadido que ningun otro software podría ofrecer al acercar a los alumnos con servicios propios de la institución.
-#### 4.4.2 Secuencias de estímulo / respuesta
-Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
-1. El usuario inicia sesión en la Red Colmillo.
-2. El usuario ingresa al área especial del chatbot Colmillo.
-3. El usuario desea preguntarle a Colmillos qué fechas importantes se acercan.
-4. Colmillo le da a conocer los eventos de esta semana del ITAM.
-5. El usuario desea comunicarse con algun área de servicios escolares.
-6. El usuario le pide a Colmillo que lo comunique con un área de servicios escolares.
-7. Colmillo abre un nuevo caso (chat) con el área solicitada.
-8. El usuario se comunica satisfactoriamente con servicios escolares.
-#### 4.4.3 Requerimientos Funcionales
-- *REQ-1: Cualquier alumno inscrito al ITAM puede hacer uso del chatbot Colmillo.*
-- *REQ-2: El usuario debe comunicarse con Colmillo usando los servicios ya preestablecidos que ofrece.*
-- *REQ-3: Debe haber personal del ITAM que ingrese las noticias y anuncios importantes en la base de Colmillo.*
-- *REQ-4: El usuario solo puede pedir comunicarse con servicios escolares en los horarios de atención establecidos.*
-- *REQ-5: Por cuestiones de seguridad, para no saturar los servicios, los usuarios no podrán enviar más de 60 mensajes por minuto.*
-- *REQ-6: Cuando el usuario pida comunicarse con un área de servicios escolares, deberá abrirse un caso (chat) completamente nuevo y contactar alguna persona que pueda atender al usuario.*
-- *REQ-7: Colmillo deberá avisar a las áreas de servicios escolares cuántos alumnos hay en cola para ser atendidos.*
 
 ### 4.5 Mandar mensajes directos
-#### 4.5.1 Descripción y prioridad
 Uno de los objetivos primordiales del software es precisamente que el usuario pueda tener una conversación, de forma segura y accesible, con cualquier miembro con quien así lo desee del ITAM. Es por ello que a esta funcionalidad se le determina una prioridad muy alta (1). El alumno entonces podrá acceder a una interfaz donde pueda mantener conversaciones de mensajería directa con los contactos deseados. Esta interfaz debe mostrar al centro de la imagen el área de mensajería.
-#### 4.5.2 Secuencias de estímulo / respuesta
-Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
-1. El usuario desea comunicarse con otro miembro del ITAM de una forma rápida y segura.
-2. El usuario iniciar sesión en la Red Colmillo.
-3. El usuario hace uso de la funcionalidad de búsqueda para elegir el contacto con el que quiere comunicarse.
-4. El usuario envía un mensaje directo a dicho contacto.
-#### 4.5.3 Requerimientos Funcionales
-- *REQ-1: Un alumno puede enviar un mensaje directo a cualquier alumno o profesor del ITAM. Con excepción de los usuarios que lo hayan bloqueado.*
-- *REQ-2: Un usuario de tipo alumno podrá bloquear a otro usuario de tipo alumno y este segundo no podrá contactar al primero a través de mensajes personales.*
-- *REQ-3: Un profesor puede enviar un mensaje directo a cualquier alumno o profesor del ITAM.*
-- *REQ-4: Un alumno o profesor pueden enviar mensajes directos a cualquier área administrativa dada de alta en la Red Colmillo, como lo pueden ser el área de Caja, Becas, Servicios Escolares, entre otros. Aunque esta funcionalidad generalmente será abarcada por el chatbot de Colmillo.*
-- *REQ-5: Al mandar un mensaje, este se visualizará en el área del chat hasta que el chat sea eliminado.*
-- *REQ-6: Un usuario deberá poder visualizar todas las conversaciones recientes que no haya eliminado y su contenido.*
-- *REQ-7: Todo usuario podrá mandar archivos (PDFs, archivos de la familia Windows) y fotografías (.jpg, .png, .tiff, .jepg, .gif) a través de la mensajería directa.*
-- *REQ-8: Los usuarios podrán enviar emoticones por medio del chat.*
-- *REQ-9: Todo mensaje deberá ser encriptado de "end to end" lo que implica que nunca se procesará ni se enviarán mensajes en claro.*
-- *REQ-10: Ninguna funcionalidad de la Red Comillo podrá analizar o almacenar las conversaciones, para mantener así la privacidad de los usuarios.*
-- *REQ-11: En el área de chat, cada vez que un usuario recibe un mensaje, se debe mostrar el nombre del usuario que lo envía y cada vez que contesta un mensaje debe aparecer igualmente su nombre.*
-- *REQ-12: Junto a los mensajes aparecerá una imagen con la fotografía de perfil del usuario que lo envía. De no tener fotografía, aparecerá una silueta de una persona.*
 
 ### 4.6 Mandar mensajes a grupos
-#### 4.6.1 Descripción y prioridad
 A esta funcionalidad se le otorgó una prioridad muy alta (1) porque los grupos son un punto de interacción clave entre maestro y alumno. Los mensajes deben llegar a todos los miembros del grupo y guardarse en un historial. 
-#### 4.6.2 Secuencias de estímulo / respuesta
-Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
-1. El usuario desea comunicarse con sus compañeros de clase y su maestro.
-2. El usuario inicia sesión en la Red Colmillo.
-3. El usuario ingresa a su grupo.
-4. El usuario envia un mensaje al grupo.
-#### 4.6.3 Requerimientos Funcionales
-- *REQ-1: El usuario debe tener credenciales activas del ITAM.*
-- *REQ-2: El usuario debe estar registrado en el grupo con el que se desea comunicar.*
-- *REQ-3: El usuario debe poder leer el historial de todos los mensajes que se han enviado en el grupo.*
-- *REQ-4: El usuario debe enviar emoticones o imagenes al chat del grupo.*
-- *REQ-5: En cada mensaje se debe mostrar el nombre del usuario que lo envió.*
-- *REQ-6: En cada mensaje se debe mostrar la imagen del usuario que lo envió.*
-- *REQ-7: En cada mensaje se debe mostrar la hora en que se envió.*
 
 ### 4.7 Acceder a notificaciones
-#### 4.7.1 Descripción y prioridad
 Al iniciar sesión, el alumno debe poder visualizar de manera rápida y sencilla los mensajes más importantes recibidos durante su ausencia. A esta funcionalidad se le otorgó prioridad alta (2): aunque le facilitará al usuario el seguimiento de sus conversaciones y le permitirá visualizar más facilmente los anuncios de sus profesores, no es indispensable para el funcionamiento del sistema. En un panel del lado derecho, se mostrarán únicamente los mensajes de sus profesores y los archivos que se hayan mandado en sus grupos.
-#### 4.7.2 Secuencias de estímulo / respuesta
-Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
-1. El usuario desea acceder a los anuncios de sus profesores.
-2. El usuario inicia sesión con sus credenciales otorgadas por la institución.
-3. Una vez dentro de la Red Colmillo, el usuario visualiza los mensajes de sus profesores en el panel a la derecha. De no tener mensajes pendientes, el área de notificaciones se mostrará vacía.
-#### 4.7.3 Requerimientos Funcionales
-- *REQ-1: Las notificaciones deben ser mostradas en orden cronológico.*
-- *REQ-2: En el área de notificaciones, únicamente se mostrarán mensajes que el alumno no haya visualizado previamente.*
-- *REQ-3: En el área de notificaciones, únicamente se mostrarán los últimos 5 mensajes recibidos por cada profesor (a).*
-- *REQ-4: El alumno será notificado únicamente sobre mensajes de sus profesores, no sobre respuestas de sus compañeros.*
-- *REQ-5: Cada notificación mostrará el nombre del profesor, la hora a la que fue recibido el mensaje y el contenido del mismo.*
-- *REQ-6: El alumno podrá acceder al mensaje en el grupo al darle click a la notificación.*
 
 ### 4.8 Subir documentos
-#### 4.8.1 Descripción y prioridad
 A esta funcionalidad se le otorgó una prioridad media (3). Para extender las capacidades de una red de comunicación simple, esta funcionalidad permite que los usuarios puedan subir documentos a los grupos para que todos los miembros puedan verlos, estos documentos pueden ser desde material de clase hasta tareas.
-#### 4.8.2 Secuencias de estímulo / respuesta
-Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
-1. El usuario desea subir un documento para que el grupo pueda ver el material.
-2. El usuario inicia sesión en la Red Colmillo.
-3. El usuario ingresa a su grupo.
-4. El usuario entra a la sección de documentos.
-5. El usuario se mete a la carpeta donde quiere subir el documento.
-6. El usuario sube el documento.
-#### 4.8.3 Requerimientos Funcionales
-- *REQ-1: El usuario debe tener credenciales activas del ITAM.*
-- *REQ-2: El usuario debe estar registrado en el grupo con el que se desea comunicar.*
-- *REQ-3: El usuario debe ver un señalamiento en los documentos que él subió.*
-- *REQ-4: El usuario debe poder descargar cualquier documento visible al grupo en general.*
-- *REQ-5: El usuario debe poder eliminar sus archivos.*
-- *REQ-6: El profesor debe poder descargar o ver todos los documentos del grupo.*
-- *REQ-7: En cada documento se debe mostrar la hora a la que se subió.*
 
 ### 4.9 Cerrar sesión
-#### 4.9.1 Descripción y prioridad
 Con el fin de resguardar su seguridad, el usuario podrá cerrar sesión cuando lo desee. Además, para proteger sus datos y conversaciones, el sistema también podrá finalizar la sesión del usuario en caso de que se detecte inactividad durante 7 minutos. Esta funcionalidad cumple con los requisitos de seguridad, es por eso que se le otorgó una prioridad alta (2), sin embargo, no es necesaria para el funcionamiento general del sistema.
-#### 4.9.2 Secuencias de estímulo / respuesta
-Las acciones del usuario y respuestas del sistema que estimulan el comportamiento definido para esta funcionalidad son:
-1. El usuario desea comunicarse con miembros de la comunidad ITAM a través de Red Comlillo.
-2. El usuario inicia sesión.
-3. El usuario finaliza el intercambio de mensajes directos y/o grupales.
-4. El usuario selecciona el botón de "Configuración".
-5. El usuario da click en "Cerrar sesión".
-6. El sistema confirma el cierre de sesión redireccionándolo a la página de inicio de sesión.
-#### 4.9.3 Requerimientos Funcionales
-- *REQ-1: El sistema debe cerrar la sesión del usuario en caso de haber inactividad por un mínimo de siete minutos.*
-- *REQ-2: El sistema debe mostrar un mensaje de confirmación de cierre de sesión en caso de que el usuario dé click al botón de "Cerrar sesión".*
-    - *REQ-2.1: En caso de que el usuario seleccione "Sí", el sistema debe cerrar la sesión del usuario.*
-    - *REQ-2.2: En caso de que el usuario seleccione "No", el sistema debe seguir activo.*
-- *REQ-3: Al cerrar la sesión, el sistema debe redirigir al usuario a la interfaz de inicio de sesión del ITAM.*
-- *REQ-4: En caso de que el usuario cierre la ventana sin finalizar su sesión, el sistema debe cerrar sesión automáticamente.*
-
-
-
-# Arquitectura
-Actualmente, la Red Colmillo trabaja con arquitectura por eventos donde la aplicación utiliza la información en tiempo real proporcionada por los usuarios para orquestar decisiones. Aquí, los creadores de eventos o módulos, es decir los usuarios, transmiten la necesidad de entablar una conversación, en un tiempo dado, al gestor de eventos (la plataforma online), quien agregaría esta transmisión a su aplicación para poder conectar a los usuarios que se quieren comunicar con algún miembro o área de servicios del ITAM. Alguno de los módulos que el orquestador pudiera manejar se podría ver como los siguientes:
--	Procesar usuario que quiere iniciar una conversación.
--	Iniciar un canal de conversación.
--	Subir un documento o archivo
--   Procesar usuario que quiere conversar con el ChatBot de Colmillo.
--   Procesar usuario que quiere comunicarse con algún área de servicios del ITAM (caja, servicios escolares, becas, etc). 
--	Finalizar una comunicación
-
-Las características que hacen que el uso de eventos sea apropiado para nuestro equipo de desarrollo son las siguientes. Primero, el producto debe tender a reestructurarse y replantearse cotidianamente, ser dinámico y no estático lo cual suele pasar con productos y plataformas enfocadas a alumnos universitarios las cuales deben actualizarse constantemente para cubrir las necesidades de los alumnos y permanecer atractiva con el paso del tiempo. Segundo, debe ser un producto cuyo uso se espere que crezca y evolucione con el tiempo, lo cual causaría tener cada vez más usuarios y requerirá poder escalar el producto, lo cual es posible gracias a la atomicidad de los eventos y puede ser un escenario realista de nuestra aplicación ya que esta podría extenderse en el futuro a otras universidades a las cuales se les haga atractivo el producto. Tercero debe ser un producto que requiera gran agilidad y alto despligue lo cual es probable que necesite una aplicación de chateo que debe estar funcionando siempre de forma estable y en su última versión durante todo el semestre sin excepciones.
-
-# Metodología
-La metodología que elegimos para el desarrollo de la Red Colmillo es la basada en funcionalidades (feature driven). Este es un marco de la metodología ágil que organiza el desarrollo de software al rededor del progreso y desarrollo de funciones específicas.
-
-Elegimos esta metodología debido a que el proyecto de desarrollo de la Red Colmillo se puede discretizar fácilmente alrededor de proyectos de características independientes como lo son mandar un mensaje personal, mandar un mensaje a un grupo, iniciar sesión, conversar con el ChatBot de Colmillo, entre otros. Estas funcionalidades nos permiten construir el desarrollo de nuestra aplicación alrededor de ellas tomando ciclos de desarrollo para cada funcionalidad. El valor del desarrollo basado en funcionalidades es que te permite enfocarte en las funciones que son altamente valoradas por el usuario y desarrollar un producto de calidad basado en la experiencia de usuario.
-
-Los pasos de desarrollo con esta metodología se hacen de la siguiente forma. Primero, se desarrolla un modelo global de la aplicación lo cual hicimos planteando cual era el objetivo de la aplicación y como iba a funcionar de manera general de tal forma que cumpla con los objetivos que se plantearon que eran necesarios resolver con el uso de esta aplicación. Más adelante, se genera una lista de características y funcionalidades que debe cubrir la aplicación describiendo todos los requerimientos de cada funcionalidad; esto se realizó utilizando un Documento de Requerimientos. Hecho lo anterior, se planifica el desarrollo de la aplicación por funcionalidad lo cual requirió que definiéramos la manera y el orden en la cual llevaríamos acabo el desarrollo de funcionalidades. Más adelante, se diseñan modelos específicos de las características de cada funcionalidad, lo cual hicimos en el desarrollo del prototipo donde cada ciclo de trabajo se desarrolló completamente una funcionalidad específica de la aplicación y una vez finalizada procedimos a la siguiente. Hecho lo anterior, finalmente, se puede construir y desarrollar la funcionalidad final que se incorporará al producto final, lo cual no desarrollamos esta vez debido a que el alcance del producto se quedará en un prototipo de alto nivel.
-
-Creemos que es conveniente hacer uso de esta metodología debido a que permite el desarrollo rápido de productos por medio del desarrollo continuo y eficiente de código enfocado al desarrollo total e integral de funcionalidades de un sistema. Este tipo de metodología le permite a los equipos moverse rápidamente por el desarrollo del producto lo cual resulta ser conveniente para un equipo de desarrolladores como nosotros que suponemos tendremos tiempo limitado al ser estudiantes y al mismo tiempo querer desarrollar una aplicación de comunicación para el ITAM la cual debe de entregarse y desplegarse lo antes posible suponiendo que el ITAM quisiera tener lista la aplicación para el próximo semestre.
-
 
 # Documentación para replicar
 
