@@ -40,7 +40,7 @@ Los usuarios que interactuarán con la aplicación son:
 + **Administradores del sistema:** personas encargadas de mantener la página web y el _Chat Bot_, así como asignar a los alumnos y profesores a los chat grupales de los cursos que les correspondan en cada semestre.
 
 ## Funcionalidades del sistema
-
+A continuación, se hará mención de algunas de las funcionalidades que ofrece la "Red Colmillo" que fueron implementadas para el prototipo que se presenta en este repositorio.
 ### 1. Iniciar sesión
 En esta aplicación ningún usuario puede crear una cuenta nueva. Las cuentas de inicio de sesión son otorgadas por el ITAM por medio de su servicio de autenticación de usuarios, el cual se integró al código de nuestro software.
 <p align="center">
@@ -102,7 +102,8 @@ Con el fin de resguardar su seguridad, el usuario puede cerrar sesión cuando lo
 
 &nbsp;
 # ¿Cómo explorar este repositorio?
-Una vez que el usuario leyó este documento, se le recomienda seguir los pasos de la sección de [Restricciones de diseño e implementación](#Restricciones-de-diseño-e-implementación) y visualizar el prototipo en Just In Mind. La idea de esto es que el lector pueda experimentar con la experiencia de usuasrio que ofrece el prototipo que presentamos. No obstante, si el lector quiere revisar el código puede hacerlo directamente en la carpeta de este repositorio llamada [RedColmillo](https://github.com/Ingenieria-de-Software-ITAM-2020/Top-Tiers/tree/main/RedColmillo). 
+Una vez que el usuario leyó este documento, se le recomienda seguir los pasos de la sección de [Restricciones de diseño e implementación](#Restricciones-de-diseño-e-implementación) y visualizar el prototipo en Just In Mind. La idea de esto es que el lector pueda experimentar la experiencia de usuario que ofrece el prototipo que presentamos. No obstante, si el lector quiere revisar el código puede hacerlo directamente en la carpeta de este repositorio llamada [RedColmillo](https://github.com/Ingenieria-de-Software-ITAM-2020/Top-Tiers/tree/main/RedColmillo). 
 
 Nuestro equipo espera que el lector disfrute su experiencia en este repositorio y le pueda ser de utilidad para sus actuales o futuros proyectos.
+
 
