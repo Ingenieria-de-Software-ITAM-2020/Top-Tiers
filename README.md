@@ -30,7 +30,7 @@ La versión que se muestra en este respositorio es **"Red Colmillo 1.0"**. Esta 
 &nbsp;
 # Aspectos técnicos y de funcionalidad
 ## Entorno operativo
-El software estará diseñado para ser una aplicación web que opere con garantía en versiones más recientes de navegadores que soporten **HTML5** y **JavaScript**. Para correr el códgio en un navegador (```Index.html```), se sugiere utilizar **Google Chrome**, Safari, Firefox o Microsoft Edge. También se sugiere correr el prototipo en una computadora portatil o de escritorio.
+El software estará diseñado para ser una aplicación web que opere con garantía en versiones más recientes de navegadores que soporten **HTML5** y **JavaScript**. Para correr el códgio en un navegador (```index.html```), se sugiere utilizar **Google Chrome**, Safari, Firefox o Microsoft Edge. También se sugiere correr el prototipo en una computadora portatil o de escritorio.
 
 ## Clases y características de usuario
 Los usuarios que interactuarán con la aplicación son:
