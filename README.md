@@ -13,9 +13,11 @@ Este proyecto surge ante la necesidad de tener un sistema de comunicación efici
 Los beneficios que intenta proveer este servicio son los siguientes. Primero, brinda un sistema de comunicación que le permite a los alumnos y profesores del ITAM tener un lugar de acceso fácil a la información que concierne las discusiones más relevantes de sus cursos. Segundo, les facilita a los miembros de la comunidad entablar conversaciones individuales o grupales con cualquier otro colega de la institución a través una interfaz amigable. Por último, la aplicación incluye un sistema de asistencia sobre asuntos estudiantiles por medio de un ChatBot.
 
 ## Metodología de desarrollo del software
-La metodología de que elegimos para el desarrollo de la “Red Colmillo” es la metodología impulsada por funcionalidades (conocida en inglés como *feature driven*). Esta metodología ágil organiza el desarrollo de software al rededor del progreso e implementación de funcionalidades específicas. Es decir, el producto se construye a través de ciclos de desarrollo que se enfocan a implementar una única funcionalidad y probarla con el usuario. Una vez terminado el ciclo se puede pasar al desarrollo de otra funcionalidad en una nueva iteración. El valor del desarrollo basado en funcionalidades es que te permite enfocarte en las funcionalidades que son altamente valoradas por el usuario y desarrollar un producto de calidad basándose en la experiencia de usuario.
+La metodología de que elegimos para el desarrollo de la “Red Colmillo” es la metodología impulsada por funcionalidades (conocida en inglés como *feature driven*). Esta metodología ágil organiza el desarrollo de software al rededor del progreso e implementación de funcionalidades específicas como se muestra en la figura 1. Es decir, el producto se construye a través de ciclos de desarrollo que se enfocan a implementar una única funcionalidad y probarla con el usuario. Una vez terminado el ciclo se puede pasar al desarrollo de otra funcionalidad en una nueva iteración. El valor del desarrollo basado en funcionalidades es que te permite enfocarte en las funcionalidades que son altamente valoradas por el usuario y desarrollar un producto de calidad basándose en la experiencia de usuario. Es importante que pare revisar este repositorio y nuestro historial de versiones tengan en cuenta este punto.
+
 <p align="center">
-  <img width="460" height="200" src="img/DesarrolloPorFuncionalidades.png">
+  <img src="img/DesarrolloPorFuncionalidades.png">
+  <p align="center">Figura 1: Metodología impulsada por funcionalidades. </p>
 </p>
 
 ## Restricciones de diseño e implementación
