@@ -14,6 +14,9 @@ Los beneficios que intenta proveer este servicio son los siguientes. Primero, br
 
 ## Metodología de desarrollo del software
 La metodología de que elegimos para el desarrollo de la “Red Colmillo” es la metodología impulsada por funcionalidades (conocida en inglés como *feature driven*). Esta metodología ágil organiza el desarrollo de software al rededor del progreso e implementación de funcionalidades específicas. Es decir, el producto se construye a través de ciclos de desarrollo que se enfocan a implementar una única funcionalidad y probarla con el usuario. Una vez terminado el ciclo se puede pasar al desarrollo de otra funcionalidad en una nueva iteración. El valor del desarrollo basado en funcionalidades es que te permite enfocarte en las funcionalidades que son altamente valoradas por el usuario y desarrollar un producto de calidad basándose en la experiencia de usuario.
+<p align="center">
+  <img width="460" height="200" src="img/DesarrolloPorFuncionalidades.png">
+</p>
 
 ## Restricciones de diseño e implementación
 La versión que se muestra en este respositorio es "Red Colmillo 1.0". Red Colmillo únicamente servirá como mensajería instantánea. No se podrán realizar llamadas de voz ni de video a través de la aplicación. Se utilizará el servicio de inicio de sesión del ITAM, así que el usuario tampoco podrá crear su propia cuenta, deberá ingresar con las credenciales proporcionadas por la institución. Por lo pronto, sólo se implementará el sistema en español, y únicamente como aplicación web. 
