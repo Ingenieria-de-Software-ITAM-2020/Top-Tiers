@@ -59,21 +59,21 @@ Esta funcionalidad sirve para crear grupos nuevos entre alumnos de la escuela. S
 Para poder iniciar una conversación a través de un mensaje directo, un usuario debe buscar primero en contacto del miembro del ITAM con el que se quiere comunicar. Esto lo puede realizar a través de la sección de búsqueda que se proporcionará en la aplicación. Se considera que esta es una funcionalidad de prioridad alta (2) porque brinda a los alumnos la información necesaria para poder utilizar la aplicación de mensajería directa. Sin embargo, se le ha asignado prioridad 2 debido a que no es la principal función del sistema. El alumno podrá acceder en la parte superior de la interfaz a esta funcionalidad.
 <p align="center">
   <img width=90% src="img/simular/buscar-ruben.png">
-  <p align="center">Figura 4: Buscar en contactos a "Ruben."</p>
+  <p align="center">Figura 4: Buscar en contactos a "Ruben.</p>
 </p>
 
 ### 4. Comunicarse con el ChatBot de servicios escolares
 Con el objetivo de acercar a los usuarios a la comunidad del ITAM se diseñó Colmillo, el chatbot propio del ITAM. El usuario entonces podrá interactuar con Colmillo para consultar las fechas y avisos importantes por parte de la escuela o bien para comunicarse con un área de servicios escolares (como cajas, becas, centro de tesis). 
 <p align="center">
   <img width=90% src="img/simular/comunicar.png">
-  <p align="center">Figura 5: Conversación con el chatbot de Colmillo".</p>
+  <p align="center">Figura 5: Conversación con el chatbot de Colmillo.</p>
 </p>
 
 ### 5. Mandar mensajes directos
 Uno de los objetivos primordiales del software es precisamente que el usuario pueda tener una conversación, de forma segura y accesible, con cualquier miembro con quien así lo desee del ITAM. El alumno entonces podrá acceder a una interfaz donde pueda mantener conversaciones de mensajería directa con los contactos deseados. Esta interfaz debe mostrar al centro de la imagen el área de mensajería.
 <p align="center">
   <img width=90% src="img/simular/habia-tarea.png">
-  <p align="center">Figura 6: Conversación en mensajes directos."</p>
+  <p align="center">Figura 6: Conversación en mensajes directos.</p>
 </p>
 
 
@@ -81,21 +81,21 @@ Uno de los objetivos primordiales del software es precisamente que el usuario pu
 Los grupos son un punto de interacción clave entre maestro y alumno. Los mensajes deben llegar a todos los miembros del grupo y guardarse en un historial.
 <p align="center">
   <img width=90% src="img/simular/chat-grupal.png">
-  <p align="center">Figura 7: Conversación grupal del curso de Minería de Datos."</p>
+  <p align="center">Figura 7: Conversación grupal del curso de Minería de Datos.</p>
 </p>
 
 ### 7. Acceder a notificaciones
 Al iniciar sesión, el alumno debe poder visualizar de manera rápida y sencilla los mensajes más importantes recibidos durante su ausencia. Esto le facilitará al usuario el seguimiento de sus conversaciones y le permitirá visualizar más facilmente los anuncios de sus profesores. En un panel del lado derecho, se mostrarán únicamente los mensajes de sus profesores y los archivos que se hayan mandado en sus grupos.
 <p align="center">
   <img width=90% src="img/simular/notificacion.png">
-  <p align="center">Figura 8: Visualización de notificaciones."</p>
+  <p align="center">Figura 8: Visualización de notificaciones.</p>
 </p>
 
 ### 9. Subir documentos
 Para extender las capacidades de una red de comunicación simple, esta funcionalidad permite que los usuarios puedan subir documentos a los grupos para que todos los miembros puedan verlos, estos documentos pueden ser desde material de clase hasta tareas.
 <p align="center">
   <img width=90% src="img/simular/regresar-documentos.png">
-  <p align="center">Figura 9: Subir documentos al curso de Minería de Datos."</p>
+  <p align="center">Figura 9: Subir documentos al curso de Minería de Datos.</p>
 </p>
 
 ### 10. Cerrar sesión
