@@ -23,9 +23,9 @@ La “Red Colmillo” se desarrolla a partir de la **metodología impulsada por 
 ## Restricciones de diseño e implementación
 La versión que se muestra en este repositorio es la **"Red Colmillo 1.0"**. Esta versión es únicamente un **prototipo de muy alta calidad**, más el software nunca fue desplegado en el entorno virtual de la comunidad ITAM. Para poder interactuar con el prototipo, se le sugiere al lector hacer lo siguiente:
 
-1. Descargar [Justinmind](https://www.justinmind.com/download).
+1. Descargar [Just In Mind](https://www.justinmind.com/download).
 2. Clonar este repositorio.
-3. Abrir el prototipo ```RedColmillo.vp``` dentro de Justinmind.
+3. Abrir el prototipo ```RedColmillo.vp``` dentro de Just In Mind.
 
 &nbsp;
 # ¿Cuáles son algunos de los aspectos técnicos y de funcionalidad?
@@ -100,6 +100,6 @@ Para extender las capacidades de la red de comunicación, se añade esta funcion
 ### 9. Cerrar sesión
 Con el fin de resguardar su seguridad, el usuario puede cerrar sesión cuando lo desee. Además, para proteger sus datos y conversaciones, el sistema a través de una subrutina en el código finaliza cualquier sesión en la que se detecta inactividad durante 15 minutos.
 
-## ¿Cómo explorar este repositorio?
-Una vez que el usuario leyó este documento, se le recomienda seguir los pasos de la sección de [Restricciones de diseño e implementación](#Restricciones-de-diseño-e-implementación) y visualizar el prototipo en JustInMind para tener una idea de la experiencia de usuario. En cambio, si el lector quiere revisar el código, puede hacerlo en la carpeta de este repositorio llamada (```RedColmillo```).
+# ¿Cómo explorar este repositorio?
+Una vez que el usuario leyó este documento, se le recomienda seguir los pasos de la sección de [Restricciones de diseño e implementación](#Restricciones-de-diseño-e-implementación) y visualizar el prototipo en Just In Mind para tener una idea de la experiencia de usuario. En cambio, si el lector quiere revisar el código, puede hacerlo en la carpeta de este repositorio llamada (```RedColmillo```). Nuestro equipo espera que disfrute su experiencia en nuestro repositorio y que les pueda ser de utilidad para sus actuales o futuros proyectos.
 
