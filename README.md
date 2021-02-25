@@ -37,7 +37,7 @@ Los usuarios que interactuarán con la aplicación son:
 + **Estudiantes:** todo individuo que esté tomando clases en la institución, ya sea licenciatura, maestría, doctorado o diplomado.
 + **Profesores:** todos los catedráticos de la institución.
 + **Personal administrativo:** todos los miembros administrativos de las divisiones académicas y departamentos de servicios escolares.
-+ **Administrador del sistema:** persona(s) encargada(s) de mantener la página web y el ChatBot, así como asignar a los alumnos y profesores a los chat grupales de los cursos que les correspondan en cada semestre.
++ **Administrador del sistema:** personas encargadas de mantener la página web y el ChatBot, así como asignar a los alumnos y profesores a los chat grupales de los cursos que les correspondan en cada semestre.
 
 ## Funcionalidades del sistema
 
