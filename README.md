@@ -19,7 +19,7 @@ La forma en la que la "Red Colmillo" intenta proveer una herramienta de comunica
 6. [¿Cómo explorar este repositorio?](#¿Cómo_explorar_este_repositorio?)
 
 # Metodología de desarrollo del software
-La “Red Colmillo” se desarrolla a partir de la **metodología impulsada por funcionalidades** (conocida en inglés como *feature driven*). Esta metodología ágil organiza el desarrollo de software al rededor del progreso e implementación de funcionalidades específicas, como se muestra en la figura 1. Es decir, el producto se construye a través de ciclos de desarrollo ágiles que se enfocan a implementar una única funcionalidad y probarla con el usuario. Una vez terminado el ciclo, se puede pasar al desarrollo de otra funcionalidad en una nueva iteración. El valor del desarrollo basado en funcionalidades es que te permite enfocarte en las funcionalidades que son altamente valoradas por el usuario y desarrollar un producto de calidad, basándonos en la experiencia de usuario. Es importante que, al revisar este repositorio, el código y el historial de versiones se tengan en cuenta la metodología de desarrollo utilizada. Todos los cambios que se hicieron al repositorio fueron elaborados bajo este concepto.
+La “Red Colmillo” se desarrolla a partir de la **metodología impulsada por funcionalidades** (conocida en inglés como *feature driven*). Esta metodología ágil organiza el desarrollo de software alrededor del progreso e implementación de funcionalidades específicas, como se muestra en la Figura 1. Es decir, el producto se construye a través de ciclos de desarrollo ágiles que se enfocan a implementar una única funcionalidad y probarla con el usuario. Una vez terminado el ciclo, se puede pasar al desarrollo de otra funcionalidad en una nueva iteración. Esta metodología permite enfocarse en las funcionalidades que son altamente valoradas por el usuario y desarrollar un producto de calidad, basándonos en la experiencia de usuario. Es importante que, al revisar este repositorio, el código y el historial de versiones se tengan en cuenta la metodología de desarrollo utilizada. Todos los cambios que se hicieron al repositorio fueron elaborados bajo este concepto.
 
 <p align="center">
   <img src="img/DesarrolloPorFuncionalidades.png">
@@ -27,7 +27,7 @@ La “Red Colmillo” se desarrolla a partir de la **metodología impulsada por 
 </p>
 
 # Restricciones de diseño e implementación
-La versión que se muestra en este repositorio es la **"Red Colmillo 1.0"**. Esta versión es únicamente un **prototipo de muy alta calidad**, más el software nunca fue desplegado en el entorno virtual de la comunidad ITAM. Para poder interactuar con el prototipo, se le sugiere al lector hacer lo siguiente:
+La versión que se muestra en este repositorio es la **"Red Colmillo 1.0"**. Esta versión es únicamente un **prototipo**, mas el software nunca fue desplegado en el entorno virtual de la comunidad ITAM. Para poder interactuar con el prototipo, se le sugiere al lector hacer lo siguiente:
 
 1. Descargar [Just In Mind](https://www.justinmind.com/download).
 2. Clonar este repositorio.
@@ -35,7 +35,7 @@ La versión que se muestra en este repositorio es la **"Red Colmillo 1.0"**. Est
 
 &nbsp;
 # Entorno operativo
-El software estará diseñado para ser una **aplicación web** que opere con garantía en versiones más recientes de navegadores que soporten **HTML5** y **JavaScript**. Para correr el código en un navegadora partir de archivo (```index.html```), se sugiere utilizar **Google Chrome**, Safari, Firefox o Microsoft Edge. También se sugiere correr el prototipo en una computadora portátil o de escritorio.
+El software estará diseñado para ser una **aplicación web** que opere con garantía en versiones más recientes de navegadores que soporten **HTML5** y **JavaScript**. Para correr el código en un navegadora partir de archivo (```index.html```), se sugiere utilizar Google Chrome, Safari, Firefox o Microsoft Edge. También se sugiere correr el prototipo en una computadora portátil o de escritorio.
 
 # Clases y características de usuario
 Los usuarios que interactuarán con la aplicación son:
