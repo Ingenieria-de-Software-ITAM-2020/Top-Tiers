@@ -14,10 +14,10 @@ La forma en la que la "Red Colmillo" intenta proveer una herramienta de comunica
 # Tabla de contenido
 1. [Metodología de desarrollo del software](#Metodología-de-desarrollo-del-software)
 2. [Restricciones de diseño e implementación](#Restricciones-de-diseño-e-implementación)
-3. [Entorno operativo](#Entorno_operativo)
-4. [Clases y características de usuario](#Clases_y_características_de_usuario)
-5. [Funcionalidades del sistema](#Funcionalidades_del_sistema)
-6. [¿Cómo explorar este repositorio?](#¿Cómo_explorar_este_repositorio?)
+3. [Entorno operativo](#Entorno-operativo)
+4. [Clases y características de usuario](#Clases-y-características-de-usuario)
+5. [Funcionalidades del sistema](#Funcionalidades-del-sistema)
+6. [¿Cómo explorar este repositorio?](#¿Cómo-explorar-este-repositorio?)
 
 &nbsp;
 # Metodología de desarrollo del software
