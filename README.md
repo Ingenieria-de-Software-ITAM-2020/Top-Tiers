@@ -19,7 +19,7 @@ La forma en la que la "Red Colmillo" intenta proveer una herramienta de comunica
 6. [¿Cómo explorar este repositorio?](#¿Cómo_explorar_este_repositorio?)
 
 # Metodología de desarrollo del software
-La “Red Colmillo” se desarrolla a partir de la **metodología impulsada por funcionalidades** (conocida en inglés como *feature driven*). Esta metodología ágil organiza el desarrollo de software alrededor del progreso e implementación de funcionalidades específicas, como se muestra en la Figura 1. Es decir, el producto se construye a través de ciclos de desarrollo ágiles que se enfocan a implementar una única funcionalidad y probarla con el usuario. Una vez terminado el ciclo, se puede pasar al desarrollo de otra funcionalidad en una nueva iteración. Esta metodología permite enfocarse en las funcionalidades que son altamente valoradas por el usuario y desarrollar un producto de calidad, basándonos en la experiencia de usuario. Es importante que, al revisar este repositorio, el código y el historial de versiones se tengan en cuenta la metodología de desarrollo utilizada. Todos los cambios que se hicieron al repositorio fueron elaborados bajo este concepto.
+La “Red Colmillo” se desarrolla a partir de la **metodología impulsada por funcionalidades** (conocida en inglés como *feature driven*). Esta metodología ágil organiza el desarrollo de software alrededor del progreso e implementación de funcionalidades específicas, como se muestra en la Figura 1. Es decir, el producto se construye a través de ciclos de desarrollo ágiles que se enfocan a implementar una única funcionalidad y probarla con el usuario. Una vez terminado el ciclo, se puede pasar al desarrollo de otra funcionalidad en una nueva iteración. Esta metodología permite enfocarse en las funcionalidades que son altamente valoradas por el usuario y desarrollar un producto de calidad para el. Es importante que, al revisar este repositorio, el código y el historial de versiones se tengan en cuenta la metodología de desarrollo utilizada. Todos los cambios que se hicieron al repositorio fueron elaborados bajo este concepto.
 
 <p align="center">
   <img src="img/DesarrolloPorFuncionalidades.png">
@@ -68,7 +68,7 @@ Para poder iniciar una conversación a través de un mensaje directo, un usuario
 </p>
 
 ## 4. Comunicarse con el _Chat Bot_ de servicios escolares
-Con el objetivo de mejorar la experiencia de los usuarios, estos pueden interactuar con en _Chat Bot_ de Colmillo para consultar dudas respecto a funcionalidades de la aplicación o hacer preguntas acerca de los trámites y actividades más relevantes del ITAM. Este último punto podemos ilustrarlo con los siguientes ejemplos. Por un lado, el usuario puede consultar las fechas y avisos importantes del ITAM o, por otro lado, puede comunicarse con asesores virtuales de las distintas áreas de servicios escolares.
+Los usuarios pueden interactuar con en _Chat Bot_ de Colmillo para consultar dudas respecto a funcionalidades de la aplicación o hacer preguntas acerca de los trámites y actividades más relevantes del ITAM. Este último punto podemos ilustrarlo con los siguientes ejemplos. Por un lado, el usuario puede consultar las fechas y avisos importantes del ITAM o, por otro lado, puede comunicarse con asesores virtuales de las distintas áreas de servicios escolares.
 <p align="center">
   <img width=90% src="img/simular/comunicar.png">
   <p align="center">Figura 5: Conversación con el chatbot de Colmillo.</p>
