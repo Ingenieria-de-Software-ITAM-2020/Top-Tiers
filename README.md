@@ -13,10 +13,10 @@ La forma en la que la "Red Colmillo" intenta proveer una herramienta de comunica
 # Índice
 1. [Metodología de desarrollo del software](#Metodología-de-desarrollo-del-software)
 2. [Restricciones de diseño e implementación](#Restricciones-de-diseño-e-implementación)
-3. [Entorno operativo](Entorno_operativo)
-4. [Clases y características de usuario](Clases_y_características_de_usuario)
-5. [Funcionalidades del sistema](Funcionalidades_del_sistema)
-6. [¿Cómo explorar este repositorio?](¿Cómo_explorar_este_repositorio?)
+3. [Entorno operativo](#Entorno_operativo)
+4. [Clases y características de usuario](#Clases_y_características_de_usuario)
+5. [Funcionalidades del sistema](#Funcionalidades_del_sistema)
+6. [¿Cómo explorar este repositorio?](#¿Cómo_explorar_este_repositorio?)
 
 # Metodología de desarrollo del software
 La “Red Colmillo” se desarrolla a partir de la **metodología impulsada por funcionalidades** (conocida en inglés como *feature driven*). Esta metodología ágil organiza el desarrollo de software al rededor del progreso e implementación de funcionalidades específicas, como se muestra en la figura 1. Es decir, el producto se construye a través de ciclos de desarrollo ágiles que se enfocan a implementar una única funcionalidad y probarla con el usuario. Una vez terminado el ciclo, se puede pasar al desarrollo de otra funcionalidad en una nueva iteración. El valor del desarrollo basado en funcionalidades es que te permite enfocarte en las funcionalidades que son altamente valoradas por el usuario y desarrollar un producto de calidad, basándonos en la experiencia de usuario. Es importante que, al revisar este repositorio, el código y el historial de versiones se tengan en cuenta la metodología de desarrollo utilizada. Todos los cambios que se hicieron al repositorio fueron elaborados bajo este concepto.
