@@ -10,7 +10,7 @@ Este proyecto surge ante la necesidad de tener un sistema de comunicación efici
 
 La forma en la que la "Red Colmillo" intenta proveer una herramienta de comunicación efectiva es a partir de lo siguiente. Primero, brinda un sistema de comunicación que le permite a los alumnos y profesores del ITAM tener un lugar de acceso fácil a la información que concierne las discusiones más relevantes de sus cursos. Segundo, les facilita a los miembros de la comunidad entablar conversaciones individuales o grupales con cualquier otro colega de la institución a través una interfaz amigable. Por último, la aplicación incluye un sistema de asistencia sobre asuntos estudiantiles por medio de un _Chat Bot_.
 
-# Índice
+# Tabla de contenido
 1. [Metodología de desarrollo del software](#Metodología-de-desarrollo-del-software)
 2. [Restricciones de diseño e implementación](#Restricciones-de-diseño-e-implementación)
 3. [Entorno operativo](#Entorno_operativo)
@@ -68,14 +68,14 @@ Para poder iniciar una conversación a través de un mensaje directo, un usuario
 </p>
 
 ## 4. Comunicarse con el _Chat Bot_ de servicios escolares
-Con el objetivo de mejorar la experiencia de los usuarios de nuestro software se diseñó un _Chat Bot_ llamado Colmillo. El usuario puede interactuar con Colmillo para consultar dudas respecto a funcionalidades de la aplicación o hacer preguntas acerca de los trámites y actividades más relevantes del ITAM. Este último punto podemos ilustrarlo con los siguientes ejemplos. Por un lado, el usuario puede consultar las fechas y avisos importantes del ITAM o, por otro lado, puede comunicarse con asesores virtuales de las distintas áreas de servicios escolares.
+Con el objetivo de mejorar la experiencia de los usuarios, estos pueden interactuar con en _Chat Bot_ de Colmillo para consultar dudas respecto a funcionalidades de la aplicación o hacer preguntas acerca de los trámites y actividades más relevantes del ITAM. Este último punto podemos ilustrarlo con los siguientes ejemplos. Por un lado, el usuario puede consultar las fechas y avisos importantes del ITAM o, por otro lado, puede comunicarse con asesores virtuales de las distintas áreas de servicios escolares.
 <p align="center">
   <img width=90% src="img/simular/comunicar.png">
   <p align="center">Figura 5: Conversación con el chatbot de Colmillo.</p>
 </p>
 
 ## 5. Mandar mensajes directos
-Uno de los objetivos primordiales del software es que el usuario pueda tener una conversación, de forma segura y accesible, con cualquier otro miembro del ITAM. El alumno entonces puede acceder a una interfaz donde mantiene conversaciones de mensajería directa con los contactos deseados. Esta interfaz debe mostrar en el centro de la pantalla el área de mensajería.
+El alumno puede acceder a una interfaz donde mantiene conversaciones de mensajería directa con los contactos deseados. Esta interfaz debe mostrar en el centro de la pantalla el área de mensajería.
 <p align="center">
   <img width=90% src="img/simular/habia-tarea.png">
   <p align="center">Figura 6: Conversación en mensajes directos.</p>
@@ -83,14 +83,14 @@ Uno de los objetivos primordiales del software es que el usuario pueda tener una
 
 
 ## 6. Mandar mensajes a grupos
-Los grupos son un punto de interacción clave entre maestro y alumno. Por eso, ambos usuarios pueden mandar mensajes a grupos que visualizaran todos los miembros de este.
+Tanto maestros como alumnos pueden mandar mensajes a grupos que visualizaran todos los miembros del mismo.
 <p align="center">
   <img width=90% src="img/simular/chat-grupal.png">
   <p align="center">Figura 7: Conversación grupal del curso de Minería de Datos.</p>
 </p>
 
 ## 7. Acceder a notificaciones
-Al iniciar sesión, un usuario puede visualizar de manera rápida y sencilla los mensajes más importantes que recibió durante su ausencia. Esto le facilita al usuario dar seguimiento de sus conversaciones y visualizar anuncios importantes. Por ello, en un panel del lado derecho se muestran estas notificaciones.
+Al iniciar sesión, un usuario puede visualizar de manera rápida y sencilla los mensajes más importantes que recibió durante su ausencia en un panel de notificaciones. Esto le facilita al usuario dar seguimiento de sus conversaciones y visualizar anuncios importantes.
 <p align="center">
   <img width=90% src="img/simular/notificacion.png">
   <p align="center">Figura 8: Visualización de notificaciones.</p>
