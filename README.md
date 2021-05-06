@@ -17,7 +17,7 @@ La forma en la que la "Red Colmillo" intenta proveer una herramienta de comunica
 3. [Entorno operativo](#Entorno-operativo)
 4. [Clases y características de usuario](#Clases-y-características-de-usuario)
 5. [Funcionalidades del sistema](#Funcionalidades-del-sistema)
-6. [¿Cómo explorar este repositorio?](#¿Cómo-explorar-este-repositorio?)
+6. [Explora este repositorio](#Explora-este-repositorio)
 
 &nbsp;
 # Metodología de desarrollo del software
@@ -111,7 +111,7 @@ Para extender las capacidades de la red de comunicación, se añade esta funcion
 Con el fin de resguardar su seguridad, el usuario puede cerrar sesión cuando lo desee. Además, para proteger sus datos y conversaciones, el sistema a través de una subrutina en el código finaliza cualquier sesión en la que se detecta inactividad durante 15 minutos.
 
 &nbsp;
-# ¿Cómo explorar este repositorio?
+# Explora este repositorio
 Una vez que el lector revisó este documento, se le recomienda seguir los pasos de la sección de [Restricciones de diseño e implementación](#Restricciones-de-diseño-e-implementación) y visualizar el prototipo en Just In Mind. La idea de esto es que el lector pueda experimentar la experiencia de usuario que ofrece el prototipo que presentamos. No obstante, si el lector quiere revisar el código puede hacerlo directamente en la carpeta de este repositorio llamada [RedColmillo](https://github.com/Ingenieria-de-Software-ITAM-2020/Top-Tiers/tree/main/RedColmillo). 
 
 Nuestro equipo le desea al lector que disfrute su experiencia en este repositorio y le pueda ser de utilidad para sus actuales o futuros proyectos.
